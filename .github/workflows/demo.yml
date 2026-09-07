@@ -33,7 +33,7 @@ jobs:
       - name: Serve exported demo
         run: |
           mkdir public-site
-          cp -R frontend/out public-site/SkyOffer
+          cp -R frontend/.next-demo public-site/SkyOffer
           python3 -m http.server 4173 --directory public-site > /tmp/skyoffer-demo-server.log 2>&1 &
           for attempt in 1 2 3 4 5; do
             curl --fail --silent http://127.0.0.1:4173/SkyOffer/ > /dev/null && break
@@ -44,12 +44,13 @@ jobs:
         env:
           DEMO_URL: http://127.0.0.1:4173/SkyOffer
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: demo-screenshots
           path: docs/images/*.png
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: frontend/out
+          path: frontend/.next-demo
   deploy:
     if: github.event.repository.private == false
     needs: build

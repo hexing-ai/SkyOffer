@@ -9,3 +9,5 @@
 5. PR 说明影响与验证方式。数据结构及规则语义变化应有回归测试。
 
 演示快照可以通过 `python -m backend.scripts.export_demo` 重建。页面截图由 Demo 工作流在 Chromium 中生成。
+
+共享 CI 使用 `pytest -q -m "not performance"` 验证功能，并单独报告性能目标。`pytest -q` 仍会执行包括 100 ms 门槛在内的完整测试；性能复核应使用受控硬件，详见架构文档。

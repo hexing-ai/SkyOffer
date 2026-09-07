@@ -17,7 +17,21 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: pytest -q
+      - run: pytest -q -m "not performance"
+
+  performance:
+    name: Performance target (informational)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Report hardware-dependent latency without changing the target
+        run: python -m backend.scripts.benchmark_requirement_engine
 
   frontend:
     runs-on: ubuntu-latest

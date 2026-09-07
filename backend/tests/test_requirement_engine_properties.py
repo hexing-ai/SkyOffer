@@ -148,6 +148,7 @@ def test_requirement_engine_does_not_need_network(monkeypatch: pytest.MonkeyPatc
     assert result.overall_hard_requirement_status == "met"
 
 
+@pytest.mark.performance
 def test_core_evaluation_p95_is_below_one_hundred_ms() -> None:
     profile = ApplicantEligibilityInput.model_validate(BASE_PROFILE)
     requirements = []

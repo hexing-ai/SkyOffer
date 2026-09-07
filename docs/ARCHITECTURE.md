@@ -49,3 +49,9 @@ flowchart TD
 ## 生产边界
 
 生产模式检查 PostgreSQL、显式 Host、限流、JSON 日志及模型配置。公网仅应开放经过网关授权的用户接口，维护与验收接口必须位于受认证的内网；详见生产说明。仓库没有实现用户账号系统、组织权限管理或跨设备档案同步。
+
+## 性能目标与共享 CI
+
+功能 CI 与硬件相关的性能测试分开运行。原有 100 项规则、每项 50 节点的核心 p95 目标仍为 100 ms，未修改或删除。首次 GitHub 共享 runner 实测约 268 ms，没有达到该目标；本机测试通过并不能代表任意服务器的表现。
+
+CI 的 `Performance target (informational)` 独立运行基准，保留报告及失败状态但不阻止功能发布。部署前应在目标硬件运行 `python -m backend.scripts.benchmark_requirement_engine` 评估，不应把本仓库解读为生产延迟承诺。
