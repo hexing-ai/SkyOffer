@@ -1,0 +1,3392 @@
+{
+  "base_dataset_id": "dataset.internal_alpha.2027.v1",
+  "base_manifest_sha256": "b10c4f43c1242864415d720d4dbe1db728a9d240a996df4d60f72bb3ed584938",
+  "base_program_count": 6,
+  "batch_canonical_sha256": "fe8b99d3292b22f4b9334ae01de007d5c4ade98dd1c4bcfbf21243f6664f09e7",
+  "batch_id": "candidate_batch.coverage.2027.20260904.v1",
+  "candidate_addition_count": 14,
+  "candidates": [
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "artificial_intelligence"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.hku.mscai.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.hk.hku",
+      "official_name": "Master of Science in Artificial Intelligence",
+      "official_url": "https://www.mscai.hku.hk/",
+      "pack_ref": "pack.hk.hku.msc_artificial_intelligence.2027.v1",
+      "primary_direction": "artificial_intelligence",
+      "program_ref": "program.hk.hku.msc_artificial_intelligence",
+      "region": "hong_kong",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Master of Science in Artificial Intelligence\nAbout MSc(AI)\nIn today’s technologically advanced era, the indispensability of artificial intelligence (AI) in our daily lives is undeniable.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.mscai.hku.hk",
+          "page_title": "The University of Hong Kong - Master of Science in Artificial Intelligence",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "2b5bbd9cf3682d644ead6d6d16c8cd28aca83f8d71c6507f38bff3239db07cc5",
+          "source_id": "source.candidate.hku.mscai.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.mscai.hku.hk/"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "computer_science"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.computing.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.imperial",
+      "official_name": "Computing MSc",
+      "official_url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing/",
+      "pack_ref": "pack.uk.imperial.msc_computing.2027.v1",
+      "primary_direction": "computer_science",
+      "program_ref": "program.uk.imperial.msc_computing",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Computing MSc\nApplications are now closed for 2026 entry.\nStart date — September 2026\nPrinciples and Practice of Programming\nComputer Systems\nSoftware Systems Engineering",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.imperial.ac.uk",
+          "page_title": "Computing MSc | Study | Imperial College London",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "933c216729d68efb8d1bb8fde0b74cc0490804697fa14ea554c80ab2365626c2",
+          "source_id": "source.candidate.imperial.computing.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing/"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "artificial_intelligence"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.ai.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.imperial",
+      "official_name": "Artificial Intelligence MSc",
+      "official_url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/artificial-intelligence/",
+      "pack_ref": "pack.uk.imperial.msc_artificial_intelligence.2027.v1",
+      "primary_direction": "artificial_intelligence",
+      "program_ref": "program.uk.imperial.msc_artificial_intelligence",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Artificial Intelligence MSc\nApplications are now closed for 2026 entry.\nStart date — September 2026\nIntroduction to Machine Learning\nPython Programming\nSoftware Engineering Group Project",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.imperial.ac.uk",
+          "page_title": "Artificial Intelligence MSc | Study | Imperial College London",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "1aa47554ea89f0933a1c7eb561db33399629c5fd16441ca4ceffe90c1fc2348c",
+          "source_id": "source.candidate.imperial.ai.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/artificial-intelligence/"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "aerospace_engineering"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.imperial.advanced_aero.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.imperial",
+      "official_name": "Advanced Aeronautical Engineering MSc",
+      "official_url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/advanced-aeronautical-engineering/",
+      "pack_ref": "pack.uk.imperial.msc_advanced_aeronautical_engineering.2027.v1",
+      "primary_direction": "aerospace_engineering",
+      "program_ref": "program.uk.imperial.msc_advanced_aeronautical_engineering",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Advanced Aeronautical Engineering MSc\nApplications are now closed for 2026 entry.\nStart date — September 2026",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.imperial.ac.uk",
+          "page_title": "Advanced Aeronautical Engineering MSc | Study | Imperial College London",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "b0af65f2eaa8c21d93492c9138d4442eb6fce786ef9b8329517e8bdbf216ed6e",
+          "source_id": "source.candidate.imperial.advanced_aero.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/advanced-aeronautical-engineering/"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "computer_science"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.computer_science.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.ucl",
+      "official_name": "Computer Science MSc",
+      "official_url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computer-science-msc",
+      "pack_ref": "pack.uk.ucl.msc_computer_science.2027.v1",
+      "primary_direction": "computer_science",
+      "program_ref": "program.uk.ucl.msc_computer_science",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Computer Science MSc\nProgramme starts — September 2026\nUK tuition fees (2026/27)\nIntroductory Programming\nApp Engineering\nComputer Architecture and Operating Systems\nAlgorithmics\nDatabase Fundamentals",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.ucl.ac.uk",
+          "page_title": "Computer Science MSc | Prospective Students Graduate - UCL – University College London",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "e35bed30b17a1e9aec431123bd7f526ae383331fb066e5f13ac7adf3f045ef5c",
+          "source_id": "source.candidate.ucl.computer_science.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computer-science-msc"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "low_altitude_economy"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": [
+              "artificial_intelligence"
+            ]
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.low_altitude_basis",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "courses": [
+              {
+                "course_name": "Aerial Robotics: Fundamentals to Practice in Real-World Environments",
+                "course_type": "elective",
+                "source_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+                "subtag": "unmanned_aircraft_systems"
+              }
+            ],
+            "inclusion_basis": "explicit_program_focus",
+            "rationale_zh": "项目聚焦机器人与自主系统，且官方课程明确包含空中机器人课程；仅确认方向相关性，不沿用 2026 周期招生门槛。"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.ucl.robotics.program.20260904.v1",
+            "source.candidate.ucl.robotics.curriculum.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.ucl",
+      "low_altitude_basis": {
+        "courses": [
+          {
+            "course_name": "Aerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "course_type": "elective",
+            "source_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "subtag": "unmanned_aircraft_systems"
+          }
+        ],
+        "inclusion_basis": "explicit_program_focus",
+        "rationale_zh": "项目聚焦机器人与自主系统，且官方课程明确包含空中机器人课程；仅确认方向相关性，不沿用 2026 周期招生门槛。"
+      },
+      "official_name": "Robotics and Artificial Intelligence MSc",
+      "official_url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+      "pack_ref": "pack.uk.ucl.msc_robotics_artificial_intelligence.2027.v1",
+      "primary_direction": "low_altitude_economy",
+      "program_ref": "program.uk.ucl.msc_robotics_artificial_intelligence",
+      "region": "united_kingdom",
+      "secondary_directions": [
+        "artificial_intelligence"
+      ],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.ucl.ac.uk",
+          "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "079ced3b29c65f6d7cea6391cd1f21e07811beab0b43a459ab259aebf467cde3",
+          "source_id": "source.candidate.ucl.robotics.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc"
+        },
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.ucl.ac.uk",
+          "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "curriculum",
+          "snapshot_sha256": "a52d20dd7bf3d8a819982b5e15ebd6d82f0ca5f3fe5a4448c3507ca280aa6466",
+          "source_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "computer_science"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.computer_science.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.edinburgh",
+      "official_name": "Computer Science MSc",
+      "official_url": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+      "pack_ref": "pack.uk.edinburgh.msc_computer_science.2027.v1",
+      "primary_direction": "computer_science",
+      "program_ref": "program.uk.edinburgh.msc_computer_science",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Computer Science MSc\nMSc | 1 year | Start date: September 2026\nThese entry requirements are for the 2026-27 academic year and requirements for future academic years may differ. Entry requirements for the 2027-28 academic year will be published on 1 Oct 2026.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "study.ed.ac.uk",
+          "page_title": "Computer Science MSc - Postgraduate taught programmes | The University of Edinburgh",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "e278ae482ce68d9bf52c1d902c7cef44bcae367a3efa71836c5569a0469114cb",
+          "source_id": "source.candidate.edinburgh.computer_science.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "artificial_intelligence"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.edinburgh.ai.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.edinburgh",
+      "official_name": "Artificial Intelligence MSc",
+      "official_url": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+      "pack_ref": "pack.uk.edinburgh.msc_artificial_intelligence.2027.v1",
+      "primary_direction": "artificial_intelligence",
+      "program_ref": "program.uk.edinburgh.msc_artificial_intelligence",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Artificial Intelligence MSc\nMSc | 1 year | Start date: September 2026\nThese entry requirements are for the 2026-27 academic year and requirements for future academic years may differ. Entry requirements for the 2027-28 academic year will be published on 1 Oct 2026.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "study.ed.ac.uk",
+          "page_title": "Artificial Intelligence MSc - Postgraduate taught programmes | The University of Edinburgh",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "7ec582a523db496698edb80afb453d99fbbea6225646d240a84acc3b0f25e7ba",
+          "source_id": "source.candidate.edinburgh.ai.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "aerospace_engineering"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.aerospace.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.bristol",
+      "official_name": "MSc Aerospace Engineering",
+      "official_url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-aerospace-engineering/",
+      "pack_ref": "pack.uk.bristol.msc_aerospace_engineering.2027.v1",
+      "primary_direction": "aerospace_engineering",
+      "program_ref": "program.uk.bristol.msc_aerospace_engineering",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "MSc Aerospace Engineering\nStart date\nSeptember 2026\nThe MSc Aerospace Engineering programme is an advanced degree covering a broad range of aerospace subjects.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.bristol.ac.uk",
+          "page_title": "MSc Aerospace Engineering | Study at Bristol | University of Bristol",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "972392230d065c7fb586a2c4e9a41e1e772fdb6a7f50600afd5ddb8997e0f500",
+          "source_id": "source.candidate.bristol.aerospace.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-aerospace-engineering/"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "aerospace_engineering"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.sheffield",
+      "official_name": "Aerospace Engineering MSc",
+      "official_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/aerospace-engineering-msc",
+      "pack_ref": "pack.uk.sheffield.msc_aerospace_engineering.2027.v1",
+      "primary_direction": "aerospace_engineering",
+      "program_ref": "program.uk.sheffield.msc_aerospace_engineering",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Aerospace Engineering MSc\n2026-27 entry\nStart date\nSeptember 2026\nFor students converting to aerospace engineering, you will study a series of foundational core modules designed to ensure you develop a strong aerospace understanding.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "sheffield.ac.uk",
+          "page_title": "Aerospace Engineering MSc | 2026 | Postgraduate",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "4371686889976aea57ba4272e5a12a9a3b02b0d08936fd0706947c93bada79f7",
+          "source_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/aerospace-engineering-msc"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "low_altitude_economy"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": [
+              "artificial_intelligence"
+            ]
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.low_altitude_basis",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "courses": [
+              {
+                "course_name": "Machine Vision for Robotics",
+                "course_type": "core",
+                "source_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+                "subtag": "airborne_sensing_navigation_communications"
+              },
+              {
+                "course_name": "Mobile Robotics and Autonomous Systems",
+                "course_type": "core",
+                "source_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+                "subtag": "unmanned_aircraft_systems"
+              }
+            ],
+            "inclusion_basis": "curriculum_based",
+            "rationale_zh": "官方核心课程同时覆盖自主系统中的机器视觉与无人航空系统，可作为低空自主系统方向候选；2027/28 课程仍待重新核验。"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.robotics.program.20260904.v1",
+            "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "source.candidate.sheffield.robotics.mobile_systems.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.sheffield",
+      "low_altitude_basis": {
+        "courses": [
+          {
+            "course_name": "Machine Vision for Robotics",
+            "course_type": "core",
+            "source_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "subtag": "airborne_sensing_navigation_communications"
+          },
+          {
+            "course_name": "Mobile Robotics and Autonomous Systems",
+            "course_type": "core",
+            "source_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "subtag": "unmanned_aircraft_systems"
+          }
+        ],
+        "inclusion_basis": "curriculum_based",
+        "rationale_zh": "官方核心课程同时覆盖自主系统中的机器视觉与无人航空系统，可作为低空自主系统方向候选；2027/28 课程仍待重新核验。"
+      },
+      "official_name": "Robotics MSc",
+      "official_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+      "pack_ref": "pack.uk.sheffield.msc_robotics.2027.v1",
+      "primary_direction": "low_altitude_economy",
+      "program_ref": "program.uk.sheffield.msc_robotics",
+      "region": "united_kingdom",
+      "secondary_directions": [
+        "artificial_intelligence"
+      ],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "sheffield.ac.uk",
+          "page_title": "Robotics MSc | 2026 | Postgraduate",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "d77d6e08db8913bb8057f307b495cb946960be42f20a487a234325e7f738dfc9",
+          "source_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc"
+        },
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "sheffield.ac.uk",
+          "page_title": "Robotics MSc | 2026 | Postgraduate",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "curriculum",
+          "snapshot_sha256": "b73c9f2d3fc8f4decaf0de9edb66c93c7b34f6a8477c7155af5a7302c4804c3f",
+          "source_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc"
+        },
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "sheffield.ac.uk",
+          "page_title": "Robotics MSc | 2026 | Postgraduate",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "curriculum",
+          "snapshot_sha256": "41b29552953f43a94199d4db27661a9a43689236624d81b0334390e848d58827",
+          "source_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "artificial_intelligence"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.ai.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.sheffield",
+      "official_name": "Artificial Intelligence MSc",
+      "official_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/artificial-intelligence-msc",
+      "pack_ref": "pack.uk.sheffield.msc_artificial_intelligence.2027.v1",
+      "primary_direction": "artificial_intelligence",
+      "program_ref": "program.uk.sheffield.msc_artificial_intelligence",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Artificial Intelligence MSc\n2026-27 entry\nStart date\nSeptember 2026\nThis MSc will teach you the theoretical aspects of AI and provide the practical skills needed to work with big data sets for solving a wide range of real-world problems.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "sheffield.ac.uk",
+          "page_title": "Artificial Intelligence MSc | 2026 | Postgraduate",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "6d369cad63a2524a55e34b5cd61189495efe9dd3435ad0731b50e00054f09bfc",
+          "source_id": "source.candidate.sheffield.ai.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/artificial-intelligence-msc"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "artificial_intelligence"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.bristol",
+      "official_name": "MSc Artificial Intelligence",
+      "official_url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-artificial-intelligence/",
+      "pack_ref": "pack.uk.bristol.msc_artificial_intelligence.2027.v1",
+      "primary_direction": "artificial_intelligence",
+      "program_ref": "program.uk.bristol.msc_artificial_intelligence",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "MSc Artificial Intelligence\nArtificial Intelligence\nStart date\nSeptember 2026\nThe MSc in Artificial Intelligence at the University of Bristol is a rigorous, research- and industry-informed programme designed for graduates from numerate disciplines.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "www.bristol.ac.uk",
+          "page_title": "MSc Artificial Intelligence | Study at Bristol | University of Bristol",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "b74f72e47c8139661b4fb86ba9674eff0009e45d5599cb7ae73372ec3277823a",
+          "source_id": "source.candidate.bristol.ai.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-artificial-intelligence/"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    },
+    {
+      "degree_type": "taught_masters",
+      "exception_field_keys": [
+        "catalog.academic_year",
+        "catalog.application_status",
+        "catalog.department",
+        "catalog.duration",
+        "catalog.intake",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "field_proposals": [
+        {
+          "field_key": "catalog.academic_year",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.degree_type",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "degree_type": "taught_masters"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.department",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.duration",
+          "is_critical": false,
+          "proposed_coverage_status": "manual_review",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.intake",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "catalog.application_status",
+          "is_critical": false,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.primary_direction",
+          "is_critical": true,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "direction": "computer_science"
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "taxonomy.secondary_directions",
+          "is_critical": false,
+          "proposed_coverage_status": "confirmed",
+          "proposed_value": {
+            "directions": []
+          },
+          "reason_code": null,
+          "review_note": null,
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.degree",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.academic",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.subject",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.prerequisite_courses",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.language",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.work_experience",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        },
+        {
+          "field_key": "requirements.materials",
+          "is_critical": true,
+          "proposed_coverage_status": "not_yet_published",
+          "proposed_value": null,
+          "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED",
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "source_ids": [
+            "source.candidate.sheffield.advanced_cs.program.20260904.v1"
+          ]
+        }
+      ],
+      "high_risk_field_keys": [
+        "catalog.academic_year",
+        "requirements.academic",
+        "requirements.degree",
+        "requirements.language",
+        "requirements.materials",
+        "requirements.prerequisite_courses",
+        "requirements.subject",
+        "requirements.work_experience"
+      ],
+      "institution_ref": "institution.uk.sheffield",
+      "official_name": "Advanced Computer Science MSc",
+      "official_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/advanced-computer-science-msc",
+      "pack_ref": "pack.uk.sheffield.msc_advanced_computer_science.2027.v1",
+      "primary_direction": "computer_science",
+      "program_ref": "program.uk.sheffield.msc_advanced_computer_science",
+      "region": "united_kingdom",
+      "secondary_directions": [],
+      "sources": [
+        {
+          "capture_method": "automated_web_candidate",
+          "captured_at": "2026-09-04T12:00:00+08:00",
+          "excerpt": "Advanced Computer Science MSc\n2026-27 entry\nStart date\nSeptember 2026\nOur MSc in Advanced Computer Science offers a variety of modules, including software engineering, machine learning, and human-computer interaction.",
+          "expires_at": "2026-12-03T12:00:00+08:00",
+          "official_domain": "sheffield.ac.uk",
+          "page_title": "Advanced Computer Science MSc | 2026 | Postgraduate",
+          "review_due_at": "2026-10-04T12:00:00+08:00",
+          "reviewed_source_role": "program",
+          "snapshot_sha256": "c1620a585d68c798934a1aeb775cc57f02618cda8179aef4dea3ea9c6d0405df",
+          "source_id": "source.candidate.sheffield.advanced_cs.program.20260904.v1",
+          "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+          "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/advanced-computer-science-msc"
+        }
+      ],
+      "target_academic_year": "2027-28",
+      "target_year_status": "official_2027_28_rules_pending"
+    }
+  ],
+  "capture_policy": "automated_candidate_only_no_2026_to_2027_fact_migration",
+  "deferred_programs": [
+    {
+      "program_ref": "program.hk.cuhk.msc_computer_science",
+      "reason": "official_page_unreachable_or_redirect_not_verified"
+    },
+    {
+      "program_ref": "program.hk.polyu.msc_artificial_intelligence_big_data_computing",
+      "reason": "frozen_official_url_returns_404"
+    },
+    {
+      "program_ref": "program.hk.polyu.msc_information_technology",
+      "reason": "frozen_official_url_returns_404"
+    },
+    {
+      "program_ref": "program.hk.hkbu.msc_ai_digital_media",
+      "reason": "official_page_unreachable"
+    }
+  ],
+  "generated_at": "2026-09-04T12:00:00+08:00",
+  "generated_by": "actor.data_preparer.codex",
+  "lifecycle_state": "auto_quality_gated_pending_batch_domain_review",
+  "projected_internal_program_count": 20,
+  "public_publishable": false,
+  "release_requires": "single_batch_domain_review",
+  "replacement_diff": [
+    {
+      "added_program_ref": "program.uk.bristol.msc_artificial_intelligence",
+      "reason": "low_altitude_course_evidence_gate_failed",
+      "removed_program_ref": "program.uk.manchester.msc_advanced_control_systems_engineering"
+    },
+    {
+      "added_program_ref": "program.uk.sheffield.msc_advanced_computer_science",
+      "reason": "qualifying_course_evidence_unavailable",
+      "removed_program_ref": "program.uk.bristol.msc_aerial_robotics"
+    }
+  ],
+  "schema_version": "internal_alpha_candidate_batch.v1",
+  "source_scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

@@ -1,0 +1,627 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.1 HKUST 首组候选；冲突与缺失字段全部 fail closed。",
+    "fields": [
+      {
+        "display_text": "Postgraduate Programs 2027/28",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.academic_year",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "academic_year": "2027-28"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Master of Science in Aeronautical Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Department of Mechanical and Aerospace Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.department",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "department_name": "Department of Mechanical and Aerospace Engineering"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Full-time: 1 year",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.duration",
+          "reason": null,
+          "review_note": "同页同时确认 full-time 1 year 与 part-time 2 years；结构化主时长按全日制 12 个月，模式记 mixed。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "months": 12,
+            "study_mode": "mixed"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "September 2027",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.intake",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "intake_months": [
+              9
+            ]
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Admissions is on rolling basis.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.application_status",
+          "reason": null,
+          "review_note": "两页均确认 rolling；因第三轮日期冲突，不写单一 closes_on。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1",
+            "evidence.hkust.mscae.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "closes_on": null,
+            "opens_on": null,
+            "status": "rolling"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Aeronautical Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": "项目名称与开设院系直接支持航空航天工程主方向。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "aerospace_engineering"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "Master of Science in Aeronautical Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": "保持已复核候选矩阵口径，不从课程或院系名称推断次方向。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.degree",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscae.catalog.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscae.degree.2027.v1",
+              "requirement_type": "degree",
+              "rule": {
+                "children": [
+                  {
+                    "allowed_values": [
+                      "bachelor"
+                    ],
+                    "fact_path": "degree_level",
+                    "node_id": "node.hkust.mscae.degree.bachelor",
+                    "operator": "enum_in"
+                  },
+                  {
+                    "node_id": "node.hkust.mscae.degree.recognition",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscae.degree.all",
+                "operator": "all"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.academic",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscae.catalog.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscae.academic.2027.v1",
+              "requirement_type": "academic",
+              "rule": {
+                "node_id": "node.hkust.mscae.academic.classification",
+                "operator": "manual_review",
+                "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.subject",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscae.catalog.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscae.subject.2027.v1",
+              "requirement_type": "subject",
+              "rule": {
+                "children": [
+                  {
+                    "accepted_values": [
+                      "aerospace_engineering",
+                      "mechanical_engineering",
+                      "electronic_engineering",
+                      "automation",
+                      "computer_science",
+                      "artificial_intelligence",
+                      "data_science"
+                    ],
+                    "fact_path": "degree_subject_tags",
+                    "minimum_matches": 1,
+                    "node_id": "node.hkust.mscae.subject.tags",
+                    "operator": "set_intersects"
+                  },
+                  {
+                    "node_id": "node.hkust.mscae.subject.related",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscae.subject.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的两页完整官网来源未找到指定先修课程；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": {
+            "detail": "本次已核验的两页完整官网来源未找到指定先修课程；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的两页完整官网来源未找到指定先修课程；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1",
+            "evidence.hkust.mscae.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "IELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.language",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "IELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscae.catalog.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscae.language.2027.v1",
+              "requirement_type": "language",
+              "rule": {
+                "children": [
+                  {
+                    "component_mins": {
+                      "listening": "5.5",
+                      "reading": "5.5",
+                      "speaking": "5.5",
+                      "writing": "5.5"
+                    },
+                    "node_id": "node.hkust.mscae.language.ielts",
+                    "operator": "language_minimum",
+                    "test_type": "ielts",
+                    "total_min": "6.5"
+                  },
+                  {
+                    "node_id": "node.hkust.mscae.language.other_routes",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscae.language.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Fresh graduates who have good academic record are also our targets.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "applicability"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_applicable",
+          "field_key": "requirements.work_experience",
+          "reason": {
+            "detail": "Fresh graduates who have good academic record are also our targets.",
+            "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+          },
+          "requirements": [],
+          "review_note": "Fresh graduates who have good academic record are also our targets.",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "材料要求未出现在本次已核验的两页官网来源中，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "材料要求未出现在本次已核验的两页官网来源中，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "材料要求未出现在本次已核验的两页官网来源中，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscae.catalog.2027.v1",
+            "evidence.hkust.mscae.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      }
+    ],
+    "request_id": "request.phase4.batch8.1.hkust.mscae.v1"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T15:35:00+08:00",
+      "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+      "expires_at": "2026-12-02T15:43:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hkust.mscae.catalog.2027.v1",
+      "official_domain": "prog-crs.hkust.edu.hk",
+      "page_title": "Program & Course Catalog",
+      "program_id": "program.hk.hkust.msc_aeronautical_engineering",
+      "review_due_at": "2026-10-03T15:43:00+08:00",
+      "reviewed_source_role": "admissions_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "5ca980e5cdaa7f0776a3b1d2e41282a14aca9ab48417bd5d45a48f82367265a1",
+      "source_type": "official_policy_page",
+      "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+      "verified_at": "2026-09-03T15:43:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T15:35:00+08:00",
+      "excerpt": "MSc in Aeronautical Engineering\nFresh graduates who have good academic record are also our targets.\nFor 2027/28 Fall intake (September 2027):\nAll applications are considered on a competitive and rolling basis.",
+      "expires_at": "2026-12-02T15:43:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hkust.mscae.program.2027.v1",
+      "official_domain": "seng.hkust.edu.hk",
+      "page_title": "MSc in Aeronautical Engineering | HKUST School of Engineering",
+      "program_id": "program.hk.hkust.msc_aeronautical_engineering",
+      "review_due_at": "2026-10-03T15:43:00+08:00",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "02b9b2d6a5db8e6705f4de83f1871d60ce6e70dde0f3b702aacf2daa58327c50",
+      "source_type": "official_program_page",
+      "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+      "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+      "verified_at": "2026-09-03T15:43:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "1bd5f5a668ad4b14dc7fa72b5a40f782deb3a093622e0e442f32c2478cadaf6b",
+  "pack_canonical_sha256": "b9304e8e0d43fd56037f5cf75ddfac6f65f3be1ba0ad99599dc7c85795d33501",
+  "pack_ref": "pack.hk.hkust.msc_aeronautical_engineering.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.1 首组，经三页官网人工核验后生成的 HKUST Candidate-only Program。",
+    "degree_type": "taught_masters",
+    "institution_name": "The Hong Kong University of Science and Technology",
+    "official_domain_aliases": [],
+    "official_name": "MSc in Aeronautical Engineering",
+    "official_program_url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+    "program_ref": "program.hk.hkust.msc_aeronautical_engineering",
+    "region": "hong_kong",
+    "registered_official_domain": "hkust.edu.hk"
+  },
+  "review": {
+    "prepared_at": "2026-09-03T15:35:00+08:00",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人确认 HKUST 项目页与 2027/28 Catalog 手工核验通过；仅按冻结字段口径生成 Candidate Pack。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-03T15:43:00+08:00",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "evidence.hkust.mscae.catalog.2027.v1",
+    "evidence.hkust.mscae.program.2027.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.hk.hkust",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

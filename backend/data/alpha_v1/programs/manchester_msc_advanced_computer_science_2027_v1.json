@@ -1,0 +1,716 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.6 Manchester Advanced CS 2027 候选；Edinburgh 阻塞项目未生成 Pack，费用字段未进入 Registry。",
+    "fields": [
+      {
+        "display_text": "Year of entry: 2027",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.academic_year",
+          "reason": null,
+          "review_note": "官网以 2027 entry 表述目标入学周期，映射为 2027-28 学年。",
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "academic_year": "2027-28"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Master of Science",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Department of Computer Science",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.department",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "department_name": "Department of Computer Science"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Duration: 12 months full-time",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.duration",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "months": 12,
+            "study_mode": "full_time"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "本次已核验的 2027 官网正文确认 entry year，但未确认具体入学月份；不得由 2026 参考费用或英国学年惯例推断。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.manchester.advanced_cs.curriculum.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 3,
+            "evidence_id": "evidence.manchester.advanced_cs.language.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 4,
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "catalog.intake",
+          "reason": {
+            "detail": "本次已核验的 2027 官网正文确认 entry year，但未确认具体入学月份；不得由 2026 参考费用或英国学年惯例推断。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "review_note": "本次已核验的 2027 官网正文确认 entry year，但未确认具体入学月份；不得由 2026 参考费用或英国学年惯例推断。",
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "evidence.manchester.advanced_cs.curriculum.2027.v1",
+            "evidence.manchester.advanced_cs.language.2027.v1",
+            "evidence.manchester.advanced_cs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Applications for 2027 entry:",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.application_status",
+          "reason": null,
+          "review_note": "官网提供 Apply online 与四轮 2027 截止日期；21 May 2027 后仅视余位酌情考虑。",
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.admissions.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "closes_on": "2027-05-21",
+            "opens_on": null,
+            "status": "open"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "MSc Advanced Computer Science",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.manchester.advanced_cs.curriculum.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": "项目名称、CS 本科门槛和高级计算课程共同支持计算机科学主方向。",
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.program.2027.v1",
+            "evidence.manchester.advanced_cs.curriculum.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "computer_science"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "This programme will provide training and experience of advanced computational techniques.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.curriculum.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": "保持 8B 复核矩阵口径，不因可选 AI 或数据课程推断次方向。",
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.curriculum.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.degree",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.",
+              "evidence_fixture_ids": [
+                "evidence.manchester.advanced_cs.admissions.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.manchester.advanced_cs.degree.2027.v1",
+              "requirement_type": "degree",
+              "rule": {
+                "children": [
+                  {
+                    "allowed_values": [
+                      "bachelor"
+                    ],
+                    "fact_path": "degree_level",
+                    "node_id": "node.manchester.advanced_cs.degree.bachelor",
+                    "operator": "enum_in"
+                  },
+                  {
+                    "node_id": "node.manchester.advanced_cs.degree.equivalence",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.manchester.advanced_cs.degree.all",
+                "operator": "all"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "China: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.academic",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "China: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.",
+              "evidence_fixture_ids": [
+                "evidence.manchester.advanced_cs.admissions.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.manchester.advanced_cs.academic.2027.v1",
+              "requirement_type": "academic",
+              "rule": {
+                "cases": {
+                  "china_mainland": {
+                    "fact_path": "academic_record.value",
+                    "minimum": "87",
+                    "node_id": "node.manchester.advanced_cs.academic.china",
+                    "operator": "numeric_min",
+                    "scale": "100"
+                  }
+                },
+                "default": {
+                  "node_id": "node.manchester.advanced_cs.academic.other",
+                  "operator": "manual_review",
+                  "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                },
+                "node_id": "node.manchester.advanced_cs.academic.region",
+                "operator": "case",
+                "selector_path": "applicant_region"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Computer Science degree with a minimum of 50% Computer Science content.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.subject",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "Computer Science degree with a minimum of 50% Computer Science content.",
+              "evidence_fixture_ids": [
+                "evidence.manchester.advanced_cs.admissions.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.manchester.advanced_cs.subject.2027.v1",
+              "requirement_type": "subject",
+              "rule": {
+                "children": [
+                  {
+                    "accepted_values": [
+                      "computer_science"
+                    ],
+                    "fact_path": "degree_subject_tags",
+                    "minimum_matches": 1,
+                    "node_id": "node.manchester.advanced_cs.subject.cs",
+                    "operator": "set_intersects"
+                  },
+                  {
+                    "node_id": "node.manchester.advanced_cs.subject.content",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.manchester.advanced_cs.subject.all",
+                "operator": "all"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "官网要求 strong Computer Science background、solid programming and software development skills，但没有可无损编码的课程数量门槛，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": {
+            "detail": "官网要求 strong Computer Science background、solid programming and software development skills，但没有可无损编码的课程数量门槛，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_AMBIGUOUS"
+          },
+          "requirements": [],
+          "review_note": "官网要求 strong Computer Science background、solid programming and software development skills，但没有可无损编码的课程数量门槛，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "IELTS: overall score of 7.0 with no sub-test below 6.5.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.language.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.language",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "IELTS: overall score of 7.0 with no sub-test below 6.5.",
+              "evidence_fixture_ids": [
+                "evidence.manchester.advanced_cs.language.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.manchester.advanced_cs.language.2027.v1",
+              "requirement_type": "language",
+              "rule": {
+                "children": [
+                  {
+                    "component_mins": {
+                      "listening": "6.5",
+                      "reading": "6.5",
+                      "speaking": "6.5",
+                      "writing": "6.5"
+                    },
+                    "node_id": "node.manchester.advanced_cs.language.ielts",
+                    "operator": "language_minimum",
+                    "test_type": "ielts",
+                    "total_min": "7.0"
+                  },
+                  {
+                    "children": [
+                      {
+                        "component_mins": {
+                          "listening": "22",
+                          "reading": "22",
+                          "speaking": "22",
+                          "writing": "22"
+                        },
+                        "node_id": "node.manchester.advanced_cs.language.toefl",
+                        "operator": "language_minimum",
+                        "test_type": "toefl",
+                        "total_min": "100"
+                      },
+                      {
+                        "node_id": "node.manchester.advanced_cs.language.toefl_route",
+                        "operator": "manual_review",
+                        "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                      }
+                    ],
+                    "node_id": "node.manchester.advanced_cs.language.toefl_all",
+                    "operator": "all"
+                  },
+                  {
+                    "component_mins": {
+                      "listening": "70",
+                      "reading": "70",
+                      "speaking": "70",
+                      "writing": "70"
+                    },
+                    "node_id": "node.manchester.advanced_cs.language.pte",
+                    "operator": "language_minimum",
+                    "test_type": "pte",
+                    "total_min": "76"
+                  }
+                ],
+                "node_id": "node.manchester.advanced_cs.language.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.language.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "官网未设置通用工作经验年限；毕业超过三年的申请人需提交 CV，相关经验用于个案评估。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.work_experience",
+          "reason": {
+            "detail": "官网未设置通用工作经验年限；毕业超过三年的申请人需提交 CV，相关经验用于个案评估。",
+            "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+          },
+          "requirements": [],
+          "review_note": "官网未设置通用工作经验年限；毕业超过三年的申请人需提交 CV，相关经验用于个案评估。",
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "官网要求成绩单、条件性加权均分文件、学位证或在读课程清单等材料，并明确不要求推荐信和个人陈述；当前材料布尔合同不能无损表达完整清单，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "官网要求成绩单、条件性加权均分文件、学位证或在读课程清单等材料，并明确不要求推荐信和个人陈述；当前材料布尔合同不能无损表达完整清单，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+          },
+          "requirements": [],
+          "review_note": "官网要求成绩单、条件性加权均分文件、学位证或在读课程清单等材料，并明确不要求推荐信和个人陈述；当前材料布尔合同不能无损表达完整清单，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.manchester.advanced_cs.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      }
+    ],
+    "request_id": "request.phase4.batch8.6.manchester.advanced_cs.v1"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T20:00:00+08:00",
+      "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+      "expires_at": "2026-12-02T20:15:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+      "official_domain": "www.manchester.ac.uk",
+      "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+      "program_id": "program.uk.manchester.msc_advanced_computer_science",
+      "review_due_at": "2026-10-03T20:15:00+08:00",
+      "reviewed_source_role": "admissions_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "2851f1421cb3922d730f2c693c6509aabdb2cd0663ea5214978296019af44116",
+      "source_type": "official_program_page",
+      "source_version": "2027 entry page manually verified on 2026-09-03",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "verified_at": "2026-09-03T20:15:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T20:00:00+08:00",
+      "excerpt": "Our flagship Computer Science course enables you to explore diverse specialisms in a comprehensive curriculum.\nThis programme will provide training and experience of advanced computational techniques.\nMasters Project (60 Credits)\nIntroduction to Cryptography\nNetwork Security\nData Engineering Concepts\nReasoning and Learning under Uncertainty",
+      "expires_at": "2026-12-02T20:15:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.manchester.advanced_cs.curriculum.2027.v1",
+      "official_domain": "www.manchester.ac.uk",
+      "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+      "program_id": "program.uk.manchester.msc_advanced_computer_science",
+      "review_due_at": "2026-10-03T20:15:00+08:00",
+      "reviewed_source_role": "curriculum",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "549a50367e47575bd38db613662fba24bcc0f13a86c0f625f51643f5bcba873b",
+      "source_type": "official_program_page",
+      "source_version": "2027 entry page manually verified on 2026-09-03",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "verified_at": "2026-09-03T20:15:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T20:00:00+08:00",
+      "excerpt": "IELTS: overall score of 7.0 with no sub-test below 6.5.\nTOEFL iBT: at least 100 overall with no sub-test less than 22. We do not accept 'MyBestScore'. We do not accept TOEFL iBT Home Edition.\nPearson PTE: at least 76 overall with no sub-test below 70.\nYour English Language test report must be valid on the start date of the course.",
+      "expires_at": "2026-12-02T20:15:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.manchester.advanced_cs.language.2027.v1",
+      "official_domain": "www.manchester.ac.uk",
+      "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+      "program_id": "program.uk.manchester.msc_advanced_computer_science",
+      "review_due_at": "2026-10-03T20:15:00+08:00",
+      "reviewed_source_role": "language_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "fb2aee9b318a50d0d32ba84c61a9651398d4b48dbb554dfa65f436782ed2f6be",
+      "source_type": "official_program_page",
+      "source_version": "2027 entry page manually verified on 2026-09-03",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "verified_at": "2026-09-03T20:15:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T20:00:00+08:00",
+      "excerpt": "Master of Science\nMSc Advanced Computer Science\nYear of entry: 2027\nDuration: 12 months full-time\nFull-time: In person\nDepartment of Computer Science",
+      "expires_at": "2026-12-02T20:15:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.manchester.advanced_cs.program.2027.v1",
+      "official_domain": "www.manchester.ac.uk",
+      "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+      "program_id": "program.uk.manchester.msc_advanced_computer_science",
+      "review_due_at": "2026-10-03T20:15:00+08:00",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "46fcfc19216879cd88d4cbb1d3b22b96db86c7c57043fc8059959394bbf168ea",
+      "source_type": "official_program_page",
+      "source_version": "2027 entry page manually verified on 2026-09-03",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "verified_at": "2026-09-03T20:15:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "e8050e504adb41d3f4181f67c587793735051c25f7b318ef045b9827dccc23b5",
+  "pack_canonical_sha256": "8db15baba5fb48745bfcc7f8584e18a4eda53808cd205c4111c96d5e5d4631db",
+  "pack_ref": "pack.uk.manchester.msc_advanced_computer_science.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.6 目标学年正负分流验证的 Manchester Advanced Computer Science Candidate-only Program。",
+    "degree_type": "taught_masters",
+    "institution_name": "The University of Manchester",
+    "official_domain_aliases": [],
+    "official_name": "MSc Advanced Computer Science",
+    "official_program_url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+    "program_ref": "program.uk.manchester.msc_advanced_computer_science",
+    "region": "united_kingdom",
+    "registered_official_domain": "manchester.ac.uk"
+  },
+  "review": {
+    "prepared_at": "2026-09-03T20:00:00+08:00",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人确认 8.6 来源、字段与逐项目分流；仅 Manchester Advanced CS 进入 Candidate-only 生产，2026 参考学费不得沿用。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-03T20:15:00+08:00",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "evidence.manchester.advanced_cs.admissions.2027.v1",
+    "evidence.manchester.advanced_cs.curriculum.2027.v1",
+    "evidence.manchester.advanced_cs.language.2027.v1",
+    "evidence.manchester.advanced_cs.program.2027.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.uk.manchester",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

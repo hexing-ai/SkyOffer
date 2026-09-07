@@ -1,0 +1,65 @@
+name: Demo
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: demo-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+        working-directory: frontend
+      - run: npm run build:demo
+        working-directory: frontend
+        env:
+          NEXT_PUBLIC_BASE_PATH: /SkyOffer
+      - run: npx playwright install --with-deps chromium
+        working-directory: frontend
+      - name: Serve exported demo
+        run: |
+          mkdir public-site
+          cp -R frontend/out public-site/SkyOffer
+          python3 -m http.server 4173 --directory public-site > /tmp/skyoffer-demo-server.log 2>&1 &
+          for attempt in 1 2 3 4 5; do
+            curl --fail --silent http://127.0.0.1:4173/SkyOffer/ > /dev/null && break
+            sleep 1
+          done
+      - run: npm run capture:demo
+        working-directory: frontend
+        env:
+          DEMO_URL: http://127.0.0.1:4173/SkyOffer
+      - uses: actions/upload-artifact@v4
+        with:
+          name: demo-screenshots
+          path: docs/images/*.png
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/out
+  deploy:
+    if: github.event.repository.private == false
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

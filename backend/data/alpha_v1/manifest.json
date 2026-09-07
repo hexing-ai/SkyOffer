@@ -1,0 +1,60 @@
+{
+  "schema_version": "alpha_program_manifest.v1",
+  "template_state": "empty_unreviewed",
+  "publishable": false,
+  "dataset_id": "dataset.alpha.2027.draft",
+  "target_academic_year": "2027-28",
+  "scope_snapshot_id": null,
+  "field_registry": {
+    "path": "program_field_registry.v1.json",
+    "schema_version": "program_field_registry.v1",
+    "registry_version": "1.0.0"
+  },
+  "sample_plan": {
+    "target_program_count": 24,
+    "minimum_program_count": 20,
+    "maximum_program_count": 30,
+    "minimum_hong_kong_programs": 8,
+    "minimum_united_kingdom_programs": 8,
+    "minimum_hong_kong_institutions": 4,
+    "minimum_united_kingdom_institutions": 6,
+    "maximum_programs_per_institution": 4,
+    "minimum_primary_direction_counts": {
+      "computer_science": 4,
+      "artificial_intelligence": 4,
+      "aerospace_engineering": 4,
+      "low_altitude_economy": 4
+    }
+  },
+  "review_plan": {
+    "data_preparer": "actor.data_preparer.codex",
+    "domain_reviewer": "actor.domain_reviewer.product_owner",
+    "programs_per_review_batch": 3,
+    "blind_sample_minimum_count": 6,
+    "blind_sample_rate": "0.25",
+    "blind_sample_seed_source": "manifest_sha256"
+  },
+  "programs": [],
+  "matrix_counts": {
+    "program_count": 0,
+    "hong_kong_programs": 0,
+    "united_kingdom_programs": 0,
+    "hong_kong_institutions": 0,
+    "united_kingdom_institutions": 0,
+    "primary_direction_counts": {
+      "computer_science": 0,
+      "artificial_intelligence": 0,
+      "aerospace_engineering": 0,
+      "low_altitude_economy": 0
+    }
+  },
+  "manifest_sha256": null,
+  "frozen_by": null,
+  "frozen_at": null,
+  "blocking_reasons": [
+    "The scope snapshot is empty and unreviewed.",
+    "No real programs have been selected.",
+    "No Program Packs have been created or reviewed.",
+    "The manifest canonical hash has not been generated."
+  ]
+}

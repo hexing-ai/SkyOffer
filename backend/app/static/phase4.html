@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyOffer｜第四阶段人工质检台</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/phase4.css?v=phase4-b7-1">
+</head>
+<body>
+  <a class="skip-link" href="#reviewWorkspace">跳到字段核验</a>
+  <main>
+    <header class="review-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SkyOffer · Phase 4 · Human verification desk</p>
+        <h1>先看原文，<br>再碰发布。</h1>
+        <p class="hero-summary">一次只核对一个冻结 Program Pack。字段值、服务端 diff、Evidence V2 与八项门禁必须同时可见，领域复核人才决定发布或驳回。</p>
+      </div>
+      <aside class="boundary-note" aria-label="第四阶段质检边界">
+        <span>当前边界</span>
+        <strong>人工数据质检 · 无抓取 · 无模型 · 无推荐 · 非正式运营后台</strong>
+        <p>页面不会自动打开或解析官网，也不会自动提交、发布或批量通过。</p>
+      </aside>
+    </header>
+
+    <section class="dossier-strip" aria-label="当前数据集与项目">
+      <div><span>Dataset</span><strong id="datasetId">读取中</strong></div>
+      <div><span>Manifest</span><strong id="manifestHash">—</strong></div>
+      <div><span>当前项目</span><strong id="programPosition">—</strong></div>
+      <div><span>版本状态</span><strong id="versionStatus" class="status-chip loading">读取中</strong></div>
+    </section>
+
+    <div id="errorPanel" class="error-panel" role="alert" hidden></div>
+    <div id="successPanel" class="success-panel" role="status" aria-live="polite" hidden></div>
+
+    <section class="ruler-section" aria-labelledby="rulerHeading">
+      <div class="section-title compact">
+        <div>
+          <p class="eyebrow ink">Mandatory field ruler</p>
+          <h2 id="rulerHeading">字段核验尺</h2>
+        </div>
+        <p><strong id="reviewedCount">0</strong> 个关键字段已人工标记核对</p>
+      </div>
+      <div id="fieldRuler" class="field-ruler" aria-label="字段核验进度"></div>
+    </section>
+
+    <section id="reviewWorkspace" class="review-workspace" aria-label="单项目字段与证据复核">
+      <aside class="program-sheet">
+        <div class="section-title">
+          <p class="eyebrow ink">Frozen program pack</p>
+          <h2 id="programName">读取项目</h2>
+          <p id="institutionName" class="muted">—</p>
+        </div>
+        <dl class="program-meta">
+          <div><dt>Pack ref</dt><dd id="packRef">—</dd></div>
+          <div><dt>Program ref</dt><dd id="programRef">—</dd></div>
+          <div><dt>Region</dt><dd id="region">—</dd></div>
+          <div><dt>Direction</dt><dd id="direction">—</dd></div>
+          <div><dt>Content hash</dt><dd id="contentHash">—</dd></div>
+        </dl>
+        <nav id="fieldNav" class="field-nav" aria-label="项目字段"></nav>
+      </aside>
+
+      <article class="field-sheet" aria-labelledby="fieldHeading">
+        <div id="fieldEmpty" class="empty-state">正在读取冻结字段。</div>
+        <div id="fieldContent" hidden>
+          <header class="field-header">
+            <div>
+              <p id="fieldKey" class="field-key">—</p>
+              <h2 id="fieldHeading">—</h2>
+            </div>
+            <div class="field-badges">
+              <span id="criticalBadge" class="badge">—</span>
+              <span id="coverageBadge" class="badge">—</span>
+            </div>
+          </header>
+          <blockquote id="fieldDisplay" class="field-display"></blockquote>
+          <section class="diff-block" aria-labelledby="diffHeading">
+            <div class="subheading">
+              <h3 id="diffHeading">服务端 diff</h3>
+              <span id="diffType" class="diff-type">—</span>
+            </div>
+            <div class="diff-grid">
+              <div><span>Before</span><p id="diffBefore">—</p></div>
+              <div><span>After</span><p id="diffAfter">—</p></div>
+            </div>
+          </section>
+          <details class="payload-details">
+            <summary>查看结构化字段 payload</summary>
+            <pre id="fieldPayload"></pre>
+          </details>
+          <button id="markReviewed" class="mark-button" type="button">标记本字段已核对</button>
+        </div>
+      </article>
+
+      <aside class="evidence-rail" aria-labelledby="evidenceHeading">
+        <div class="section-title compact">
+          <p class="eyebrow ink">Official source trace</p>
+          <h2 id="evidenceHeading">对应官方原文</h2>
+          <p>只显示当前字段显式关联的 Evidence；打开链接必须由你主动点击。</p>
+        </div>
+        <div id="evidenceList" class="evidence-list"></div>
+      </aside>
+    </section>
+
+    <section class="gate-section" aria-labelledby="gateHeading">
+      <div class="section-title gate-title">
+        <div>
+          <p class="eyebrow ink">Eight hard gates</p>
+          <h2 id="gateHeading">发布前门禁</h2>
+        </div>
+        <span id="preflightBadge" class="preflight-badge">读取中</span>
+      </div>
+      <div id="gateList" class="gate-list"></div>
+    </section>
+
+    <section class="decision-panel" aria-labelledby="decisionHeading">
+      <div class="decision-copy">
+        <p class="eyebrow">Domain reviewer decision</p>
+        <h2 id="decisionHeading">留下判断，再改变发布状态。</h2>
+        <p>Actor ref 是审计字段，不代表真实登录身份；本页不提供权限系统或账号认证。</p>
+      </div>
+      <div class="decision-form">
+        <label for="reviewNote">领域复核说明</label>
+        <textarea id="reviewNote" rows="4" maxlength="1000" placeholder="写清楚你核对了什么，以及发布或驳回的依据。"></textarea>
+        <p id="decisionHint" class="decision-hint">关键字段全部标记核对且无阻塞门禁后，才能发布。</p>
+        <div class="decision-actions">
+          <button id="rejectButton" class="reject-button" type="button" disabled>驳回此版本</button>
+          <button id="publishButton" class="publish-button" type="button" disabled>通过并发布</button>
+        </div>
+      </div>
+    </section>
+
+    <details class="technical-log">
+      <summary>查看最近一次受控 API 响应</summary>
+      <pre id="technicalLog">尚未发送请求</pre>
+    </details>
+
+    <footer>
+      <p>本页只调用受控 API，不读取本地 JSON 或 SQLite，不自动访问 Evidence URL。</p>
+      <p>第 7 批只验收一个合成 Pilot；批量真实项目、盲核抽样与正式账号权限均不在本批范围。</p>
+    </footer>
+  </main>
+  <script src="/static/phase4.js?v=phase4-b7-1" defer></script>
+</body>
+</html>

@@ -1,0 +1,436 @@
+{
+  "schema_version": "program_catalog_detail.v1",
+  "dataset": {
+    "dataset_id": "dataset.internal_alpha.2027.v3",
+    "target_academic_year": "2027-28",
+    "program_count": 20,
+    "data_boundary": "internal_candidate_only",
+    "public_publishable": false,
+    "manifest_sha256": "4d82113ae34e0971e0810420d76665289390c6e2e6f71f7a47f8a67e47ef2dae"
+  },
+  "program": {
+    "program_ref": "program.hk.hkust.msc_aeronautical_engineering",
+    "official_name": "MSc in Aeronautical Engineering",
+    "institution_name": "The Hong Kong University of Science and Technology",
+    "region": "hong_kong",
+    "official_program_url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+    "target_academic_year": "2027-28",
+    "degree_type": "taught_masters",
+    "primary_direction": "aerospace_engineering",
+    "secondary_directions": [],
+    "review_status": "domain_reviewed",
+    "has_unresolved_fields": true,
+    "reviewed_at": "2026-09-03T07:43:00Z",
+    "candidate_version_id": "version.phase4.batch8.1.2",
+    "pack_ref": "pack.hk.hkust.msc_aeronautical_engineering.2027.v1",
+    "pack_schema_version": "alpha_program_pack.v1",
+    "pack_canonical_sha256": "b9304e8e0d43fd56037f5cf75ddfac6f65f3be1ba0ad99599dc7c85795d33501",
+    "evidence_count": 2,
+    "coverage": {
+      "confirmed": 12,
+      "unresolved": 3,
+      "total": 15
+    },
+    "fields": [
+      {
+        "field_key": "catalog.academic_year",
+        "label": "入学年份",
+        "group": "项目概况",
+        "display_text": "Postgraduate Programs 2027/28",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.degree_type",
+        "label": "学位类型",
+        "group": "项目概况",
+        "display_text": "Master of Science in Aeronautical Engineering",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.department",
+        "label": "院系",
+        "group": "项目概况",
+        "display_text": "Department of Mechanical and Aerospace Engineering",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.duration",
+        "label": "学制",
+        "group": "项目概况",
+        "display_text": "Full-time: 1 year",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.intake",
+        "label": "入学时间",
+        "group": "项目概况",
+        "display_text": "September 2027",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+            "page_title": "MSc in Aeronautical Engineering | HKUST School of Engineering",
+            "excerpt": "MSc in Aeronautical Engineering\nFresh graduates who have good academic record are also our targets.\nFor 2027/28 Fall intake (September 2027):\nAll applications are considered on a competitive and rolling basis.",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.application_status",
+        "label": "申请状态",
+        "group": "项目概况",
+        "display_text": "Admissions is on rolling basis.",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 2,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+            "page_title": "MSc in Aeronautical Engineering | HKUST School of Engineering",
+            "excerpt": "MSc in Aeronautical Engineering\nFresh graduates who have good academic record are also our targets.\nFor 2027/28 Fall intake (September 2027):\nAll applications are considered on a competitive and rolling basis.",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.primary_direction",
+        "label": "主方向",
+        "group": "专业方向",
+        "display_text": "Aeronautical Engineering",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.secondary_directions",
+        "label": "相关方向",
+        "group": "专业方向",
+        "display_text": "Master of Science in Aeronautical Engineering",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.degree",
+        "label": "学历要求",
+        "group": "申请门槛",
+        "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.academic",
+        "label": "成绩要求",
+        "group": "申请门槛",
+        "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.subject",
+        "label": "本科专业要求",
+        "group": "申请门槛",
+        "display_text": "A bachelor’s degree in Engineering, Science or related areas, with second class honors or above.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.prerequisite_courses",
+        "label": "先修课程",
+        "group": "申请门槛",
+        "display_text": "本次已核验的两页完整官网来源未找到指定先修课程；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+            "page_title": "MSc in Aeronautical Engineering | HKUST School of Engineering",
+            "excerpt": "MSc in Aeronautical Engineering\nFresh graduates who have good academic record are also our targets.\nFor 2027/28 Fall intake (September 2027):\nAll applications are considered on a competitive and rolling basis.",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.language",
+        "label": "语言要求",
+        "group": "申请门槛",
+        "display_text": "IELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.work_experience",
+        "label": "工作经验",
+        "group": "申请门槛",
+        "display_text": "Fresh graduates who have good academic record are also our targets.",
+        "coverage_status": "not_applicable",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "applicability",
+            "citation_order": 1,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+            "page_title": "MSc in Aeronautical Engineering | HKUST School of Engineering",
+            "excerpt": "MSc in Aeronautical Engineering\nFresh graduates who have good academic record are also our targets.\nFor 2027/28 Fall intake (September 2027):\nAll applications are considered on a competitive and rolling basis.",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.materials",
+        "label": "申请材料",
+        "group": "申请门槛",
+        "display_text": "材料要求未出现在本次已核验的两页官网来源中，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscae.catalog.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Aeronautical Engineering\nMaster of Science in Aeronautical Engineering\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Mechanical and Aerospace Engineering\nFor 2027/28 Fall Term Intake (commencing in Sep 2027):\nAdmissions is on rolling basis.\nA bachelor’s degree in Engineering, Science or related areas, with second class honors or above.\nIELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5 *",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscae.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+            "page_title": "MSc in Aeronautical Engineering | HKUST School of Engineering",
+            "excerpt": "MSc in Aeronautical Engineering\nFresh graduates who have good academic record are also our targets.\nFor 2027/28 Fall intake (September 2027):\nAll applications are considered on a competitive and rolling basis.",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      }
+    ]
+  }
+}

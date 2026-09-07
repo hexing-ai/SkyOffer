@@ -1,0 +1,592 @@
+{
+  "schema_version": "program_catalog_detail.v1",
+  "dataset": {
+    "dataset_id": "dataset.internal_alpha.2027.v3",
+    "target_academic_year": "2027-28",
+    "program_count": 20,
+    "data_boundary": "internal_candidate_only",
+    "public_publishable": false,
+    "manifest_sha256": "4d82113ae34e0971e0810420d76665289390c6e2e6f71f7a47f8a67e47ef2dae"
+  },
+  "program": {
+    "program_ref": "program.uk.ucl.msc_robotics_artificial_intelligence",
+    "official_name": "Robotics and Artificial Intelligence MSc",
+    "institution_name": "UCL",
+    "region": "united_kingdom",
+    "official_program_url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+    "target_academic_year": "2027-28",
+    "degree_type": "taught_masters",
+    "primary_direction": "low_altitude_economy",
+    "secondary_directions": [
+      "artificial_intelligence"
+    ],
+    "review_status": "domain_reviewed",
+    "has_unresolved_fields": true,
+    "reviewed_at": "2026-09-04T05:00:00Z",
+    "candidate_version_id": "version.phase5.coverage.06",
+    "pack_ref": "pack.uk.ucl.msc_robotics_artificial_intelligence.2027.v1",
+    "pack_schema_version": "alpha_program_pack.v1",
+    "pack_canonical_sha256": "45ce51761b7b667f1e44822f3834ecb9ed7693f19bc1c73a93fb21473bde7156",
+    "evidence_count": 2,
+    "coverage": {
+      "confirmed": 4,
+      "unresolved": 12,
+      "total": 16
+    },
+    "fields": [
+      {
+        "field_key": "catalog.academic_year",
+        "label": "入学年份",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.degree_type",
+        "label": "学位类型",
+        "group": "项目概况",
+        "display_text": "Robotics and Artificial Intelligence MSc",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.department",
+        "label": "院系",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "manual_review",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.duration",
+        "label": "学制",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "manual_review",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.intake",
+        "label": "入学时间",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.application_status",
+        "label": "申请状态",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.primary_direction",
+        "label": "主方向",
+        "group": "专业方向",
+        "display_text": "Robotics and Artificial Intelligence MSc",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.secondary_directions",
+        "label": "相关方向",
+        "group": "专业方向",
+        "display_text": "Robotics and Artificial Intelligence MSc",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.low_altitude_basis",
+        "label": "低空经济归类依据",
+        "group": "专业方向",
+        "display_text": "项目聚焦机器人与自主系统，且官方课程明确包含空中机器人课程；仅确认方向相关性，不沿用 2026 周期招生门槛。",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.degree",
+        "label": "学历要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.academic",
+        "label": "成绩要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.subject",
+        "label": "本科专业要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.prerequisite_courses",
+        "label": "先修课程",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.language",
+        "label": "语言要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.work_experience",
+        "label": "工作经验",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.materials",
+        "label": "申请材料",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.ucl.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Robotics and Artificial Intelligence MSc\nThis Master's combines Computer Science, AI and Robotics, and Mechatronics, blending theory with hands-on experience.\nProgramme starts — September 2026\nUK tuition fees (2026/27)",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.ucl.robotics.curriculum.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+            "page_title": "Robotics and Artificial Intelligence MSc | Prospective Students Graduate - UCL – University College London",
+            "excerpt": "Optional modules\nAerial Robotics: Fundamentals to Practice in Real-World Environments",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      }
+    ]
+  }
+}

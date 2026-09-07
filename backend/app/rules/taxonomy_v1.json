@@ -1,0 +1,40 @@
+{
+  "schema_version": "requirement_taxonomy.v1",
+  "taxonomy_version": "0.1.0",
+  "review_status": "approved",
+  "drafted_by_role": "code_implementer",
+  "approval_owner_role": "product_owner_domain_reviewer",
+  "reviewed_by_role": "product_owner_domain_reviewer",
+  "review_date": "2026-09-01",
+  "rules": [
+    "第二阶段只消费预标注标签，不根据名称自动推断",
+    "无法安全归类时进入待人工核验",
+    "任何标签新增、删除或语义修改必须提升版本并保留 diff"
+  ],
+  "subject_tags": {
+    "computer_science": {"definition": "计算机科学或计算机工程核心培养方向", "examples": ["计算机科学与技术"], "counterexamples": ["仅修读一门编程课的非计算机专业"]},
+    "artificial_intelligence": {"definition": "以人工智能理论、算法或系统为核心的专业", "examples": ["人工智能"], "counterexamples": ["仅使用 AI 工具的专业"]},
+    "data_science": {"definition": "以统计、计算与数据分析为核心的专业", "examples": ["数据科学与大数据技术"], "counterexamples": ["只有基础 Excel 课程的专业"]},
+    "automation": {"definition": "以自动控制、检测、系统工程为核心的专业", "examples": ["自动化"], "counterexamples": ["办公自动化培训"]},
+    "aerospace_engineering": {"definition": "航空、航天、飞行器设计或推进相关工程专业", "examples": ["飞行器设计与工程"], "counterexamples": ["航空服务管理"]},
+    "mechanical_engineering": {"definition": "机械设计、制造、机电系统相关工程专业", "examples": ["机械工程"], "counterexamples": ["工业设计且无机械工程培养内容"]},
+    "electronic_engineering": {"definition": "电子、电气、通信或信息硬件系统相关工程专业", "examples": ["电子信息工程"], "counterexamples": ["电子商务"]},
+    "other": {"definition": "当前受控表无法安全归入上述类别", "examples": ["需人工判断的新专业"], "counterexamples": ["已满足明确类别定义的专业"]}
+  },
+  "course_tags": {
+    "mathematics": {"definition": "高等数学、线性代数、离散数学等数学基础", "examples": ["高等数学", "线性代数"], "counterexamples": ["数学文化"]},
+    "statistics": {"definition": "概率、统计推断或随机过程", "examples": ["概率论与数理统计"], "counterexamples": ["仅描述统计图表的软件培训"]},
+    "programming": {"definition": "以编写、调试程序为主要学习目标", "examples": ["Python 程序设计"], "counterexamples": ["计算机基础操作"]},
+    "data_structures": {"definition": "数据结构、算法设计与复杂度", "examples": ["数据结构与算法"], "counterexamples": ["数据库应用"]},
+    "databases": {"definition": "数据库原理、建模、查询或数据管理系统", "examples": ["数据库系统"], "counterexamples": ["电子表格数据整理"]},
+    "machine_learning": {"definition": "机器学习、深度学习或模式识别理论与实践", "examples": ["机器学习导论"], "counterexamples": ["生成式 AI 工具使用"]},
+    "control": {"definition": "自动控制、现代控制、飞行控制或系统辨识", "examples": ["自动控制原理"], "counterexamples": ["项目管理与控制"]},
+    "aerospace": {"definition": "空气动力学、飞行器、航空推进或航空系统", "examples": ["飞行力学"], "counterexamples": ["航空旅游概论"]}
+  },
+  "institution_tags": {
+    "china_mainland_recognized": {"definition": "合成规则中已预标注为中国大陆认可本科院校", "examples": ["合成认可院校 A"], "counterexamples": ["未核验院校名称"]},
+    "china_mainland_priority": {"definition": "仅供合成来源分支测试的优先院校标签，不代表真实名单", "examples": ["合成优先院校 A"], "counterexamples": ["任何未经官方规则确认的真实院校"]},
+    "uk_recognized": {"definition": "合成规则中已预标注为英国认可院校", "examples": ["合成英国院校 A"], "counterexamples": ["未核验机构"]},
+    "other_recognized": {"definition": "合成规则中属于其他地区且已预标注认可", "examples": ["合成其他院校 A"], "counterexamples": ["无法确认办学资质的机构"]}
+  }
+}

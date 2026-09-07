@@ -1,0 +1,481 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "20 项内部 Alpha 扩容；仅固化已复核的项目身份、授课型硕士和专业方向，其余 2027/28 字段保持待核验。",
+    "fields": [
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "catalog.academic_year",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "catalog.application_status",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Aerospace Engineering MSc",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "catalog.department",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "catalog.duration",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "catalog.intake",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.academic",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.degree",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.language",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.subject",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.work_experience",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Aerospace Engineering MSc",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "aerospace_engineering"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "Aerospace Engineering MSc",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "source.candidate.sheffield.aerospace.program.20260904.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      }
+    ],
+    "request_id": "request.phase5.coverage.dad6bcb28bd2c77b"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "automated_web_candidate",
+      "captured_at": "2026-09-04T04:00:00Z",
+      "excerpt": "Aerospace Engineering MSc\n2026-27 entry\nStart date\nSeptember 2026\nFor students converting to aerospace engineering, you will study a series of foundational core modules designed to ensure you develop a strong aerospace understanding.",
+      "expires_at": "2026-12-03T04:00:00Z",
+      "hash_scope": "normalized_excerpt",
+      "id": "source.candidate.sheffield.aerospace.program.20260904.v1",
+      "official_domain": "sheffield.ac.uk",
+      "page_title": "Aerospace Engineering MSc | 2026 | Postgraduate",
+      "program_id": "program.uk.sheffield.msc_aerospace_engineering",
+      "review_due_at": "2026-10-04T04:00:00Z",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "4371686889976aea57ba4272e5a12a9a3b02b0d08936fd0706947c93bada79f7",
+      "source_type": "official_program_page",
+      "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+      "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/aerospace-engineering-msc",
+      "verified_at": "2026-09-04T04:30:00Z",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "ed0535e35f9e021eba7e1630869de63c79dd0c9e37133fb65661b5cc8d9db412",
+  "pack_canonical_sha256": "6140f21ba2e7cedac0f04dcadb1970e6d86d4b05b227da9b15805153b8a092d6",
+  "pack_ref": "pack.uk.sheffield.msc_aerospace_engineering.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "20 项内部 Alpha 扩容批次中的 Candidate-only 项目。",
+    "degree_type": "taught_masters",
+    "institution_name": "The University of Sheffield",
+    "official_domain_aliases": [],
+    "official_name": "Aerospace Engineering MSc",
+    "official_program_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/aerospace-engineering-msc",
+    "program_ref": "program.uk.sheffield.msc_aerospace_engineering",
+    "region": "united_kingdom",
+    "registered_official_domain": "sheffield.ac.uk"
+  },
+  "review": {
+    "prepared_at": "2026-09-04T04:30:00Z",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人已整批确认 20 项候选批次领域复核通过；本 Pack 仍为 Candidate-only，未确认的 2027/28 字段继续保持待核验状态。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-04T05:00:00Z",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "source.candidate.sheffield.aerospace.program.20260904.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.uk.sheffield",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

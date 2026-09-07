@@ -1,0 +1,761 @@
+{
+  "schema_version": "program_catalog_detail.v1",
+  "dataset": {
+    "dataset_id": "dataset.internal_alpha.2027.v3",
+    "target_academic_year": "2027-28",
+    "program_count": 20,
+    "data_boundary": "internal_candidate_only",
+    "public_publishable": false,
+    "manifest_sha256": "4d82113ae34e0971e0810420d76665289390c6e2e6f71f7a47f8a67e47ef2dae"
+  },
+  "program": {
+    "program_ref": "program.uk.sheffield.msc_robotics",
+    "official_name": "Robotics MSc",
+    "institution_name": "The University of Sheffield",
+    "region": "united_kingdom",
+    "official_program_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+    "target_academic_year": "2027-28",
+    "degree_type": "taught_masters",
+    "primary_direction": "low_altitude_economy",
+    "secondary_directions": [
+      "artificial_intelligence"
+    ],
+    "review_status": "domain_reviewed",
+    "has_unresolved_fields": true,
+    "reviewed_at": "2026-09-04T05:00:00Z",
+    "candidate_version_id": "version.phase5.coverage.11",
+    "pack_ref": "pack.uk.sheffield.msc_robotics.2027.v1",
+    "pack_schema_version": "alpha_program_pack.v1",
+    "pack_canonical_sha256": "5f1b4efdd6be55194db3f5b0cda43306450621f1384b3424968f3d9d985294fd",
+    "evidence_count": 3,
+    "coverage": {
+      "confirmed": 4,
+      "unresolved": 12,
+      "total": 16
+    },
+    "fields": [
+      {
+        "field_key": "catalog.academic_year",
+        "label": "入学年份",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.degree_type",
+        "label": "学位类型",
+        "group": "项目概况",
+        "display_text": "Robotics MSc",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.department",
+        "label": "院系",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "manual_review",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.duration",
+        "label": "学制",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "manual_review",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.intake",
+        "label": "入学时间",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.application_status",
+        "label": "申请状态",
+        "group": "项目概况",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.primary_direction",
+        "label": "主方向",
+        "group": "专业方向",
+        "display_text": "Robotics MSc",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.secondary_directions",
+        "label": "相关方向",
+        "group": "专业方向",
+        "display_text": "Robotics MSc",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.low_altitude_basis",
+        "label": "低空经济归类依据",
+        "group": "专业方向",
+        "display_text": "官方核心课程同时覆盖自主系统中的机器视觉与无人航空系统，可作为低空自主系统方向候选；2027/28 课程仍待重新核验。",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "direct",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.degree",
+        "label": "学历要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.academic",
+        "label": "成绩要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.subject",
+        "label": "本科专业要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.prerequisite_courses",
+        "label": "先修课程",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.language",
+        "label": "语言要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.work_experience",
+        "label": "工作经验",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.materials",
+        "label": "申请材料",
+        "group": "申请门槛",
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "coverage_status": "not_yet_published",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.program.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Robotics MSc\n2026-27 entry\nBecome an expert in robotics and autonomous systems, with the skills to join the next generation of engineers. You’ll learn about machine and artificial intelligence (AI), robotic sensing and perception, control and planning and robotic devices and systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.machine_vision.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMachine Vision for Robotics\nThe module gives knowledge of machine vision methods for a broad range of applications. It introduces you to image and video processing models and methods and provides you with skills on how to embed them in autonomous systems.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "source.candidate.sheffield.robotics.mobile_systems.20260904.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+            "page_title": "Robotics MSc | 2026 | Postgraduate",
+            "excerpt": "Core modules:\nMobile Robotics and Autonomous Systems\nFrom advanced manufacturing and surgical robots to unmanned aerial systems and driverless cars, this exciting area is presenting increasing technological challenges.",
+            "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+            "verified_at": "2026-09-04T04:30:00Z",
+            "review_due_at": "2026-10-04T04:00:00Z",
+            "expires_at": "2026-12-03T04:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      }
+    ]
+  }
+}

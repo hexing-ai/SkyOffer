@@ -1,0 +1,208 @@
+{
+  "schema_version": "program_field_registry.v1",
+  "registry_version": "1.0.0",
+  "review_status": "approved",
+  "approved_by": "actor.domain_reviewer.product_owner",
+  "approved_on": "2026-09-02",
+  "target_academic_year": "2027-28",
+  "rules": [
+    "Every applicable mandatory field must be present even when official information is missing or not yet published.",
+    "Removing a field never reduces the quality-gate denominator.",
+    "A coverage-only citation cannot support a confirmed positive fact.",
+    "Unknown field keys, schema pairs, coverage statuses and support scopes fail closed."
+  ],
+  "freshness_classes": {
+    "admissions_90d": {
+      "review_due_after_days": 90,
+      "description": "Default review cycle for catalog, taxonomy and admissions facts."
+    },
+    "application_status_30d": {
+      "review_due_after_days": 30,
+      "description": "Short review cycle for application-open status."
+    }
+  },
+  "coverage_statuses": [
+    "confirmed",
+    "manual_review",
+    "not_yet_published",
+    "not_found_in_reviewed_sources",
+    "not_applicable"
+  ],
+  "manual_review_reason_codes": [
+    "OFFICIAL_RULE_AMBIGUOUS",
+    "OFFICIAL_RULE_NOT_PUBLISHED",
+    "OFFICIAL_RULE_NOT_FOUND",
+    "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+  ],
+  "evidence_support_scopes": [
+    "direct",
+    "applicability",
+    "definition",
+    "coverage"
+  ],
+  "fields": [
+    {
+      "field_key": "catalog.academic_year",
+      "field_kind": "catalog",
+      "payload_schema_version": "program_catalog_field.v1",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources"]
+    },
+    {
+      "field_key": "catalog.degree_type",
+      "field_kind": "catalog",
+      "payload_schema_version": "program_catalog_field.v1",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review"]
+    },
+    {
+      "field_key": "catalog.department",
+      "field_kind": "catalog",
+      "payload_schema_version": "program_catalog_field.v1",
+      "presence": "required",
+      "condition": null,
+      "is_critical": false,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_found_in_reviewed_sources"]
+    },
+    {
+      "field_key": "catalog.duration",
+      "field_kind": "catalog",
+      "payload_schema_version": "program_catalog_field.v1",
+      "presence": "required",
+      "condition": null,
+      "is_critical": false,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_found_in_reviewed_sources"]
+    },
+    {
+      "field_key": "catalog.intake",
+      "field_kind": "catalog",
+      "payload_schema_version": "program_catalog_field.v1",
+      "presence": "required",
+      "condition": null,
+      "is_critical": false,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources"]
+    },
+    {
+      "field_key": "catalog.application_status",
+      "field_kind": "catalog",
+      "payload_schema_version": "program_catalog_field.v1",
+      "presence": "required",
+      "condition": null,
+      "is_critical": false,
+      "freshness_class": "application_status_30d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources"]
+    },
+    {
+      "field_key": "taxonomy.primary_direction",
+      "field_kind": "taxonomy",
+      "payload_schema_version": "program_taxonomy_field.v1",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review"]
+    },
+    {
+      "field_key": "taxonomy.secondary_directions",
+      "field_kind": "taxonomy",
+      "payload_schema_version": "program_taxonomy_field.v1",
+      "presence": "required",
+      "condition": null,
+      "is_critical": false,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review"]
+    },
+    {
+      "field_key": "requirements.degree",
+      "field_kind": "requirement",
+      "payload_schema_version": "program_requirement_field.v2",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources", "not_applicable"]
+    },
+    {
+      "field_key": "requirements.academic",
+      "field_kind": "requirement",
+      "payload_schema_version": "program_requirement_field.v2",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources", "not_applicable"]
+    },
+    {
+      "field_key": "requirements.subject",
+      "field_kind": "requirement",
+      "payload_schema_version": "program_requirement_field.v2",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources", "not_applicable"]
+    },
+    {
+      "field_key": "requirements.prerequisite_courses",
+      "field_kind": "requirement",
+      "payload_schema_version": "program_requirement_field.v2",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources", "not_applicable"]
+    },
+    {
+      "field_key": "requirements.language",
+      "field_kind": "requirement",
+      "payload_schema_version": "program_requirement_field.v2",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources", "not_applicable"]
+    },
+    {
+      "field_key": "requirements.work_experience",
+      "field_kind": "requirement",
+      "payload_schema_version": "program_requirement_field.v2",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources", "not_applicable"]
+    },
+    {
+      "field_key": "requirements.materials",
+      "field_kind": "requirement",
+      "payload_schema_version": "program_requirement_field.v2",
+      "presence": "required",
+      "condition": null,
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review", "not_yet_published", "not_found_in_reviewed_sources", "not_applicable"]
+    },
+    {
+      "field_key": "taxonomy.low_altitude_basis",
+      "field_kind": "taxonomy",
+      "payload_schema_version": "program_taxonomy_field.v1",
+      "presence": "conditional",
+      "condition": {
+        "path": "taxonomy.primary_or_secondary_directions",
+        "contains": "low_altitude_economy"
+      },
+      "is_critical": true,
+      "freshness_class": "admissions_90d",
+      "allowed_coverage_statuses": ["confirmed", "manual_review"]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "applicant_analysis_input.v1",
+  "request_language": "zh-CN",
+  "education_status": "undergraduate",
+  "graduation_year": 2027,
+  "undergraduate_institution": "华东示例理工大学",
+  "undergraduate_major": "自动化",
+  "degree_type": "工学学士",
+  "grading_scale": 100,
+  "grade_value": 82.4,
+  "core_courses": [
+    "高等数学",
+    "线性代数",
+    "Python 程序设计",
+    "自动控制原理",
+    "机器学习导论"
+  ],
+  "language_scores": [],
+  "experiences": [
+    {
+      "type": "project",
+      "title": "合成无人机视觉项目",
+      "description": "使用 Python 完成目标检测实验，并参与飞行控制数据分析。"
+    }
+  ],
+  "target_regions": [
+    "hong_kong",
+    "united_kingdom"
+  ],
+  "target_directions": [
+    "computer_science",
+    "artificial_intelligence",
+    "aerospace_engineering",
+    "low_altitude_economy"
+  ],
+  "career_goal": "希望从事自主飞行系统或智能感知相关工作。",
+  "budget_note": null
+}

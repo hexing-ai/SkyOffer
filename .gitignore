@@ -1,0 +1,65 @@
+# Secrets
+.env
+.env.*
+*.env
+*.env.*
+!.env*.example
+!*.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
+.agents/
+.codex/
+
+# Local reference material (never part of the SkyOffer release)
+/AI产品Vibe Coding通用技术栈手册.md
+/AI产品Vibe Coding通用前端技术栈手册.md
+
+# Runtime
+*.log
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+/data/
+/backups/
+*.dump
+*.sql.gz
+*.bak
+
+# Next.js frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.next-demo/
+frontend/coverage/
+frontend/.env.local
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+frontend/AGENTS.md
+frontend/CLAUDE.md
+frontend/out/
+frontend/.turbo/
+.vercel/
+.netlify/
+
+# Clean publication exports
+/release-export/

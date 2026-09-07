@@ -1,0 +1,162 @@
+{
+  "schema_version": "official_threshold_availability_audit.v1",
+  "audit_id": "official-threshold-availability.2027-28.20260904.v1",
+  "captured_at": "2026-09-04T14:49:17+08:00",
+  "target_academic_year": "2027-28",
+  "lifecycle_state": "candidate_only_pending_future_official_updates",
+  "public_publishable": false,
+  "policy": "Only an official university page explicitly applicable to 2027/28 may change a target-year admission field; 2026/27 facts are never rolled forward.",
+  "summary": {
+    "program_count": 20,
+    "official_2027_rules_confirmed": 6,
+    "official_opening_announced_rules_pending": 1,
+    "official_publication_date_announced": 2,
+    "official_2026_only_or_no_2027_signal": 11,
+    "field_change_count": 1
+  },
+  "programs": [
+    {
+      "program_ref": "program.hk.hku.msc_artificial_intelligence",
+      "official_url": "https://www.mscai.hku.hk/admissions/",
+      "target_year_status": "official_2027_rules_confirmed",
+      "official_signal": "The official admissions page states that 2027-28 applications open on 21 September 2026, publishes the degree and prerequisite-knowledge requirements, and gives two application deadlines.",
+      "field_change": true
+    },
+    {
+      "program_ref": "program.hk.hku.msc_computer_science",
+      "official_url": "https://master.cds.hku.hk/msccs/",
+      "target_year_status": "opening_announced_rules_pending",
+      "official_signal": "Application for 2027/28 intake will open around October 2026.",
+      "earliest_recheck_date": "2026-10-01",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.hk.hkust.msc_aeronautical_engineering",
+      "official_url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+      "target_year_status": "official_2027_rules_confirmed",
+      "official_signal": "The page explicitly publishes 2027/28 Fall intake, September 2027, programme fee and application deadlines.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.hk.hkust.msc_artificial_intelligence",
+      "official_url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+      "target_year_status": "official_2027_rules_confirmed",
+      "official_signal": "The page explicitly publishes 2027/28 Fall intake, September 2027, programme fee and application deadlines.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.hk.hkust.msc_information_technology",
+      "official_url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-it",
+      "target_year_status": "official_2027_rules_confirmed",
+      "official_signal": "The page explicitly publishes 2027/28 Fall intake, September 2027, programme fee and application deadlines.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.bristol.msc_aerospace_engineering",
+      "official_url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-aerospace-engineering/",
+      "target_year_status": "official_2026_only",
+      "official_signal": "The official page currently states a September 2026 start date and 2026 deadlines.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.bristol.msc_artificial_intelligence",
+      "official_url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-artificial-intelligence/",
+      "target_year_status": "official_2026_only",
+      "official_signal": "The official page currently states a September 2026 start date and 2026 deadlines.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.edinburgh.msc_artificial_intelligence",
+      "official_url": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+      "target_year_status": "official_publication_date_announced",
+      "official_signal": "Entry requirements for the 2027-28 academic year will be published on 1 Oct 2026.",
+      "earliest_recheck_date": "2026-10-01",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.edinburgh.msc_computer_science",
+      "official_url": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+      "target_year_status": "official_publication_date_announced",
+      "official_signal": "Entry requirements for the 2027-28 academic year will be published on 1 Oct 2026.",
+      "earliest_recheck_date": "2026-10-01",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.imperial.msc_advanced_aeronautical_engineering",
+      "official_url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/advanced-aeronautical-engineering/",
+      "target_year_status": "official_2026_only_automated_access_restricted",
+      "official_signal": "The last reviewed official content is explicitly for September 2026; the current automated response contains no verifiable page body.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.imperial.msc_artificial_intelligence",
+      "official_url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/artificial-intelligence/",
+      "target_year_status": "official_2026_only_automated_access_restricted",
+      "official_signal": "The last reviewed official content is explicitly for September 2026; the current automated response contains no verifiable page body.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.imperial.msc_computing",
+      "official_url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing/",
+      "target_year_status": "official_2026_only_automated_access_restricted",
+      "official_signal": "The last reviewed official content is explicitly for September 2026; the current automated response contains no verifiable page body.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.manchester.msc_advanced_computer_science",
+      "official_url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "target_year_status": "official_2027_rules_confirmed",
+      "official_signal": "The page is explicitly titled 2027 entry and publishes academic, China-specific, English and staged application requirements.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.manchester.msc_aerospace_engineering",
+      "official_url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+      "target_year_status": "official_2027_rules_confirmed",
+      "official_signal": "The page is explicitly titled 2027 entry and publishes academic, English and application requirements.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.sheffield.msc_advanced_computer_science",
+      "official_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/advanced-computer-science-msc",
+      "target_year_status": "official_2026_only",
+      "official_signal": "The reviewed programme page is for 2026-27; the equivalent 2027 path redirects to the postgraduate landing page.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.sheffield.msc_aerospace_engineering",
+      "official_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/aerospace-engineering-msc",
+      "target_year_status": "official_2026_only",
+      "official_signal": "The reviewed programme page is for 2026-27; the equivalent 2027 path redirects to the postgraduate landing page.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.sheffield.msc_artificial_intelligence",
+      "official_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/artificial-intelligence-msc",
+      "target_year_status": "official_2026_only",
+      "official_signal": "The reviewed programme page is for 2026-27; the equivalent 2027 path redirects to the postgraduate landing page.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.sheffield.msc_robotics",
+      "official_url": "https://sheffield.ac.uk/postgraduate/taught/courses/2026/robotics-msc",
+      "target_year_status": "official_2026_only",
+      "official_signal": "The reviewed programme page is for 2026-27; the equivalent 2027 path redirects to the postgraduate landing page.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.ucl.msc_computer_science",
+      "official_url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computer-science-msc",
+      "target_year_status": "official_2026_only_automated_access_restricted",
+      "official_signal": "The last reviewed official content is explicitly for September 2026; the current automated request is access-restricted.",
+      "field_change": false
+    },
+    {
+      "program_ref": "program.uk.ucl.msc_robotics_artificial_intelligence",
+      "official_url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/robotics-and-artificial-intelligence-msc",
+      "target_year_status": "official_2026_only_automated_access_restricted",
+      "official_signal": "The last reviewed official content is explicitly for September 2026; the current automated request is access-restricted.",
+      "field_change": false
+    }
+  ]
+}

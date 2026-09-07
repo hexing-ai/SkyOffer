@@ -1,0 +1,53 @@
+{
+  "schema_version": "alpha_scope_source_snapshot.v1",
+  "source_authority": "University Grants Committee, Hong Kong",
+  "source_title": "UGC-funded Universities",
+  "source_url": "https://www.ugc.edu.hk/eng/ugc/site/fund_inst.html",
+  "source_last_review_date": "2025-11-17",
+  "captured_at": "2026-09-03",
+  "capture_method": "manual_browser",
+  "captured_by": "actor.data_preparer.codex",
+  "review_status": "candidate_unreviewed",
+  "institutions": [
+    {
+      "official_name": "City University of Hong Kong",
+      "official_url": "https://www.cityu.edu.hk/",
+      "registered_official_domain": "cityu.edu.hk"
+    },
+    {
+      "official_name": "Hong Kong Baptist University",
+      "official_url": "https://www.hkbu.edu.hk/en/",
+      "registered_official_domain": "hkbu.edu.hk"
+    },
+    {
+      "official_name": "Lingnan University",
+      "official_url": "https://www.ln.edu.hk/",
+      "registered_official_domain": "ln.edu.hk"
+    },
+    {
+      "official_name": "The Chinese University of Hong Kong",
+      "official_url": "https://www.cuhk.edu.hk/english/",
+      "registered_official_domain": "cuhk.edu.hk"
+    },
+    {
+      "official_name": "The Education University of Hong Kong",
+      "official_url": "https://www.eduhk.hk/en/",
+      "registered_official_domain": "eduhk.hk"
+    },
+    {
+      "official_name": "The Hong Kong Polytechnic University",
+      "official_url": "https://www.polyu.edu.hk/en/",
+      "registered_official_domain": "polyu.edu.hk"
+    },
+    {
+      "official_name": "The Hong Kong University of Science and Technology",
+      "official_url": "https://hkust.edu.hk/",
+      "registered_official_domain": "hkust.edu.hk"
+    },
+    {
+      "official_name": "The University of Hong Kong",
+      "official_url": "https://www.hku.hk/",
+      "registered_official_domain": "hku.hk"
+    }
+  ]
+}

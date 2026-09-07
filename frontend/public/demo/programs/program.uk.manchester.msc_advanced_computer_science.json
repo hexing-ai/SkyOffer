@@ -1,0 +1,449 @@
+{
+  "schema_version": "program_catalog_detail.v1",
+  "dataset": {
+    "dataset_id": "dataset.internal_alpha.2027.v3",
+    "target_academic_year": "2027-28",
+    "program_count": 20,
+    "data_boundary": "internal_candidate_only",
+    "public_publishable": false,
+    "manifest_sha256": "4d82113ae34e0971e0810420d76665289390c6e2e6f71f7a47f8a67e47ef2dae"
+  },
+  "program": {
+    "program_ref": "program.uk.manchester.msc_advanced_computer_science",
+    "official_name": "MSc Advanced Computer Science",
+    "institution_name": "The University of Manchester",
+    "region": "united_kingdom",
+    "official_program_url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+    "target_academic_year": "2027-28",
+    "degree_type": "taught_masters",
+    "primary_direction": "computer_science",
+    "secondary_directions": [],
+    "review_status": "domain_reviewed",
+    "has_unresolved_fields": true,
+    "reviewed_at": "2026-09-03T12:15:00Z",
+    "candidate_version_id": "version.phase4.batch8.6.1",
+    "pack_ref": "pack.uk.manchester.msc_advanced_computer_science.2027.v1",
+    "pack_schema_version": "alpha_program_pack.v1",
+    "pack_canonical_sha256": "8db15baba5fb48745bfcc7f8584e18a4eda53808cd205c4111c96d5e5d4631db",
+    "evidence_count": 4,
+    "coverage": {
+      "confirmed": 11,
+      "unresolved": 4,
+      "total": 15
+    },
+    "fields": [
+      {
+        "field_key": "catalog.academic_year",
+        "label": "入学年份",
+        "group": "项目概况",
+        "display_text": "Year of entry: 2027",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Advanced Computer Science\nYear of entry: 2027\nDuration: 12 months full-time\nFull-time: In person\nDepartment of Computer Science",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.degree_type",
+        "label": "学位类型",
+        "group": "项目概况",
+        "display_text": "Master of Science",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Advanced Computer Science\nYear of entry: 2027\nDuration: 12 months full-time\nFull-time: In person\nDepartment of Computer Science",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.department",
+        "label": "院系",
+        "group": "项目概况",
+        "display_text": "Department of Computer Science",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Advanced Computer Science\nYear of entry: 2027\nDuration: 12 months full-time\nFull-time: In person\nDepartment of Computer Science",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.duration",
+        "label": "学制",
+        "group": "项目概况",
+        "display_text": "Duration: 12 months full-time",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Advanced Computer Science\nYear of entry: 2027\nDuration: 12 months full-time\nFull-time: In person\nDepartment of Computer Science",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.intake",
+        "label": "入学时间",
+        "group": "项目概况",
+        "display_text": "本次已核验的 2027 官网正文确认 entry year，但未确认具体入学月份；不得由 2026 参考费用或英国学年惯例推断。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.curriculum.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Our flagship Computer Science course enables you to explore diverse specialisms in a comprehensive curriculum.\nThis programme will provide training and experience of advanced computational techniques.\nMasters Project (60 Credits)\nIntroduction to Cryptography\nNetwork Security\nData Engineering Concepts\nReasoning and Learning under Uncertainty",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.language.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "IELTS: overall score of 7.0 with no sub-test below 6.5.\nTOEFL iBT: at least 100 overall with no sub-test less than 22. We do not accept 'MyBestScore'. We do not accept TOEFL iBT Home Edition.\nPearson PTE: at least 76 overall with no sub-test below 70.\nYour English Language test report must be valid on the start date of the course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 4,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Advanced Computer Science\nYear of entry: 2027\nDuration: 12 months full-time\nFull-time: In person\nDepartment of Computer Science",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.application_status",
+        "label": "申请状态",
+        "group": "项目概况",
+        "display_text": "Applications for 2027 entry:",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.primary_direction",
+        "label": "主方向",
+        "group": "专业方向",
+        "display_text": "MSc Advanced Computer Science",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Advanced Computer Science\nYear of entry: 2027\nDuration: 12 months full-time\nFull-time: In person\nDepartment of Computer Science",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.curriculum.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 2,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Our flagship Computer Science course enables you to explore diverse specialisms in a comprehensive curriculum.\nThis programme will provide training and experience of advanced computational techniques.\nMasters Project (60 Credits)\nIntroduction to Cryptography\nNetwork Security\nData Engineering Concepts\nReasoning and Learning under Uncertainty",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.secondary_directions",
+        "label": "相关方向",
+        "group": "专业方向",
+        "display_text": "This programme will provide training and experience of advanced computational techniques.",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.curriculum.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Our flagship Computer Science course enables you to explore diverse specialisms in a comprehensive curriculum.\nThis programme will provide training and experience of advanced computational techniques.\nMasters Project (60 Credits)\nIntroduction to Cryptography\nNetwork Security\nData Engineering Concepts\nReasoning and Learning under Uncertainty",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.degree",
+        "label": "学历要求",
+        "group": "申请门槛",
+        "display_text": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.academic",
+        "label": "成绩要求",
+        "group": "申请门槛",
+        "display_text": "China: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.subject",
+        "label": "本科专业要求",
+        "group": "申请门槛",
+        "display_text": "Computer Science degree with a minimum of 50% Computer Science content.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.prerequisite_courses",
+        "label": "先修课程",
+        "group": "申请门槛",
+        "display_text": "官网要求 strong Computer Science background、solid programming and software development skills，但没有可无损编码的课程数量门槛，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.language",
+        "label": "语言要求",
+        "group": "申请门槛",
+        "display_text": "IELTS: overall score of 7.0 with no sub-test below 6.5.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.language.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "IELTS: overall score of 7.0 with no sub-test below 6.5.\nTOEFL iBT: at least 100 overall with no sub-test less than 22. We do not accept 'MyBestScore'. We do not accept TOEFL iBT Home Edition.\nPearson PTE: at least 76 overall with no sub-test below 70.\nYour English Language test report must be valid on the start date of the course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.work_experience",
+        "label": "工作经验",
+        "group": "申请门槛",
+        "display_text": "官网未设置通用工作经验年限；毕业超过三年的申请人需提交 CV，相关经验用于个案评估。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.materials",
+        "label": "申请材料",
+        "group": "申请门槛",
+        "display_text": "官网要求成绩单、条件性加权均分文件、学位证或在读课程清单等材料，并明确不要求推荐信和个人陈述；当前材料布尔合同不能无损表达完整清单，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.advanced_cs.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+            "page_title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+            "excerpt": "Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Science content.\nWe require that all applicants have a strong background in Computer Science reflected, for example, in solid programming and software development skills.\nChina: a minimum of 87% in a 4-year bachelor's degree from a well ranked institution.\nApplications for 2027 entry:\nStage 1: Application received by 6 November 2026; Decision by 8 January 2027.\nStage 2: Application received by 1 January 2027; Decision by 5 March 2027.\nStage 3: Application received by 26 Feb 2027; Decision by 30 April 2027.\nStage 4: Application received by 21 May 2027; Decision by 18 June 2027.\nApplications received after 21 May 2027 will be considered depending on course availability.\nWe require official Bachelor degree transcripts and supporting documents listed on the programme page.\nA CV is required if you graduated more than three years ago.\nReferences and personal statements are not required for your application to this programme.\nThere is no application fee for this programme.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T12:15:00Z",
+            "review_due_at": "2026-10-03T12:15:00Z",
+            "expires_at": "2026-12-02T12:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      }
+    ]
+  }
+}

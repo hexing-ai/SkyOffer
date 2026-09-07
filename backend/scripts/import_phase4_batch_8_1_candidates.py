@@ -1,0 +1,151 @@
+from __future__ import annotations
+
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+from sqlalchemy import func, select
+
+from backend.app.core.config import Settings
+from backend.app.db.migrations import upgrade_database
+from backend.app.db.models import (
+    Program,
+    ProgramFieldValue,
+    ProgramPublication,
+    ProgramVersion,
+    SourceEvidence,
+    VersionStatus,
+)
+from backend.app.db.session import create_database_engine, create_session_factory
+from backend.app.schemas.alpha_manifest import AlphaScopeSnapshotV1
+from backend.app.schemas.alpha_program_pack import AlphaProgramPackV1
+from backend.app.services.alpha_candidate_importer import (
+    AlphaCandidateBatchImporter,
+    AlphaCandidateImportCommand,
+)
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = PROJECT_ROOT / "backend" / "data" / "alpha_v1"
+PACK_PATHS = (
+    DATA_DIR / "programs" / "hku_msc_computer_science_2027_v1.json",
+    DATA_DIR / "programs" / "hkust_msc_aeronautical_engineering_2027_v1.json",
+)
+FIXED_IMPORT_TIME = datetime(2026, 9, 3, 8, 0, tzinfo=timezone.utc)
+
+
+class StableIds:
+    def __init__(self) -> None:
+        self._counts: dict[str, int] = {}
+
+    def __call__(self, kind: str) -> str:
+        count = self._counts.get(kind, 0) + 1
+        self._counts[kind] = count
+        return f"{kind}.phase4.batch8.1.{count}"
+
+
+def main() -> int:
+    settings = Settings()
+    scope = AlphaScopeSnapshotV1.model_validate_json(
+        (DATA_DIR / "scope_snapshot.json").read_text(encoding="utf-8")
+    )
+    packs = [
+        AlphaProgramPackV1.model_validate_json(path.read_text(encoding="utf-8"))
+        for path in PACK_PATHS
+    ]
+    upgrade_database(settings.database_url)
+    engine = create_database_engine(settings.database_url)
+    sessions = create_session_factory(engine)
+    report = AlphaCandidateBatchImporter(
+        sessions,
+        clock=lambda: FIXED_IMPORT_TIME,
+        id_factory=StableIds(),
+    ).import_commands(
+        AlphaCandidateImportCommand(
+            pack=pack,
+            scope=scope,
+            idempotency_key=f"phase4-batch8-1-{pack.pack_ref}",
+        )
+        for pack in packs
+    )
+
+    program_refs = [pack.program.program_ref for pack in packs]
+    evidence_ids = [item.id for pack in packs for item in pack.evidence]
+    expected_hashes = {pack.expected_semantic_content_sha256 for pack in packs}
+    with sessions.begin() as session:
+        actual_programs = int(
+            session.scalar(
+                select(func.count()).select_from(Program).where(Program.id.in_(program_refs))
+            )
+            or 0
+        )
+        actual_evidence = int(
+            session.scalar(
+                select(func.count())
+                .select_from(SourceEvidence)
+                .where(SourceEvidence.id.in_(evidence_ids))
+            )
+            or 0
+        )
+        versions = session.scalars(
+            select(ProgramVersion).where(ProgramVersion.program_id.in_(program_refs))
+        ).all()
+        version_ids = [version.id for version in versions]
+        actual_fields = int(
+            session.scalar(
+                select(func.count())
+                .select_from(ProgramFieldValue)
+                .where(ProgramFieldValue.program_version_id.in_(version_ids))
+            )
+            or 0
+        )
+        actual_publications = int(
+            session.scalar(
+                select(func.count())
+                .select_from(ProgramPublication)
+                .where(ProgramPublication.program_id.in_(program_refs))
+            )
+            or 0
+        )
+
+    postconditions = {
+        "programs": actual_programs,
+        "evidence": actual_evidence,
+        "candidate_versions": len(versions),
+        "fields": actual_fields,
+        "publications": actual_publications,
+        "all_versions_candidate": all(
+            version.status == VersionStatus.CANDIDATE for version in versions
+        ),
+        "semantic_hashes_match": {
+            version.content_sha256 for version in versions
+        }
+        == expected_hashes,
+    }
+    valid = report.complete and postconditions == {
+        "programs": 2,
+        "evidence": 3,
+        "candidate_versions": 2,
+        "fields": 30,
+        "publications": 0,
+        "all_versions_candidate": True,
+        "semantic_hashes_match": True,
+    }
+    print(
+        json.dumps(
+            {
+                "valid": valid,
+                "database_url": settings.database_url,
+                "batch_report": report.model_dump(mode="json"),
+                "postconditions": postconditions,
+            },
+            ensure_ascii=False,
+            sort_keys=True,
+        )
+    )
+    engine.dispose()
+    return 0 if valid else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

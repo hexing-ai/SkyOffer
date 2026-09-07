@@ -1,0 +1,480 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.1 HKU 首组候选；未确认字段全部 fail closed。",
+    "fields": [
+      {
+        "display_text": "2027/28",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.academic_year",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "academic_year": "2027-28"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Taught Master Programmes",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "School of Computing and Data Science",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.department",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "department_name": "School of Computing and Data Science"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "catalog.duration",
+          "reason": {
+            "detail": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "catalog.intake",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Application for 2027/28 intake will open around October 2026.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.application_status",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "closes_on": null,
+            "opens_on": null,
+            "status": "not_yet_open"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Computer Science",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": "项目名称直接支持计算机科学主方向。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "computer_science"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "MSc in Computer Science",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": "保持已复核候选矩阵口径，不从项目名称推断次方向。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.degree",
+          "reason": {
+            "detail": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.academic",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.subject",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.language",
+          "reason": {
+            "detail": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.work_experience",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.hku.msccs.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      }
+    ],
+    "request_id": "request.phase4.batch8.1.hku.msccs.v1"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T15:35:00+08:00",
+      "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+      "expires_at": "2026-12-02T15:43:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hku.msccs.program.2027.v1",
+      "official_domain": "master.cds.hku.hk",
+      "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+      "program_id": "program.hk.hku.msc_computer_science",
+      "review_due_at": "2026-10-03T15:43:00+08:00",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "482bb77a043a2d775e4ca60a9c29249c1fffc6968cf0567641b6bf4aaba66900",
+      "source_type": "official_program_page",
+      "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+      "url": "https://master.cds.hku.hk/msccs/",
+      "verified_at": "2026-09-03T15:43:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "0c4cd8b351720f48525563b96729a27e55cee796222ef86102943f67d044a5ea",
+  "pack_canonical_sha256": "df53b6fadd8deb2cbe72e4dae91a8e83e1cb2b1c26fae3c8890703532f9c0d5f",
+  "pack_ref": "pack.hk.hku.msc_computer_science.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.1 首组，经三页官网人工核验后生成的 HKU Candidate-only Program。",
+    "degree_type": "taught_masters",
+    "institution_name": "The University of Hong Kong",
+    "official_domain_aliases": [],
+    "official_name": "MSc in Computer Science",
+    "official_program_url": "https://master.cds.hku.hk/msccs/",
+    "program_ref": "program.hk.hku.msc_computer_science",
+    "region": "hong_kong",
+    "registered_official_domain": "hku.hk"
+  },
+  "review": {
+    "prepared_at": "2026-09-03T15:35:00+08:00",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人确认 HKU 项目主页手工核验通过；仅按冻结字段口径生成 Candidate Pack。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-03T15:43:00+08:00",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "evidence.hku.msccs.program.2027.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.hk.hku",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

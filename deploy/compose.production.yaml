@@ -1,0 +1,82 @@
+name: skyoffer
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: skyoffer
+      POSTGRES_USER: skyoffer
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - skyoffer_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U skyoffer -d skyoffer"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    image: skyoffer-backend:${SKYOFFER_RELEASE:?set SKYOFFER_RELEASE}
+    build:
+      context: ..
+      dockerfile: deploy/backend.Dockerfile
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      APP_VERSION: ${SKYOFFER_RELEASE}
+      LOG_LEVEL: INFO
+      LOG_FORMAT: json
+      MODEL_PROVIDER: deepseek
+      MODEL_NAME: deepseek-chat
+      MODEL_BASE_URL: https://api.deepseek.com
+      MODEL_API_KEY: ${MODEL_API_KEY:?set MODEL_API_KEY}
+      MODEL_FALLBACK_ENABLED: "true"
+      DATABASE_URL: ${DATABASE_URL:?set DATABASE_URL}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:?set ALLOWED_HOSTS}
+      TRUST_PROXY_HEADERS: "true"
+      RATE_LIMIT_ENABLED: "true"
+      RATE_LIMIT_REQUESTS: "10"
+      RATE_LIMIT_WINDOW_SECONDS: "60"
+      REQUEST_MAX_BODY_BYTES: "131072"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command:
+      - /bin/sh
+      - -c
+      - >-
+        python -m backend.scripts.bootstrap_internal_alpha &&
+        python -m backend.scripts.production_preflight &&
+        exec uvicorn backend.app.main:app --host 0.0.0.0 --port 8001
+        --proxy-headers --forwarded-allow-ips '*'
+    expose:
+      - "8001"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8001/api/v1/ready', timeout=5)"]
+      interval: 30s
+      timeout: 8s
+      retries: 5
+      start_period: 45s
+
+  frontend:
+    image: skyoffer-frontend:${SKYOFFER_RELEASE:?set SKYOFFER_RELEASE}
+    build:
+      context: ..
+      dockerfile: deploy/frontend.Dockerfile
+      args:
+        BACKEND_URL: http://backend:8001
+        DEPLOYMENT_VERSION: ${SKYOFFER_RELEASE}
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: "3200"
+      HOSTNAME: 0.0.0.0
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-3200}:3200"
+
+volumes:
+  skyoffer_postgres:

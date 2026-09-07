@@ -1,0 +1,670 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.2 HKUST Artificial Intelligence 候选；项目规则与共用政策分别引用并 fail closed。",
+    "fields": [
+      {
+        "display_text": "Postgraduate Programs 2027/28",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.academic_year",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "academic_year": "2027-28"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Master of Science in Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Department of Computer Science and Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.department",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "department_name": "Department of Computer Science and Engineering"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Full-time : 1 year",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.duration",
+          "reason": null,
+          "review_note": "同页同时确认全日制 1 年与非全日制 2 年；结构化主时长按全日制 12 个月，模式记 mixed。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "months": 12,
+            "study_mode": "mixed"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "September 2027",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.intake",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "intake_months": [
+              9
+            ]
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "All applications are considered on a competitive and rolling basis.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.application_status",
+          "reason": null,
+          "review_note": "官方页存在多轮日期；当前合同只结构化 rolling，不压缩为单一 closes_on。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "closes_on": null,
+            "opens_on": null,
+            "status": "rolling"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": "项目名称直接支持Artificial Intelligence主方向。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.catalog.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "artificial_intelligence"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "Master of Science in Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": "保持已复核候选矩阵口径，不从课程列表推断次方向。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.catalog.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "Obtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.degree",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "Obtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscai.admissions_policy.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscai.degree.2027.v1",
+              "requirement_type": "degree",
+              "rule": {
+                "children": [
+                  {
+                    "allowed_values": [
+                      "bachelor"
+                    ],
+                    "fact_path": "degree_level",
+                    "node_id": "node.hkust.mscai.degree.bachelor",
+                    "operator": "enum_in"
+                  },
+                  {
+                    "node_id": "node.hkust.mscai.degree.recognition",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscai.degree.all",
+                "operator": "all"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.admissions_policy.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 3,
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.academic",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "evidence.hkust.mscai.catalog.2027.v1",
+            "evidence.hkust.mscai.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Applicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.subject",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "Applicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscai.program.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscai.subject.2027.v1",
+              "requirement_type": "subject",
+              "rule": {
+                "children": [
+                  {
+                    "accepted_values": [
+                      "computer_science",
+                      "electronic_engineering",
+                      "artificial_intelligence",
+                      "data_science"
+                    ],
+                    "fact_path": "degree_subject_tags",
+                    "minimum_matches": 1,
+                    "node_id": "node.hkust.mscai.subject.tags",
+                    "operator": "set_intersects"
+                  },
+                  {
+                    "node_id": "node.hkust.mscai.subject.related",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscai.subject.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 3,
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "evidence.hkust.mscai.catalog.2027.v1",
+            "evidence.hkust.mscai.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "IELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.language",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "IELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscai.admissions_policy.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscai.language.2027.v1",
+              "requirement_type": "language",
+              "rule": {
+                "children": [
+                  {
+                    "component_mins": {
+                      "listening": "5.5",
+                      "reading": "5.5",
+                      "speaking": "5.5",
+                      "writing": "5.5"
+                    },
+                    "node_id": "node.hkust.mscai.language.ielts",
+                    "operator": "language_minimum",
+                    "test_type": "ielts",
+                    "total_min": "6.5"
+                  },
+                  {
+                    "node_id": "node.hkust.mscai.language.other_routes",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscai.language.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.admissions_policy.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Applicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.work_experience",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": {
+                "node_id": "node.hkust.mscai.work_experience.other_subject",
+                "operator": "manual_review",
+                "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+              },
+              "display_text": "Applicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscai.program.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscai.work_experience.2027.v1",
+              "requirement_type": "work_experience",
+              "rule": {
+                "fact_path": "work_experience_months",
+                "minimum_months": 24,
+                "node_id": "node.hkust.mscai.work_experience.minimum",
+                "operator": "duration_min_months"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "材料要求未在本次已核验的完整官网来源正文中确认，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 3,
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "材料要求未在本次已核验的完整官网来源正文中确认，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "材料要求未在本次已核验的完整官网来源正文中确认，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "evidence.hkust.mscai.catalog.2027.v1",
+            "evidence.hkust.mscai.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      }
+    ],
+    "request_id": "request.phase4.batch8.2.hkust.mscai.v1"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T16:05:00+08:00",
+      "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+      "expires_at": "2026-12-02T16:18:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hkust.mscai.catalog.2027.v1",
+      "official_domain": "prog-crs.hkust.edu.hk",
+      "page_title": "Program & Course Catalog",
+      "program_id": "program.hk.hkust.msc_artificial_intelligence",
+      "review_due_at": "2026-10-03T16:18:00+08:00",
+      "reviewed_source_role": "admissions_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "a0b73acb0f4fa005d34ff2af48a4e98b2348853d8261233dcd0385ede0bcbe5d",
+      "source_type": "official_policy_page",
+      "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+      "verified_at": "2026-09-03T16:18:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T16:05:00+08:00",
+      "excerpt": "Applicants seeking admissions to a master's degree or postgraduate diploma program should have:\nObtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.\nApplicants have to fulfill English Language requirements with one of the following proficiency attainments:\nTOEFL Internet-based Test (iBT): 80 (for tests taken prior to 21 January 2026) *\n4.5 (for tests taken from 21 January 2026 onwards) *\nIELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *\n* Refers to scores in one single attempt only. Test at home option is not accepted.\nApplicants are not required to present TOEFL or IELTS score if\nTheir first language is English, or\nTheir bachelor's degree (or equivalent qualification) was awarded by an institution where the medium of instruction was English.",
+      "expires_at": "2026-12-02T16:18:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+      "official_domain": "fytgs.hkust.edu.hk",
+      "page_title": "Admissions Requirements | HKUST Fok Ying Tung Graduate School",
+      "program_id": "program.hk.hkust.msc_artificial_intelligence",
+      "review_due_at": "2026-10-03T16:18:00+08:00",
+      "reviewed_source_role": "language_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "85cb5aaa7269d6c2284bc9f106e5fe4a23bc97c0d5fb165cdfcf7f006bcea9d6",
+      "source_type": "official_policy_page",
+      "source_version": "Continuous HKUST admissions policy approved for 2027/28 on 2026-09-03",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+      "verified_at": "2026-09-03T16:18:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T16:05:00+08:00",
+      "excerpt": "MSc in Artificial Intelligence\nIt is tailored to both recent graduates and working professionals seeking to enhance their expertise in this exciting and rapidly evolving field.\nStudents are required to complete a total of 30 credits of coursework, including 12 credits of core courses and 18 credits of elective courses.\nApplicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.\nApplicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.\nThe nominal program fee for 2027/28 Fall intake is HK$400,000 (full-time study to be paid in 2 installments and part-time study to be paid in 4 installments).\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+      "expires_at": "2026-12-02T16:18:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hkust.mscai.program.2027.v1",
+      "official_domain": "seng.hkust.edu.hk",
+      "page_title": "MSc in Artificial Intelligence | HKUST School of Engineering",
+      "program_id": "program.hk.hkust.msc_artificial_intelligence",
+      "review_due_at": "2026-10-03T16:18:00+08:00",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "d647e96034845e5dc1126eb2f0722ff61af1a7225d2a1894bd2f3487488922c1",
+      "source_type": "official_program_page",
+      "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+      "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+      "verified_at": "2026-09-03T16:18:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "575565436b29fc11e72dff83a083f9aa71b9a51e9b594dc634833873de7c5035",
+  "pack_canonical_sha256": "14ac0eb791b6c85b8b541133f73bcf10715d2f0178d8426b3c383322e0c85dec",
+  "pack_ref": "pack.hk.hkust.msc_artificial_intelligence.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.2 同校相邻项目隔离验证的 HKUST Artificial Intelligence Candidate-only Program。",
+    "degree_type": "taught_masters",
+    "institution_name": "The Hong Kong University of Science and Technology",
+    "official_domain_aliases": [],
+    "official_name": "MSc in Artificial Intelligence",
+    "official_program_url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+    "program_ref": "program.hk.hkust.msc_artificial_intelligence",
+    "region": "hong_kong",
+    "registered_official_domain": "hkust.edu.hk"
+  },
+  "review": {
+    "prepared_at": "2026-09-03T16:05:00+08:00",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人确认 8.2 来源与字段口径，并批准持续招生要求页用于 2027/28；仅生成 Candidate Pack。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-03T16:18:00+08:00",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "evidence.hkust.mscai.admissions_policy.2027.v1",
+    "evidence.hkust.mscai.catalog.2027.v1",
+    "evidence.hkust.mscai.program.2027.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.hk.hkust",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

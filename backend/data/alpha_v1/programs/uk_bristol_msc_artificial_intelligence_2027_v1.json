@@ -1,0 +1,483 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "20 项内部 Alpha 扩容；仅固化已复核的项目身份、授课型硕士和专业方向，其余 2027/28 字段保持待核验。",
+    "fields": [
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "catalog.academic_year",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "catalog.application_status",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "MSc Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "catalog.department",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "catalog.duration",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "catalog.intake",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.academic",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.degree",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.language",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.subject",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_yet_published",
+          "field_key": "requirements.work_experience",
+          "reason": {
+            "detail": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+            "reason_code": "OFFICIAL_RULE_NOT_PUBLISHED"
+          },
+          "requirements": [],
+          "review_note": "2027/28 目标周期招生事实尚未在本批官方来源中发布或完成核验；不沿用 2026/27 数值、日期或门槛。",
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "MSc Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "artificial_intelligence"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "MSc Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "source.candidate.bristol.ai.program.20260904.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "source.candidate.bristol.ai.program.20260904.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      }
+    ],
+    "request_id": "request.phase5.coverage.4bb67d653136995b"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "automated_web_candidate",
+      "captured_at": "2026-09-04T04:00:00Z",
+      "excerpt": "MSc Artificial Intelligence\nArtificial Intelligence\nStart date\nSeptember 2026\nThe MSc in Artificial Intelligence at the University of Bristol is a rigorous, research- and industry-informed programme designed for graduates from numerate disciplines.",
+      "expires_at": "2026-12-03T04:00:00Z",
+      "hash_scope": "normalized_excerpt",
+      "id": "source.candidate.bristol.ai.program.20260904.v1",
+      "official_domain": "www.bristol.ac.uk",
+      "page_title": "MSc Artificial Intelligence | Study at Bristol | University of Bristol",
+      "program_id": "program.uk.bristol.msc_artificial_intelligence",
+      "review_due_at": "2026-10-04T04:00:00Z",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "b74f72e47c8139661b4fb86ba9674eff0009e45d5599cb7ae73372ec3277823a",
+      "source_type": "official_program_page",
+      "source_version": "Official page captured 2026-09-04 for candidate generation; 2027-28 admissions facts are not inferred from older-cycle content",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-artificial-intelligence/",
+      "verified_at": "2026-09-04T04:30:00Z",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "0cedc0585c1910371134f906b899a0b5f65f99ebe48a44d0f7b78bdf1b153fbd",
+  "pack_canonical_sha256": "8071a38c737ccd24acfab70ca66dea3460fa31b5e4a6ec1882a0130202960e7e",
+  "pack_ref": "pack.uk.bristol.msc_artificial_intelligence.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "20 项内部 Alpha 扩容批次中的 Candidate-only 项目。",
+    "degree_type": "taught_masters",
+    "institution_name": "University of Bristol",
+    "official_domain_aliases": [
+      "bris.ac.uk"
+    ],
+    "official_name": "MSc Artificial Intelligence",
+    "official_program_url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-artificial-intelligence/",
+    "program_ref": "program.uk.bristol.msc_artificial_intelligence",
+    "region": "united_kingdom",
+    "registered_official_domain": "bristol.ac.uk"
+  },
+  "review": {
+    "prepared_at": "2026-09-04T04:30:00Z",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人已整批确认 20 项候选批次领域复核通过；本 Pack 仍为 Candidate-only，未确认的 2027/28 字段继续保持待核验状态。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-04T05:00:00Z",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "source.candidate.bristol.ai.program.20260904.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.uk.bristol",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

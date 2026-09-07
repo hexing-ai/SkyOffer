@@ -1,0 +1,137 @@
+{
+  "schema_version": "alpha_scope_source_snapshot.v1",
+  "source_authority": "QS Quacquarelli Symonds Limited",
+  "source_title": "QS World University Rankings 2027",
+  "source_url": "https://www.topuniversities.com/world-university-rankings?countries=gb",
+  "published_on": "2026-06-18",
+  "captured_at": "2026-09-03",
+  "capture_method": "manual_browser",
+  "captured_by": "actor.data_preparer.codex",
+  "visible_filters": {
+    "country_or_territory": "United Kingdom",
+    "year": "2027"
+  },
+  "visible_result_count": 93,
+  "extraction_boundary": "United Kingdom entries with displayed world rank from 1 through 100 inclusive",
+  "review_status": "candidate_unreviewed",
+  "selected_scope_domain_checks": [
+    {
+      "official_name": "Imperial College London",
+      "official_url": "https://www.imperial.ac.uk/",
+      "observed_page_title": "Imperial College London",
+      "registered_official_domain": "imperial.ac.uk"
+    },
+    {
+      "official_name": "UCL",
+      "official_url": "https://www.ucl.ac.uk/",
+      "observed_page_title": "Welcome to UCL | University College London",
+      "registered_official_domain": "ucl.ac.uk"
+    },
+    {
+      "official_name": "The University of Edinburgh",
+      "official_url": "https://www.ed.ac.uk/",
+      "observed_page_title": "The University of Edinburgh",
+      "registered_official_domain": "ed.ac.uk"
+    },
+    {
+      "official_name": "The University of Manchester",
+      "official_url": "https://www.manchester.ac.uk/",
+      "observed_page_title": "The University of Manchester",
+      "registered_official_domain": "manchester.ac.uk"
+    },
+    {
+      "official_name": "University of Bristol",
+      "official_url": "https://www.bristol.ac.uk/",
+      "observed_page_title": "Homepage | University of Bristol",
+      "registered_official_domain": "bristol.ac.uk"
+    },
+    {
+      "official_name": "The University of Sheffield",
+      "official_url": "https://sheffield.ac.uk/",
+      "observed_page_title": "Home | The University of Sheffield",
+      "registered_official_domain": "sheffield.ac.uk"
+    }
+  ],
+  "institutions": [
+    {
+      "official_name": "Imperial College London",
+      "qs_profile_url": "https://www.topuniversities.com/universities/imperial-college-london",
+      "qs_rank": 2
+    },
+    {
+      "official_name": "University of Oxford",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-oxford",
+      "qs_rank": 4
+    },
+    {
+      "official_name": "University of Cambridge",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-cambridge",
+      "qs_rank": 6
+    },
+    {
+      "official_name": "UCL",
+      "qs_profile_url": "https://www.topuniversities.com/universities/ucl",
+      "qs_rank": 8
+    },
+    {
+      "official_name": "The University of Edinburgh",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-edinburgh",
+      "qs_rank": 35
+    },
+    {
+      "official_name": "King's College London",
+      "qs_profile_url": "https://www.topuniversities.com/universities/kings-college-london",
+      "qs_rank": 37
+    },
+    {
+      "official_name": "The University of Manchester",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-manchester",
+      "qs_rank": 40
+    },
+    {
+      "official_name": "University of Bristol",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-bristol",
+      "qs_rank": 57
+    },
+    {
+      "official_name": "The London School of Economics and Political Science (LSE)",
+      "qs_profile_url": "https://www.topuniversities.com/universities/london-school-economics-political-science-lse",
+      "qs_rank": 62
+    },
+    {
+      "official_name": "University of Birmingham",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-birmingham",
+      "qs_rank": 68
+    },
+    {
+      "official_name": "University of Warwick",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-warwick",
+      "qs_rank": 68
+    },
+    {
+      "official_name": "University of Leeds",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-leeds",
+      "qs_rank": 77
+    },
+    {
+      "official_name": "University of Glasgow",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-glasgow",
+      "qs_rank": 80
+    },
+    {
+      "official_name": "The University of Sheffield",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-sheffield",
+      "qs_rank": 82
+    },
+    {
+      "official_name": "Durham University",
+      "qs_profile_url": "https://www.topuniversities.com/universities/durham-university",
+      "qs_rank": 85
+    },
+    {
+      "official_name": "University of Nottingham",
+      "qs_profile_url": "https://www.topuniversities.com/universities/university-nottingham",
+      "qs_rank": 97
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "schema_version": "program_catalog_detail.v1",
+  "dataset": {
+    "dataset_id": "dataset.internal_alpha.2027.v3",
+    "target_academic_year": "2027-28",
+    "program_count": 20,
+    "data_boundary": "internal_candidate_only",
+    "public_publishable": false,
+    "manifest_sha256": "4d82113ae34e0971e0810420d76665289390c6e2e6f71f7a47f8a67e47ef2dae"
+  },
+  "program": {
+    "program_ref": "program.hk.hku.msc_computer_science",
+    "official_name": "MSc in Computer Science",
+    "institution_name": "The University of Hong Kong",
+    "region": "hong_kong",
+    "official_program_url": "https://master.cds.hku.hk/msccs/",
+    "target_academic_year": "2027-28",
+    "degree_type": "taught_masters",
+    "primary_direction": "computer_science",
+    "secondary_directions": [],
+    "review_status": "domain_reviewed",
+    "has_unresolved_fields": true,
+    "reviewed_at": "2026-09-03T07:43:00Z",
+    "candidate_version_id": "version.phase4.batch8.1.1",
+    "pack_ref": "pack.hk.hku.msc_computer_science.2027.v1",
+    "pack_schema_version": "alpha_program_pack.v1",
+    "pack_canonical_sha256": "df53b6fadd8deb2cbe72e4dae91a8e83e1cb2b1c26fae3c8890703532f9c0d5f",
+    "evidence_count": 1,
+    "coverage": {
+      "confirmed": 6,
+      "unresolved": 9,
+      "total": 15
+    },
+    "fields": [
+      {
+        "field_key": "catalog.academic_year",
+        "label": "入学年份",
+        "group": "项目概况",
+        "display_text": "2027/28",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.degree_type",
+        "label": "学位类型",
+        "group": "项目概况",
+        "display_text": "Taught Master Programmes",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.department",
+        "label": "院系",
+        "group": "项目概况",
+        "display_text": "School of Computing and Data Science",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.duration",
+        "label": "学制",
+        "group": "项目概况",
+        "display_text": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.intake",
+        "label": "入学时间",
+        "group": "项目概况",
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.application_status",
+        "label": "申请状态",
+        "group": "项目概况",
+        "display_text": "Application for 2027/28 intake will open around October 2026.",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.primary_direction",
+        "label": "主方向",
+        "group": "专业方向",
+        "display_text": "Computer Science",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.secondary_directions",
+        "label": "相关方向",
+        "group": "专业方向",
+        "display_text": "MSc in Computer Science",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.degree",
+        "label": "学历要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.academic",
+        "label": "成绩要求",
+        "group": "申请门槛",
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.subject",
+        "label": "本科专业要求",
+        "group": "申请门槛",
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.prerequisite_courses",
+        "label": "先修课程",
+        "group": "申请门槛",
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.language",
+        "label": "语言要求",
+        "group": "申请门槛",
+        "display_text": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.work_experience",
+        "label": "工作经验",
+        "group": "申请门槛",
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.materials",
+        "label": "申请材料",
+        "group": "申请门槛",
+        "display_text": "2027/28 详细规则尚未在本次已核验官网来源中发布，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.msccs.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://master.cds.hku.hk/msccs/",
+            "page_title": "MSc in Computer Science Home - HKU, School of Computing and Data Science, Taught Master Programmes",
+            "excerpt": "MSc in Computer Science\nSchool of Computing and Data Science\nTaught Master Programmes\nComputer Science\nThe application for 2026/27 intake is now closed. Application for 2027/28 intake will open around October 2026.",
+            "source_version": "2027/28 intake notice manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T07:43:00Z",
+            "review_due_at": "2026-10-03T07:43:00Z",
+            "expires_at": "2026-12-02T07:43:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      }
+    ]
+  }
+}

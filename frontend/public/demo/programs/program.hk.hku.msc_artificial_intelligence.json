@@ -1,0 +1,488 @@
+{
+  "schema_version": "program_catalog_detail.v1",
+  "dataset": {
+    "dataset_id": "dataset.internal_alpha.2027.v3",
+    "target_academic_year": "2027-28",
+    "program_count": 20,
+    "data_boundary": "internal_candidate_only",
+    "public_publishable": false,
+    "manifest_sha256": "4d82113ae34e0971e0810420d76665289390c6e2e6f71f7a47f8a67e47ef2dae"
+  },
+  "program": {
+    "program_ref": "program.hk.hku.msc_artificial_intelligence",
+    "official_name": "Master of Science in Artificial Intelligence",
+    "institution_name": "The University of Hong Kong",
+    "region": "hong_kong",
+    "official_program_url": "https://www.mscai.hku.hk/",
+    "target_academic_year": "2027-28",
+    "degree_type": "taught_masters",
+    "primary_direction": "artificial_intelligence",
+    "secondary_directions": [],
+    "review_status": "domain_reviewed",
+    "has_unresolved_fields": true,
+    "reviewed_at": "2026-09-04T08:00:00Z",
+    "candidate_version_id": "version.hku.mscai.2027.refresh.v1",
+    "pack_ref": "pack.hk.hku.msc_artificial_intelligence.2027.v1",
+    "pack_schema_version": "alpha_program_pack.v1",
+    "pack_canonical_sha256": "b1f648e6b2a733d2b34316abe8583c4cb10028181505598154fa4e65116af623",
+    "evidence_count": 2,
+    "coverage": {
+      "confirmed": 8,
+      "unresolved": 7,
+      "total": 15
+    },
+    "fields": [
+      {
+        "field_key": "catalog.academic_year",
+        "label": "入学年份",
+        "group": "项目概况",
+        "display_text": "Application for 2027-28 intake opens on September 21, 2026.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.degree_type",
+        "label": "学位类型",
+        "group": "项目概况",
+        "display_text": "Master of Science in Artificial Intelligence",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.department",
+        "label": "院系",
+        "group": "项目概况",
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+            "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+            "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+            "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.duration",
+        "label": "学制",
+        "group": "项目概况",
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+            "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+            "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+            "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.intake",
+        "label": "入学时间",
+        "group": "项目概况",
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+            "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+            "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+            "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.application_status",
+        "label": "申请状态",
+        "group": "项目概况",
+        "display_text": "Application for 2027-28 intake opens on September 21, 2026.",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.primary_direction",
+        "label": "主方向",
+        "group": "专业方向",
+        "display_text": "Master of Science in Artificial Intelligence",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.secondary_directions",
+        "label": "相关方向",
+        "group": "专业方向",
+        "display_text": "Master of Science in Artificial Intelligence",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.degree",
+        "label": "学历要求",
+        "group": "申请门槛",
+        "display_text": "Applicants shall hold a Bachelor’s degree or an equivalent qualification.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.academic",
+        "label": "成绩要求",
+        "group": "申请门槛",
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+            "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+            "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+            "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.subject",
+        "label": "本科专业要求",
+        "group": "申请门槛",
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+            "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+            "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+            "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.prerequisite_courses",
+        "label": "先修课程",
+        "group": "申请门槛",
+        "display_text": "Applicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.language",
+        "label": "语言要求",
+        "group": "申请门槛",
+        "display_text": "IELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+            "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+            "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+            "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.work_experience",
+        "label": "工作经验",
+        "group": "申请门槛",
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+            "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+            "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+            "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.materials",
+        "label": "申请材料",
+        "group": "申请门槛",
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+            "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+            "source_version": "2027/28 admissions page verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+            "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+            "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+            "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+            "verified_at": "2026-09-04T07:55:00Z",
+            "review_due_at": "2026-09-21T00:00:00Z",
+            "expires_at": "2026-12-20T00:00:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      }
+    ]
+  }
+}

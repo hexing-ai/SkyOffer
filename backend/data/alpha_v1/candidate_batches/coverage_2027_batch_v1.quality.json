@@ -1,0 +1,34 @@
+{
+  "batch_canonical_sha256": "fe8b99d3292b22f4b9334ae01de007d5c4ade98dd1c4bcfbf21243f6664f09e7",
+  "batch_id": "candidate_batch.coverage.2027.20260904.v1",
+  "candidate_addition_count": 14,
+  "exception_field_count": 168,
+  "field_proposal_count": 212,
+  "gates": {
+    "batch_integrity": true,
+    "field_inventory": true,
+    "low_altitude_evidence": true,
+    "risk_disclosure": true,
+    "scope_and_domain": true,
+    "source_hashes": true,
+    "target_year_fail_closed": true,
+    "unique_identity": true
+  },
+  "high_risk_field_count": 112,
+  "issues": [],
+  "primary_direction_counts": {
+    "aerospace_engineering": 3,
+    "artificial_intelligence": 5,
+    "computer_science": 4,
+    "low_altitude_economy": 2
+  },
+  "projected_internal_program_count": 20,
+  "ready_for_batch_domain_review": true,
+  "ready_for_internal_release": false,
+  "region_counts": {
+    "hong_kong": 1,
+    "united_kingdom": 13
+  },
+  "schema_version": "internal_alpha_candidate_batch_quality.v1",
+  "source_count": 17
+}

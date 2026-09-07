@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyOffer｜第二阶段验收</title>
+  <style>
+    :root { color-scheme: light; --ink:#17233b; --muted:#667085; --line:#cbd3df; --panel:#fff; --paper:#f6f3ea; --bg:#e8edf3; --brand:#1d4ed8; --cyan:#73d2de; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:"PingFang SC","Microsoft YaHei",sans-serif; color:var(--ink); background:var(--bg); }
+    main { width:min(1180px,calc(100% - 32px)); margin:32px auto 56px; }
+    header { position:relative; overflow:hidden; padding:30px; border:1px solid #263b62; border-radius:6px; color:#fff; background-color:#14213d; background-image:linear-gradient(#ffffff0a 1px,transparent 1px),linear-gradient(90deg,#ffffff0a 1px,transparent 1px); background-size:24px 24px; box-shadow:8px 8px 0 #93a4bd; }
+    h1 { margin:0 0 10px; font:700 clamp(27px,4vw,42px)/1.15 "Songti SC","STSong",serif; letter-spacing:.02em; }
+    header p { margin:6px 0; max-width:850px; line-height:1.6; color:#e7efff; }
+    .boundary { margin-top:16px; padding:12px 14px; border-left:4px solid var(--cyan); background:#ffffff10; font-weight:600; }
+    .state-rail { display:grid; grid-template-columns:repeat(5,1fr); gap:1px; margin-top:20px; border:1px solid #ffffff38; background:#ffffff38; }
+    .state-rail span { padding:9px 8px; background:#14213d; font:700 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace; text-align:center; }
+    .state-rail span::before { content:""; display:block; width:22px; height:3px; margin:0 auto 7px; background:var(--state); }
+    .controls,.grid { display:grid; gap:16px; margin-top:18px; }
+    .controls { grid-template-columns:minmax(240px,1fr) auto; align-items:end; padding:20px; border:1px solid var(--line); border-radius:6px; background:var(--paper); }
+    .grid { grid-template-columns:1fr 1fr; }
+    .card { min-width:0; padding:20px; border:1px solid var(--line); border-radius:6px; background:var(--panel); box-shadow:4px 4px 0 #c5ceda; }
+    label,.eyebrow { display:block; margin-bottom:8px; color:var(--muted); font-size:13px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; }
+    select,button { min-height:44px; border-radius:4px; font:inherit; }
+    select { width:100%; padding:0 12px; border:1px solid #b8c5d8; background:#fff; color:var(--ink); }
+    button { padding:0 20px; border:0; color:#fff; background:var(--brand); font-weight:700; cursor:pointer; }
+    button:disabled { opacity:.55; cursor:wait; }
+    select:focus-visible,button:focus-visible { outline:3px solid #f6c344; outline-offset:3px; }
+    h2 { margin:0 0 14px; font-size:18px; }
+    pre { min-height:180px; max-height:510px; margin:0; padding:15px; overflow:auto; border-radius:10px; color:#dbeafe; background:#101828; font:12px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace; white-space:pre-wrap; overflow-wrap:anywhere; }
+    .result { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-bottom:14px; }
+    .metric { padding:12px; border-left:3px solid #93a4bd; background:#f1f5f9; }
+    .metric span { display:block; color:var(--muted); font-size:12px; }
+    .metric strong { display:block; margin-top:5px; overflow-wrap:anywhere; }
+    .ok { color:#067647; } .bad { color:#b42318; }
+    .error { padding:14px; border:1px solid #f1aeb5; border-radius:4px; color:#842029; background:#f8d7da; }
+    @media (max-width:800px) { .grid,.controls { grid-template-columns:1fr; } button { width:100%; } .state-rail { grid-template-columns:1fr; } .state-rail span::before { display:inline-block; margin:0 8px 2px 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow" style="color:#bed2ff">SkyOffer · Phase 2</div>
+    <h1>确定性门槛规则引擎验收</h1>
+    <p>固定合成档案与手工规则经过 Pydantic 校验和纯函数求值，输出五态、节点轨迹、原因码、版本与哈希。</p>
+    <div class="boundary">本阶段只使用合成数据，不读取真实院校项目，不生成选校建议，不调用 DeepSeek 或其他模型裁决门槛。</div>
+    <div class="state-rail" aria-label="五态门槛结果">
+      <span style="--state:#46c28b">MET</span><span style="--state:#ef6a6a">UNMET</span><span style="--state:#f5c451">MISSING</span><span style="--state:#b18cff">MANUAL</span><span style="--state:#93a4bd">N/A</span>
+    </div>
+  </header>
+
+  <section class="controls">
+    <div>
+      <label for="caseSelect">固定验收案例</label>
+      <select id="caseSelect"></select>
+    </div>
+    <button id="runButton" type="button">执行真实本地链路</button>
+  </section>
+
+  <section class="card" aria-label="正式金标指标" style="margin-top:18px">
+    <h2>正式金标 v0.1.0</h2>
+    <div class="result">
+      <div class="metric"><span>独立复核</span><strong>150 / 150</strong></div>
+      <div class="metric"><span>总体准确率</span><strong>100%</strong></div>
+      <div class="metric"><span>错误 MET 率</span><strong>0%</strong></div>
+      <div class="metric"><span>明确 UNMET → MET</span><strong>0</strong></div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <h2>Input 与规则</h2>
+      <pre id="inputView"></pre>
+    </article>
+    <article class="card">
+      <h2>Expected / Actual</h2>
+      <div id="summary"></div>
+      <pre id="outputView">尚未执行</pre>
+    </article>
+  </section>
+</main>
+<script>
+const baseProfile = () => ({
+  schema_version:"applicant_eligibility_input.v1", profile_ref:"profile.synthetic.showcase",
+  applicant_region:"china_mainland", degree_level:"bachelor", degree_status:"in_progress", graduation_year:2027,
+  degree_subject_tags:["automation"], institution_tags:["china_mainland_recognized"],
+  academic_record:{value:"82.4",scale:"100"},
+  course_tags:[{course_ref:"course.python",tags:["programming"]},{course_ref:"course.ml",tags:["machine_learning"]}],
+  language_results:[{test_type:"ielts",total:"7.0",components:{listening:"7.0",reading:"7.0",writing:"6.0",speaking:"6.5"}}],
+  work_experience_months:12, materials:{portfolio:true,interview:null,recommendation_letters:true}
+});
+const wrap = (rule, applicability=null, type="academic") => ({
+  schema_version:"requirement_rule_set.v1",ruleset_id:"ruleset.synthetic.showcase",ruleset_version:"1.0.0",
+  engine_contract_version:"requirement_engine.v1",synthetic_program_ref:"program.synthetic.showcase",
+  requirements:[{requirement_id:"requirement.showcase",requirement_type:type,is_hard:true,applicability,rule,
+    evidence_fixture_ids:["evidence.synthetic.showcase"],display_text:"仅用于第二阶段验收的合成规则"}]
+});
+const numeric = (minimum="80",scale="100") => ({node_id:"node.academic",operator:"numeric_min",fact_path:"academic_record.value",minimum,scale});
+const cases = [
+  {id:"met",label:"满足｜82.4/100 ≥ 80/100",expected:"met",profile:baseProfile(),rules:wrap(numeric())},
+  {id:"boundary_equal",label:"成绩边界｜80/100 恰好等于 80/100",expected:"met",profile:{...baseProfile(),academic_record:{value:"80",scale:"100"}},rules:wrap(numeric())},
+  {id:"unmet",label:"不满足｜79/100 < 80/100",expected:"unmet",profile:{...baseProfile(),academic_record:{value:"79",scale:"100"}},rules:wrap(numeric())},
+  {id:"missing",label:"信息缺失｜没有成绩",expected:"missing_information",profile:{...baseProfile(),academic_record:null},rules:wrap(numeric())},
+  {id:"manual",label:"待人工核验｜3.4/4 与 80/100 不可擅自换算",expected:"manual_review",profile:{...baseProfile(),academic_record:{value:"3.4",scale:"4"}},rules:wrap(numeric())},
+  {id:"na",label:"不适用｜规则只适用于香港申请人",expected:"not_applicable",profile:baseProfile(),rules:wrap(numeric(),{node_id:"node.applicability",operator:"enum_in",fact_path:"applicant_region",allowed_values:["hong_kong"]})},
+  {id:"and",label:"AND｜明确不满足优先于信息缺失",expected:"unmet",profile:baseProfile(),rules:wrap({node_id:"node.all",operator:"all",children:[{node_id:"node.year",operator:"numeric_min",fact_path:"graduation_year",minimum:2030},{node_id:"node.interview",operator:"boolean_is",fact_path:"materials.interview",expected:true}]})},
+  {id:"or",label:"OR｜已有满足优先于信息缺失",expected:"met",profile:baseProfile(),rules:wrap({node_id:"node.any",operator:"any",children:[{node_id:"node.year",operator:"numeric_min",fact_path:"graduation_year",minimum:2027},{node_id:"node.interview",operator:"boolean_is",fact_path:"materials.interview",expected:true}]})},
+  {id:"language",label:"语言｜总分满足但写作单项不足",expected:"unmet",profile:baseProfile(),rules:wrap({node_id:"node.language",operator:"language_minimum",test_type:"ielts",total_min:"6.5",component_mins:{writing:"6.5"}},null,"language")},
+  {id:"case",label:"来源分支｜只计算中国大陆规则",expected:"met",profile:baseProfile(),rules:wrap({node_id:"node.case",operator:"case",selector_path:"applicant_region",cases:{china_mainland:{...numeric(),node_id:"node.china"}},default:{node_id:"node.default",operator:"manual_review"}})},
+  {id:"invalid",label:"非法规则｜未知 operator 必须安全拒绝",expected_error:"RULE_VALIDATION_FAILED",profile:baseProfile(),rules:wrap({...numeric(),operator:"python_eval"})}
+];
+const select=document.getElementById("caseSelect"), inputView=document.getElementById("inputView"), outputView=document.getElementById("outputView"), summary=document.getElementById("summary"), button=document.getElementById("runButton");
+for(const item of cases){const option=document.createElement("option");option.value=item.id;option.textContent=item.label;select.appendChild(option)}
+const selected=()=>cases.find(item=>item.id===select.value);
+function renderInput(){const item=selected();const expected=item.expected_error||item.expected;inputView.textContent=JSON.stringify({profile:item.profile,rule_set:item.rules},null,2);summary.innerHTML=`<div class="result"><div class="metric"><span>Expected</span><strong>${expected}</strong></div><div class="metric"><span>Actual</span><strong>待执行</strong></div></div>`;outputView.textContent="尚未执行"}
+select.addEventListener("change",renderInput);renderInput();
+button.addEventListener("click",async()=>{const item=selected();button.disabled=true;button.textContent="执行中…";outputView.textContent="请求中…";try{const response=await fetch("/api/v1/requirement-evaluations",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({profile:item.profile,rule_set:item.rules})});const data=await response.json();if(!response.ok){const error=data.error||{};const actual=error.code||"UNKNOWN_ERROR";const matched=actual===item.expected_error;summary.innerHTML=`<div class="result"><div class="metric"><span>Expected Error</span><strong>${item.expected_error||"无"}</strong></div><div class="metric"><span>Actual Error</span><strong class="${matched?"ok":"bad"}">${actual}</strong></div></div><div class="error">${actual} / ${error.request_id||"无 request ID"}<br>${error.message||"请求失败"}</div>`}else{const actual=data.overall_hard_requirement_status;const matched=actual===item.expected;summary.innerHTML=`<div class="result"><div class="metric"><span>Expected</span><strong>${item.expected}</strong></div><div class="metric"><span>Actual</span><strong class="${matched?"ok":"bad"}">${actual}</strong></div><div class="metric"><span>Engine</span><strong>${data.engine_version}</strong></div><div class="metric"><span>Evaluation ID</span><strong>${data.evaluation_id}</strong></div></div>`}outputView.textContent=JSON.stringify(data,null,2)}catch(error){summary.innerHTML=`<div class="error">NETWORK_ERROR<br>${String(error)}</div>`;outputView.textContent="请求失败"}finally{button.disabled=false;button.textContent="执行真实本地链路"}});
+</script>
+</body>
+</html>

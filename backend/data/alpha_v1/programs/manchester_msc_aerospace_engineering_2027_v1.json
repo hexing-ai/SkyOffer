@@ -1,0 +1,691 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.7 Manchester Aerospace 2027 候选；Advanced Control 和 Bristol 阻塞项目未生成 Pack，2026 参考学费未进入 Registry。",
+    "fields": [
+      {
+        "display_text": "Year of entry: 2027",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.academic_year",
+          "reason": null,
+          "review_note": "官网以 2027 entry 表述目标入学周期，映射为 2027-28 学年。",
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "academic_year": "2027-28"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Master of Science",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Department of Mechanical and Aerospace Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.department",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "department_name": "Department of Mechanical and Aerospace Engineering"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Duration: 12 months [Full-Time]",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.duration",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "months": 12,
+            "study_mode": "full_time"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "commencing each year in September",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.intake",
+          "reason": null,
+          "review_note": "2027 entry 页面同页说明本课程每年 September 开始，映射为 2027 年 9 月入学。",
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "intake_months": [
+              9
+            ]
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "We operate a non-staged admissions process for this programme.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.application_status",
+          "reason": null,
+          "review_note": "官网提供 Apply Online 且采用 non-staged admissions；未公布统一截止日，名额可能提前用尽。",
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.admissions.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "closes_on": null,
+            "opens_on": null,
+            "status": "open"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "MSc Aerospace Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.manchester.aerospace.curriculum.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": "项目名称、航空院系和航空设计、空气动力学及航天课程共同支持航空工程主方向。",
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.program.2027.v1",
+            "evidence.manchester.aerospace.curriculum.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "aerospace_engineering"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "MSc Aerospace Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.curriculum.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": "保持 8B 复核矩阵口径；不因单门机器人、直升机课程或无人机职业示例推断低空次方向。",
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.curriculum.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.degree",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+              "evidence_fixture_ids": [
+                "evidence.manchester.aerospace.admissions.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.manchester.aerospace.degree.2027.v1",
+              "requirement_type": "degree",
+              "rule": {
+                "children": [
+                  {
+                    "allowed_values": [
+                      "bachelor"
+                    ],
+                    "fact_path": "degree_level",
+                    "node_id": "node.manchester.aerospace.degree.bachelor",
+                    "operator": "enum_in"
+                  },
+                  {
+                    "node_id": "node.manchester.aerospace.degree.equivalence",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.manchester.aerospace.degree.all",
+                "operator": "all"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.academic",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+              "evidence_fixture_ids": [
+                "evidence.manchester.aerospace.admissions.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.manchester.aerospace.academic.2027.v1",
+              "requirement_type": "academic",
+              "rule": {
+                "node_id": "node.manchester.aerospace.academic.equivalence",
+                "operator": "manual_review",
+                "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.subject",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+              "evidence_fixture_ids": [
+                "evidence.manchester.aerospace.admissions.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.manchester.aerospace.subject.2027.v1",
+              "requirement_type": "subject",
+              "rule": {
+                "children": [
+                  {
+                    "accepted_values": [
+                      "aerospace_engineering",
+                      "mechanical_engineering",
+                      "electronic_engineering",
+                      "automation",
+                      "computer_science",
+                      "artificial_intelligence",
+                      "data_science"
+                    ],
+                    "fact_path": "degree_subject_tags",
+                    "minimum_matches": 1,
+                    "node_id": "node.manchester.aerospace.subject.tags",
+                    "operator": "set_intersects"
+                  },
+                  {
+                    "node_id": "node.manchester.aerospace.subject.other",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.manchester.aerospace.subject.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "官网要求审核 key relevant modules 的成绩，但未列出可无损编码的课程名称、数量或最低分，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": {
+            "detail": "官网要求审核 key relevant modules 的成绩，但未列出可无损编码的课程名称、数量或最低分，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_AMBIGUOUS"
+          },
+          "requirements": [],
+          "review_note": "官网要求审核 key relevant modules 的成绩，但未列出可无损编码的课程名称、数量或最低分，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "IELTS: overall score of 7.0 with no sub-test below 6.5",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.language.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.language",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "IELTS: overall score of 7.0 with no sub-test below 6.5",
+              "evidence_fixture_ids": [
+                "evidence.manchester.aerospace.language.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.manchester.aerospace.language.2027.v1",
+              "requirement_type": "language",
+              "rule": {
+                "children": [
+                  {
+                    "component_mins": {
+                      "listening": "6.5",
+                      "reading": "6.5",
+                      "speaking": "6.5",
+                      "writing": "6.5"
+                    },
+                    "node_id": "node.manchester.aerospace.language.ielts",
+                    "operator": "language_minimum",
+                    "test_type": "ielts",
+                    "total_min": "7.0"
+                  },
+                  {
+                    "children": [
+                      {
+                        "component_mins": {
+                          "listening": "22",
+                          "reading": "22",
+                          "speaking": "22",
+                          "writing": "22"
+                        },
+                        "node_id": "node.manchester.aerospace.language.toefl",
+                        "operator": "language_minimum",
+                        "test_type": "toefl",
+                        "total_min": "100"
+                      },
+                      {
+                        "node_id": "node.manchester.aerospace.language.toefl_route",
+                        "operator": "manual_review",
+                        "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                      }
+                    ],
+                    "node_id": "node.manchester.aerospace.language.toefl_all",
+                    "operator": "all"
+                  },
+                  {
+                    "component_mins": {
+                      "listening": "70",
+                      "reading": "70",
+                      "speaking": "70",
+                      "writing": "70"
+                    },
+                    "node_id": "node.manchester.aerospace.language.pte",
+                    "operator": "language_minimum",
+                    "test_type": "pte",
+                    "total_min": "76"
+                  }
+                ],
+                "node_id": "node.manchester.aerospace.language.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.language.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "官网未设置通用工作经验年限；毕业超过三年的申请人需提交 CV，相关经验用于个案评估。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.work_experience",
+          "reason": {
+            "detail": "官网未设置通用工作经验年限；毕业超过三年的申请人需提交 CV，相关经验用于个案评估。",
+            "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+          },
+          "requirements": [],
+          "review_note": "官网未设置通用工作经验年限；毕业超过三年的申请人需提交 CV，相关经验用于个案评估。",
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "官网要求成绩单、条件性加权均分文件、学位证或在读课程清单等材料，并明确不要求推荐信和个人陈述；当前材料布尔合同不能无损表达完整清单，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "官网要求成绩单、条件性加权均分文件、学位证或在读课程清单等材料，并明确不要求推荐信和个人陈述；当前材料布尔合同不能无损表达完整清单，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+          },
+          "requirements": [],
+          "review_note": "官网要求成绩单、条件性加权均分文件、学位证或在读课程清单等材料，并明确不要求推荐信和个人陈述；当前材料布尔合同不能无损表达完整清单，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.manchester.aerospace.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      }
+    ],
+    "request_id": "request.phase4.batch8.7.manchester.aerospace.v1"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T22:00:00+08:00",
+      "excerpt": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.\nPlease note that we consider grades achieved in key relevant modules in your undergraduate degree as well as the overall degree result.\nWe operate a non-staged admissions process for this programme.\nProvided your application is complete, we aim to give you a decision on your application within 2 months from the date on which it was submitted.\nApplicants with a conditional offer must provide evidence that they have met all conditions by 31 July 2027.\nWe require the following documents before we can consider your application: transcript and translations where required; weighted average verification where required; final-year module list if still studying; degree certificate if graduated; and a CV if you graduated more than three years ago.\nReferences and personal statements are not required for your application for this programme.\nIf you graduated more than three years ago, we will also consider the information contained on your CV and any relevant work experience to assess if you are still able to fulfil the entry criteria.\nApplications for deferred entry are not accepted for this course.",
+      "expires_at": "2026-12-02T22:15:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.manchester.aerospace.admissions.2027.v1",
+      "official_domain": "www.manchester.ac.uk",
+      "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+      "program_id": "program.uk.manchester.msc_aerospace_engineering",
+      "review_due_at": "2026-10-03T22:15:00+08:00",
+      "reviewed_source_role": "admissions_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "586b6f6b8ffb973c50046a67f6a618407d641e615048773e20e145e95e5f95ba",
+      "source_type": "official_program_page",
+      "source_version": "2027 entry page manually verified on 2026-09-03",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+      "verified_at": "2026-09-03T22:15:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T22:00:00+08:00",
+      "excerpt": "Our comprehensive course prepares you for a career in everything from helicopters and heat transfer to aerodynamics and aerospace design.\nYou can specialise in computational fluid dynamics, flow diagnostics and measurements, aero structures, satellite design.\nAerospace Group Design Project (30 Credits, Mandatory)\nDissertation (Aerospace Engineering) (60 Credits, Mandatory)\nExperimental Methods (MSc Aerospace Engineering) (15 Credits, Mandatory)\nAdvanced Computational Fluid Dynamics (15 Credits, Optional)\nSpace Systems (15 Credits, Optional)\nHelicopters (15 Credits, Optional)",
+      "expires_at": "2026-12-02T22:15:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.manchester.aerospace.curriculum.2027.v1",
+      "official_domain": "www.manchester.ac.uk",
+      "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+      "program_id": "program.uk.manchester.msc_aerospace_engineering",
+      "review_due_at": "2026-10-03T22:15:00+08:00",
+      "reviewed_source_role": "curriculum",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "aec4d7123ffacda8c4e364b5ce052a51ae3cc1fa8a1843f9370b844d5d55c525",
+      "source_type": "official_program_page",
+      "source_version": "2027 entry page manually verified on 2026-09-03",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+      "verified_at": "2026-09-03T22:15:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T22:00:00+08:00",
+      "excerpt": "IELTS: overall score of 7.0 with no sub-test below 6.5\nTOEFL iBT: at least 100 overall with no sub-test less than 22. We do not accept 'MyBestScore'. We do not accept TOEFL iBT Home Edition.\nPearson PTE: at least 76 overall with no sub-test below 70\nYour English Language test report must be valid on the start date of the course.",
+      "expires_at": "2026-12-02T22:15:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.manchester.aerospace.language.2027.v1",
+      "official_domain": "www.manchester.ac.uk",
+      "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+      "program_id": "program.uk.manchester.msc_aerospace_engineering",
+      "review_due_at": "2026-10-03T22:15:00+08:00",
+      "reviewed_source_role": "language_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "82f03cff4956b9724c39aa5f20ea81777f92df7d5d455e4eb91dc1d19ab63799",
+      "source_type": "official_program_page",
+      "source_version": "2027 entry page manually verified on 2026-09-03",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+      "verified_at": "2026-09-03T22:15:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T22:00:00+08:00",
+      "excerpt": "Master of Science\nMSc Aerospace Engineering\nYear of entry: 2027\nDuration: 12 months [Full-Time]\nFull-time: In person\nDepartment of Mechanical and Aerospace Engineering\nThe Aerospace Engineering MSc is a full-time course which is studied over 12 months, commencing each year in September.",
+      "expires_at": "2026-12-02T22:15:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.manchester.aerospace.program.2027.v1",
+      "official_domain": "www.manchester.ac.uk",
+      "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+      "program_id": "program.uk.manchester.msc_aerospace_engineering",
+      "review_due_at": "2026-10-03T22:15:00+08:00",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "b5f15bdd276fa4acf5e5d206afc550056ee1ef3311df8c699f6c873b19975e55",
+      "source_type": "official_program_page",
+      "source_version": "2027 entry page manually verified on 2026-09-03",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+      "verified_at": "2026-09-03T22:15:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "975eea3fca34ea127c125bbc323703c420b802b766278e3acbe83a790427cd23",
+  "pack_canonical_sha256": "b85dc0653cce1a767eb39541f4ee658669984bc8c5af71f1d46d9e9336ad0e97",
+  "pack_ref": "pack.uk.manchester.msc_aerospace_engineering.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.7 航空字段隔离、低空课程门禁与目标学年分流验证的 Manchester Aerospace Candidate-only Program。",
+    "degree_type": "taught_masters",
+    "institution_name": "The University of Manchester",
+    "official_domain_aliases": [],
+    "official_name": "MSc Aerospace Engineering",
+    "official_program_url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+    "program_ref": "program.uk.manchester.msc_aerospace_engineering",
+    "region": "united_kingdom",
+    "registered_official_domain": "manchester.ac.uk"
+  },
+  "review": {
+    "prepared_at": "2026-09-03T22:00:00+08:00",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人确认 8.7 来源、分类、字段与逐项目分流；仅 Manchester Aerospace 进入 Candidate-only 生产，低空门禁和目标学年阻塞项保持关闭。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-03T22:15:00+08:00",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "evidence.manchester.aerospace.admissions.2027.v1",
+    "evidence.manchester.aerospace.curriculum.2027.v1",
+    "evidence.manchester.aerospace.language.2027.v1",
+    "evidence.manchester.aerospace.program.2027.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.uk.manchester",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SkyOffer · 选校建议台</title>
+  <link rel="stylesheet" href="/static/advice.css">
+</head>
+<body>
+  <a class="skip-link" href="#planner">跳到申请信息</a>
+  <header class="masthead">
+    <a class="wordmark" href="/advice" aria-label="SkyOffer 选校建议首页">
+      <span class="wordmark-mark" aria-hidden="true">
+        <svg viewBox="0 0 36 36" role="presentation">
+          <path d="M8.5 25.5c4.8-.8 7.2-3.7 9.3-7.1 2.2-3.5 4.6-6.1 9.7-8"></path>
+          <path d="m22.5 9.5 5.5.6-1.4 5.3"></path>
+          <circle cx="8.5" cy="25.5" r="1.7"></circle>
+        </svg>
+      </span>
+      <span>SkyOffer</span>
+    </a>
+    <div class="route-line" aria-label="当前流程">
+      <span class="route-dot active"></span><span>填写档案</span>
+      <span class="route-segment"></span>
+      <span class="route-dot"></span><span>核对门槛</span>
+      <span class="route-segment"></span>
+      <span class="route-dot"></span><span>生成建议</span>
+    </div>
+    <span class="data-chip"><i></i> 20 项内部 Alpha 数据</span>
+  </header>
+
+  <main class="workspace">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">2027 ENTRY · TAUGHT MASTER'S</p>
+      <h1 id="page-title">把选校从“感觉”<br>变成一张可核验的航图。</h1>
+      <p class="lede">先看你是否满足官网门槛，再给出冲刺、主申、相对稳妥或待核验建议。每一个判断，都能展开看到院校原文。</p>
+      <div class="boundary-note">
+        <strong>不是录取预测</strong>
+        <span>分层只表示门槛满足度与信息完整度，“相对稳妥”也不等于保底。</span>
+      </div>
+    </section>
+
+    <section class="planner" id="planner">
+      <form id="advice-form" class="input-panel">
+        <div class="panel-heading">
+          <div><span class="kicker">INPUT / 申请档案</span><h2>先告诉我你的基本情况</h2></div>
+          <span class="required-note">* 必填</span>
+        </div>
+
+        <fieldset>
+          <legend>学业背景</legend>
+          <div class="grid two">
+            <label>当前状态 *
+              <select id="education-status" required>
+                <option value="undergraduate">本科在读</option>
+                <option value="graduated">本科已毕业</option>
+                <option value="other">其他</option>
+              </select>
+            </label>
+            <label>预计 / 实际毕业年份 *
+              <input id="graduation-year" type="number" min="2000" max="2035" value="2027" required>
+            </label>
+          </div>
+          <label>本科院校 *
+            <input id="institution" maxlength="120" placeholder="例如：华南理工大学" required>
+          </label>
+          <label>院校识别状态
+            <select id="institution-recognition">
+              <option value="unknown">不确定 / 交由人工核验</option>
+              <option value="mainland_recognized">已确认受认可</option>
+              <option value="mainland_priority">已确认属于项目优先院校</option>
+            </select>
+            <small>不知道就选“不确定”，系统不会自行推断院校层级。</small>
+          </label>
+          <div class="grid two">
+            <label>本科专业 *
+              <input id="major" maxlength="120" placeholder="例如：自动化" required>
+            </label>
+            <label>学位类型 *
+              <input id="degree-type" maxlength="120" value="工学学士" required>
+            </label>
+          </div>
+          <div class="grade-row">
+            <label>当前成绩 *<input id="grade-value" type="number" min="0" step="0.01" placeholder="82.5" required></label>
+            <span>/</span>
+            <label>满分 *<input id="grading-scale" type="number" min="1" step="0.01" value="100" required></label>
+          </div>
+          <label>核心课程
+            <textarea id="courses" rows="3" placeholder="每行一门，例如：&#10;高等数学&#10;Python 程序设计&#10;自动控制原理"></textarea>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>语言与经历</legend>
+          <div class="grid two">
+            <label>语言考试
+              <select id="language-type">
+                <option value="">尚未考试</option>
+                <option value="IELTS">IELTS</option>
+                <option value="TOEFL">TOEFL</option>
+                <option value="PTE">PTE</option>
+              </select>
+            </label>
+            <label>总分<input id="language-total" type="number" min="0" step="0.5" placeholder="7.0"></label>
+          </div>
+          <div class="grid four compact">
+            <label>听力<input id="listening" type="number" min="0" step="0.5"></label>
+            <label>阅读<input id="reading" type="number" min="0" step="0.5"></label>
+            <label>写作<input id="writing" type="number" min="0" step="0.5"></label>
+            <label>口语<input id="speaking" type="number" min="0" step="0.5"></label>
+          </div>
+          <label>相关工作经验（月）<input id="work-months" type="number" min="0" max="1200" placeholder="没有可填 0；不确定可留空"></label>
+          <label>代表经历标题<input id="experience-title" maxlength="120" placeholder="例如：无人机视觉导航课程设计"></label>
+          <label>你具体做了什么<textarea id="experience-description" maxlength="800" rows="3" placeholder="说明职责、使用的方法和结果；没有可留空"></textarea></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>目标范围 *</legend>
+          <p class="field-help">至少选择一个地区和一个方向。</p>
+          <div class="choice-group" aria-label="目标地区">
+            <label class="choice"><input type="checkbox" name="region" value="hong_kong" checked><span>香港</span></label>
+            <label class="choice"><input type="checkbox" name="region" value="united_kingdom" checked><span>英国</span></label>
+          </div>
+          <div class="choice-group directions" aria-label="目标方向">
+            <label class="choice"><input type="checkbox" name="direction" value="computer_science" checked><span>计算机科学</span></label>
+            <label class="choice"><input type="checkbox" name="direction" value="artificial_intelligence" checked><span>人工智能</span></label>
+            <label class="choice"><input type="checkbox" name="direction" value="aerospace_engineering"><span>航空工程</span></label>
+            <label class="choice"><input type="checkbox" name="direction" value="low_altitude_economy"><span>低空经济</span></label>
+          </div>
+          <label>职业目标<textarea id="career-goal" maxlength="500" rows="2" placeholder="例如：希望从事自主飞行系统或智能感知工作"></textarea></label>
+        </fieldset>
+
+        <details class="advanced-facts">
+          <summary>补充材料状态（可选）</summary>
+          <div class="grid three">
+            <label>作品集<select id="portfolio"><option value="">不确定</option><option value="true">已准备</option><option value="false">未准备</option></select></label>
+            <label>面试准备<select id="interview"><option value="">不确定</option><option value="true">已准备</option><option value="false">未准备</option></select></label>
+            <label>推荐信<select id="recommendation"><option value="">不确定</option><option value="true">已准备</option><option value="false">未准备</option></select></label>
+          </div>
+        </details>
+
+        <div id="form-error" class="message error" role="alert" hidden></div>
+        <button id="submit-button" class="primary-action" type="submit">
+          <span>生成可核验选校建议</span><b aria-hidden="true">→</b>
+        </button>
+        <p class="privacy-note">申请信息仅用于本次分析；模型不能修改规则结论。</p>
+      </form>
+
+      <section class="output-panel" aria-live="polite" aria-busy="false">
+        <div id="empty-state" class="empty-state">
+          <div class="radar" aria-hidden="true"><i></i><i></i><span></span></div>
+          <p class="kicker">OUTPUT / 建议航图</p>
+          <h2>结果会在这里形成一条申请航线</h2>
+          <p>填写左侧档案后，系统会逐项核对已审核项目的学位、成绩、专业、课程和语言门槛。</p>
+          <ul>
+            <li><span class="legend-dot safe"></span>相对稳妥</li>
+            <li><span class="legend-dot target"></span>主申</li>
+            <li><span class="legend-dot sprint"></span>冲刺</li>
+            <li><span class="legend-dot verify"></span>待核验</li>
+          </ul>
+        </div>
+        <div id="loading-state" class="loading-state" hidden>
+          <div class="scan-line"></div>
+          <p class="kicker">CHECKING OFFICIAL EVIDENCE</p>
+          <h2>正在逐项核对官网门槛…</h2>
+          <p id="loading-copy">先运行确定性规则，再由 DeepSeek 解释结果。</p>
+        </div>
+        <div id="results-state" hidden>
+          <div class="results-heading">
+            <div><p class="kicker">OUTPUT / 建议航图</p><h2>你的项目分层</h2></div>
+            <button id="edit-button" class="text-button" type="button">修改档案</button>
+          </div>
+          <div id="dataset-meta" class="dataset-meta"></div>
+          <div id="tier-summary" class="tier-summary"></div>
+          <div id="result-list" class="result-list"></div>
+          <div id="result-disclaimer" class="result-disclaimer"></div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <script src="/static/advice.js" defer></script>
+</body>
+</html>

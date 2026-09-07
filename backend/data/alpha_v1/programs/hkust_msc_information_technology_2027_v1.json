@@ -1,0 +1,664 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.2 HKUST Information Technology 候选；项目规则与共用政策分别引用并 fail closed。",
+    "fields": [
+      {
+        "display_text": "Postgraduate Programs 2027/28",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.academic_year",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "academic_year": "2027-28"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Master of Science in Information Technology",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Department of Computer Science and Engineering",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.department",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "department_name": "Department of Computer Science and Engineering"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Full-time: 1 year",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.duration",
+          "reason": null,
+          "review_note": "同页同时确认全日制 1 年与非全日制 2 年；结构化主时长按全日制 12 个月，模式记 mixed。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.catalog.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "months": 12,
+            "study_mode": "mixed"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "September 2027",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.intake",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "intake_months": [
+              9
+            ]
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "All applications are considered on a competitive and rolling basis.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.application_status",
+          "reason": null,
+          "review_note": "官方页存在多轮日期；当前合同只结构化 rolling，不压缩为单一 closes_on。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.program.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "closes_on": null,
+            "opens_on": null,
+            "status": "rolling"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Information Technology",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": "项目名称直接支持Information Technology主方向。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.catalog.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "computer_science"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "Master of Science in Information Technology",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": "保持已复核候选矩阵口径，不从课程列表推断次方向。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.catalog.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "Obtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.degree",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "Obtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscit.admissions_policy.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscit.degree.2027.v1",
+              "requirement_type": "degree",
+              "rule": {
+                "children": [
+                  {
+                    "allowed_values": [
+                      "bachelor"
+                    ],
+                    "fact_path": "degree_level",
+                    "node_id": "node.hkust.mscit.degree.bachelor",
+                    "operator": "enum_in"
+                  },
+                  {
+                    "node_id": "node.hkust.mscit.degree.recognition",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscit.degree.all",
+                "operator": "all"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.admissions_policy.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 3,
+            "evidence_id": "evidence.hkust.mscit.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.academic",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "evidence.hkust.mscit.catalog.2027.v1",
+            "evidence.hkust.mscit.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Applicants must possess a bachelor’s degree in Computer Engineering or Computer Science, or a related field from a recognized university or tertiary institution.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.program.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.subject",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "Applicants must possess a bachelor’s degree in Computer Engineering or Computer Science, or a related field from a recognized university or tertiary institution.",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscit.program.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscit.subject.2027.v1",
+              "requirement_type": "subject",
+              "rule": {
+                "children": [
+                  {
+                    "accepted_values": [
+                      "computer_science",
+                      "electronic_engineering",
+                      "artificial_intelligence",
+                      "data_science"
+                    ],
+                    "fact_path": "degree_subject_tags",
+                    "minimum_matches": 1,
+                    "node_id": "node.hkust.mscit.subject.tags",
+                    "operator": "set_intersects"
+                  },
+                  {
+                    "node_id": "node.hkust.mscit.subject.related",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscit.subject.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 3,
+            "evidence_id": "evidence.hkust.mscit.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "evidence.hkust.mscit.catalog.2027.v1",
+            "evidence.hkust.mscit.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "IELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.language",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "IELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *",
+              "evidence_fixture_ids": [
+                "evidence.hkust.mscit.admissions_policy.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hkust.mscit.language.2027.v1",
+              "requirement_type": "language",
+              "rule": {
+                "children": [
+                  {
+                    "component_mins": {
+                      "listening": "5.5",
+                      "reading": "5.5",
+                      "speaking": "5.5",
+                      "writing": "5.5"
+                    },
+                    "node_id": "node.hkust.mscit.language.ielts",
+                    "operator": "language_minimum",
+                    "test_type": "ielts",
+                    "total_min": "6.5"
+                  },
+                  {
+                    "node_id": "node.hkust.mscit.language.other_routes",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hkust.mscit.language.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.admissions_policy.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 3,
+            "evidence_id": "evidence.hkust.mscit.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.work_experience",
+          "reason": {
+            "detail": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "evidence.hkust.mscit.catalog.2027.v1",
+            "evidence.hkust.mscit.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "材料要求未在本次已核验的完整官网来源正文中确认，保留人工核验。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hkust.mscit.catalog.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 3,
+            "evidence_id": "evidence.hkust.mscit.program.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "manual_review",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "材料要求未在本次已核验的完整官网来源正文中确认，保留人工核验。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "材料要求未在本次已核验的完整官网来源正文中确认，保留人工核验。",
+          "reviewed_source_ids": [
+            "evidence.hkust.mscit.admissions_policy.2027.v1",
+            "evidence.hkust.mscit.catalog.2027.v1",
+            "evidence.hkust.mscit.program.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      }
+    ],
+    "request_id": "request.phase4.batch8.2.hkust.mscit.v1"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T16:05:00+08:00",
+      "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Information Technology\nMaster of Science in Information Technology\nBoth full- and part-time\nFull-time: 1 year\nPart-time: 2 years\nDepartment of Computer Science and Engineering",
+      "expires_at": "2026-12-02T16:18:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hkust.mscit.catalog.2027.v1",
+      "official_domain": "prog-crs.hkust.edu.hk",
+      "page_title": "Program & Course Catalog",
+      "program_id": "program.hk.hkust.msc_information_technology",
+      "review_due_at": "2026-10-03T16:18:00+08:00",
+      "reviewed_source_role": "admissions_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "9783456864bf7335a071a9a81d2dbbe2fa8fe77efa27b97f26294f04b8cafb35",
+      "source_type": "official_policy_page",
+      "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it",
+      "verified_at": "2026-09-03T16:18:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T16:05:00+08:00",
+      "excerpt": "Applicants seeking admissions to a master's degree or postgraduate diploma program should have:\nObtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.\nApplicants have to fulfill English Language requirements with one of the following proficiency attainments:\nTOEFL Internet-based Test (iBT): 80 (for tests taken prior to 21 January 2026) *\n4.5 (for tests taken from 21 January 2026 onwards) *\nIELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *\n* Refers to scores in one single attempt only. Test at home option is not accepted.\nApplicants are not required to present TOEFL or IELTS score if\nTheir first language is English, or\nTheir bachelor's degree (or equivalent qualification) was awarded by an institution where the medium of instruction was English.",
+      "expires_at": "2026-12-02T16:18:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hkust.mscit.admissions_policy.2027.v1",
+      "official_domain": "fytgs.hkust.edu.hk",
+      "page_title": "Admissions Requirements | HKUST Fok Ying Tung Graduate School",
+      "program_id": "program.hk.hkust.msc_information_technology",
+      "review_due_at": "2026-10-03T16:18:00+08:00",
+      "reviewed_source_role": "language_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "85cb5aaa7269d6c2284bc9f106e5fe4a23bc97c0d5fb165cdfcf7f006bcea9d6",
+      "source_type": "official_policy_page",
+      "source_version": "Continuous HKUST admissions policy approved for 2027/28 on 2026-09-03",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+      "verified_at": "2026-09-03T16:18:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "manual_browser",
+      "captured_at": "2026-09-03T16:05:00+08:00",
+      "excerpt": "MSc in Information Technology\nStudents are required to complete a total of 30 credits of coursework.\nApplicants must possess a bachelor’s degree in Computer Engineering or Computer Science, or a related field from a recognized university or tertiary institution.\nThe nominal program fee for 2027/28 Fall intake for full-time study is HK$320,000 (paid in 2 installments) and part-time study is HK$260,000 (paid in 4 installments) respectively.\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+      "expires_at": "2026-12-02T16:18:00+08:00",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hkust.mscit.program.2027.v1",
+      "official_domain": "seng.hkust.edu.hk",
+      "page_title": "MSc in Information Technology | HKUST School of Engineering",
+      "program_id": "program.hk.hkust.msc_information_technology",
+      "review_due_at": "2026-10-03T16:18:00+08:00",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "209bd5664f43d9abe366e78535f88c4f58661630b4b5260f0a267569d8461cc9",
+      "source_type": "official_program_page",
+      "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+      "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-it",
+      "verified_at": "2026-09-03T16:18:00+08:00",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "1988f74e11c52aaa735a514629abf600ecc647323714a88df25a6497598ea2df",
+  "pack_canonical_sha256": "dd1ebc818edb17d0c8ebdc5d37e2638f3999b3c67b48c5277831aec2ebe70dd2",
+  "pack_ref": "pack.hk.hkust.msc_information_technology.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "第四阶段 8.2 同校相邻项目隔离验证的 HKUST Information Technology Candidate-only Program。",
+    "degree_type": "taught_masters",
+    "institution_name": "The Hong Kong University of Science and Technology",
+    "official_domain_aliases": [],
+    "official_name": "MSc in Information Technology",
+    "official_program_url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-it",
+    "program_ref": "program.hk.hkust.msc_information_technology",
+    "region": "hong_kong",
+    "registered_official_domain": "hkust.edu.hk"
+  },
+  "review": {
+    "prepared_at": "2026-09-03T16:05:00+08:00",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人确认 8.2 来源与字段口径，并批准持续招生要求页用于 2027/28；仅生成 Candidate Pack。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-03T16:18:00+08:00",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "evidence.hkust.mscit.admissions_policy.2027.v1",
+    "evidence.hkust.mscit.catalog.2027.v1",
+    "evidence.hkust.mscit.program.2027.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.hk.hkust",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}

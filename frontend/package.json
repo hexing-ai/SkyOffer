@@ -1,0 +1,40 @@
+{
+  "name": "skyoffer-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node scripts/run-demo.mjs",
+    "build:demo": "node scripts/run-demo.mjs --build",
+    "capture:demo": "node scripts/capture-demo.mjs",
+    "dev": "next dev --hostname 127.0.0.1 --port 3200",
+    "build": "next build --webpack && node scripts/prepare-standalone.mjs",
+    "start": "HOSTNAME=127.0.0.1 PORT=3200 node .next/standalone/server.js",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/postcss": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "jsdom": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

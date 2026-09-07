@@ -1,0 +1,410 @@
+{
+  "schema_version": "program_catalog_detail.v1",
+  "dataset": {
+    "dataset_id": "dataset.internal_alpha.2027.v3",
+    "target_academic_year": "2027-28",
+    "program_count": 20,
+    "data_boundary": "internal_candidate_only",
+    "public_publishable": false,
+    "manifest_sha256": "4d82113ae34e0971e0810420d76665289390c6e2e6f71f7a47f8a67e47ef2dae"
+  },
+  "program": {
+    "program_ref": "program.uk.manchester.msc_aerospace_engineering",
+    "official_name": "MSc Aerospace Engineering",
+    "institution_name": "The University of Manchester",
+    "region": "united_kingdom",
+    "official_program_url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+    "target_academic_year": "2027-28",
+    "degree_type": "taught_masters",
+    "primary_direction": "aerospace_engineering",
+    "secondary_directions": [],
+    "review_status": "domain_reviewed",
+    "has_unresolved_fields": true,
+    "reviewed_at": "2026-09-03T14:15:00Z",
+    "candidate_version_id": "version.phase4.batch8.7.1",
+    "pack_ref": "pack.uk.manchester.msc_aerospace_engineering.2027.v1",
+    "pack_schema_version": "alpha_program_pack.v1",
+    "pack_canonical_sha256": "b85dc0653cce1a767eb39541f4ee658669984bc8c5af71f1d46d9e9336ad0e97",
+    "evidence_count": 4,
+    "coverage": {
+      "confirmed": 12,
+      "unresolved": 3,
+      "total": 15
+    },
+    "fields": [
+      {
+        "field_key": "catalog.academic_year",
+        "label": "入学年份",
+        "group": "项目概况",
+        "display_text": "Year of entry: 2027",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Aerospace Engineering\nYear of entry: 2027\nDuration: 12 months [Full-Time]\nFull-time: In person\nDepartment of Mechanical and Aerospace Engineering\nThe Aerospace Engineering MSc is a full-time course which is studied over 12 months, commencing each year in September.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.degree_type",
+        "label": "学位类型",
+        "group": "项目概况",
+        "display_text": "Master of Science",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Aerospace Engineering\nYear of entry: 2027\nDuration: 12 months [Full-Time]\nFull-time: In person\nDepartment of Mechanical and Aerospace Engineering\nThe Aerospace Engineering MSc is a full-time course which is studied over 12 months, commencing each year in September.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.department",
+        "label": "院系",
+        "group": "项目概况",
+        "display_text": "Department of Mechanical and Aerospace Engineering",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Aerospace Engineering\nYear of entry: 2027\nDuration: 12 months [Full-Time]\nFull-time: In person\nDepartment of Mechanical and Aerospace Engineering\nThe Aerospace Engineering MSc is a full-time course which is studied over 12 months, commencing each year in September.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.duration",
+        "label": "学制",
+        "group": "项目概况",
+        "display_text": "Duration: 12 months [Full-Time]",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Aerospace Engineering\nYear of entry: 2027\nDuration: 12 months [Full-Time]\nFull-time: In person\nDepartment of Mechanical and Aerospace Engineering\nThe Aerospace Engineering MSc is a full-time course which is studied over 12 months, commencing each year in September.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.intake",
+        "label": "入学时间",
+        "group": "项目概况",
+        "display_text": "commencing each year in September",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Aerospace Engineering\nYear of entry: 2027\nDuration: 12 months [Full-Time]\nFull-time: In person\nDepartment of Mechanical and Aerospace Engineering\nThe Aerospace Engineering MSc is a full-time course which is studied over 12 months, commencing each year in September.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.application_status",
+        "label": "申请状态",
+        "group": "项目概况",
+        "display_text": "We operate a non-staged admissions process for this programme.",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.\nPlease note that we consider grades achieved in key relevant modules in your undergraduate degree as well as the overall degree result.\nWe operate a non-staged admissions process for this programme.\nProvided your application is complete, we aim to give you a decision on your application within 2 months from the date on which it was submitted.\nApplicants with a conditional offer must provide evidence that they have met all conditions by 31 July 2027.\nWe require the following documents before we can consider your application: transcript and translations where required; weighted average verification where required; final-year module list if still studying; degree certificate if graduated; and a CV if you graduated more than three years ago.\nReferences and personal statements are not required for your application for this programme.\nIf you graduated more than three years ago, we will also consider the information contained on your CV and any relevant work experience to assess if you are still able to fulfil the entry criteria.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.primary_direction",
+        "label": "主方向",
+        "group": "专业方向",
+        "display_text": "MSc Aerospace Engineering",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "Master of Science\nMSc Aerospace Engineering\nYear of entry: 2027\nDuration: 12 months [Full-Time]\nFull-time: In person\nDepartment of Mechanical and Aerospace Engineering\nThe Aerospace Engineering MSc is a full-time course which is studied over 12 months, commencing each year in September.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.manchester.aerospace.curriculum.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 2,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "Our comprehensive course prepares you for a career in everything from helicopters and heat transfer to aerodynamics and aerospace design.\nYou can specialise in computational fluid dynamics, flow diagnostics and measurements, aero structures, satellite design.\nAerospace Group Design Project (30 Credits, Mandatory)\nDissertation (Aerospace Engineering) (60 Credits, Mandatory)\nExperimental Methods (MSc Aerospace Engineering) (15 Credits, Mandatory)\nAdvanced Computational Fluid Dynamics (15 Credits, Optional)\nSpace Systems (15 Credits, Optional)\nHelicopters (15 Credits, Optional)",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.secondary_directions",
+        "label": "相关方向",
+        "group": "专业方向",
+        "display_text": "MSc Aerospace Engineering",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.curriculum.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "Our comprehensive course prepares you for a career in everything from helicopters and heat transfer to aerodynamics and aerospace design.\nYou can specialise in computational fluid dynamics, flow diagnostics and measurements, aero structures, satellite design.\nAerospace Group Design Project (30 Credits, Mandatory)\nDissertation (Aerospace Engineering) (60 Credits, Mandatory)\nExperimental Methods (MSc Aerospace Engineering) (15 Credits, Mandatory)\nAdvanced Computational Fluid Dynamics (15 Credits, Optional)\nSpace Systems (15 Credits, Optional)\nHelicopters (15 Credits, Optional)",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.degree",
+        "label": "学历要求",
+        "group": "申请门槛",
+        "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.\nPlease note that we consider grades achieved in key relevant modules in your undergraduate degree as well as the overall degree result.\nWe operate a non-staged admissions process for this programme.\nProvided your application is complete, we aim to give you a decision on your application within 2 months from the date on which it was submitted.\nApplicants with a conditional offer must provide evidence that they have met all conditions by 31 July 2027.\nWe require the following documents before we can consider your application: transcript and translations where required; weighted average verification where required; final-year module list if still studying; degree certificate if graduated; and a CV if you graduated more than three years ago.\nReferences and personal statements are not required for your application for this programme.\nIf you graduated more than three years ago, we will also consider the information contained on your CV and any relevant work experience to assess if you are still able to fulfil the entry criteria.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.academic",
+        "label": "成绩要求",
+        "group": "申请门槛",
+        "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.\nPlease note that we consider grades achieved in key relevant modules in your undergraduate degree as well as the overall degree result.\nWe operate a non-staged admissions process for this programme.\nProvided your application is complete, we aim to give you a decision on your application within 2 months from the date on which it was submitted.\nApplicants with a conditional offer must provide evidence that they have met all conditions by 31 July 2027.\nWe require the following documents before we can consider your application: transcript and translations where required; weighted average verification where required; final-year module list if still studying; degree certificate if graduated; and a CV if you graduated more than three years ago.\nReferences and personal statements are not required for your application for this programme.\nIf you graduated more than three years ago, we will also consider the information contained on your CV and any relevant work experience to assess if you are still able to fulfil the entry criteria.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.subject",
+        "label": "本科专业要求",
+        "group": "申请门槛",
+        "display_text": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.\nPlease note that we consider grades achieved in key relevant modules in your undergraduate degree as well as the overall degree result.\nWe operate a non-staged admissions process for this programme.\nProvided your application is complete, we aim to give you a decision on your application within 2 months from the date on which it was submitted.\nApplicants with a conditional offer must provide evidence that they have met all conditions by 31 July 2027.\nWe require the following documents before we can consider your application: transcript and translations where required; weighted average verification where required; final-year module list if still studying; degree certificate if graduated; and a CV if you graduated more than three years ago.\nReferences and personal statements are not required for your application for this programme.\nIf you graduated more than three years ago, we will also consider the information contained on your CV and any relevant work experience to assess if you are still able to fulfil the entry criteria.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.prerequisite_courses",
+        "label": "先修课程",
+        "group": "申请门槛",
+        "display_text": "官网要求审核 key relevant modules 的成绩，但未列出可无损编码的课程名称、数量或最低分，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.\nPlease note that we consider grades achieved in key relevant modules in your undergraduate degree as well as the overall degree result.\nWe operate a non-staged admissions process for this programme.\nProvided your application is complete, we aim to give you a decision on your application within 2 months from the date on which it was submitted.\nApplicants with a conditional offer must provide evidence that they have met all conditions by 31 July 2027.\nWe require the following documents before we can consider your application: transcript and translations where required; weighted average verification where required; final-year module list if still studying; degree certificate if graduated; and a CV if you graduated more than three years ago.\nReferences and personal statements are not required for your application for this programme.\nIf you graduated more than three years ago, we will also consider the information contained on your CV and any relevant work experience to assess if you are still able to fulfil the entry criteria.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.language",
+        "label": "语言要求",
+        "group": "申请门槛",
+        "display_text": "IELTS: overall score of 7.0 with no sub-test below 6.5",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.language.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "IELTS: overall score of 7.0 with no sub-test below 6.5\nTOEFL iBT: at least 100 overall with no sub-test less than 22. We do not accept 'MyBestScore'. We do not accept TOEFL iBT Home Edition.\nPearson PTE: at least 76 overall with no sub-test below 70\nYour English Language test report must be valid on the start date of the course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.work_experience",
+        "label": "工作经验",
+        "group": "申请门槛",
+        "display_text": "官网未设置通用工作经验年限；毕业超过三年的申请人需提交 CV，相关经验用于个案评估。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.\nPlease note that we consider grades achieved in key relevant modules in your undergraduate degree as well as the overall degree result.\nWe operate a non-staged admissions process for this programme.\nProvided your application is complete, we aim to give you a decision on your application within 2 months from the date on which it was submitted.\nApplicants with a conditional offer must provide evidence that they have met all conditions by 31 July 2027.\nWe require the following documents before we can consider your application: transcript and translations where required; weighted average verification where required; final-year module list if still studying; degree certificate if graduated; and a CV if you graduated more than three years ago.\nReferences and personal statements are not required for your application for this programme.\nIf you graduated more than three years ago, we will also consider the information contained on your CV and any relevant work experience to assess if you are still able to fulfil the entry criteria.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.materials",
+        "label": "申请材料",
+        "group": "申请门槛",
+        "display_text": "官网要求成绩单、条件性加权均分文件、学位证或在读课程清单等材料，并明确不要求推荐信和个人陈述；当前材料布尔合同不能无损表达完整清单，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.manchester.aerospace.admissions.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://www.manchester.ac.uk/study/masters/courses/list/08025/msc-aerospace-engineering/",
+            "page_title": "MSc Aerospace Engineering (2027 entry) | The University of Manchester",
+            "excerpt": "The standard academic entry requirement for this programme is an Upper Second Class UK Honours degree or international equivalent in a relevant science or engineering discipline.\nPlease note that we consider grades achieved in key relevant modules in your undergraduate degree as well as the overall degree result.\nWe operate a non-staged admissions process for this programme.\nProvided your application is complete, we aim to give you a decision on your application within 2 months from the date on which it was submitted.\nApplicants with a conditional offer must provide evidence that they have met all conditions by 31 July 2027.\nWe require the following documents before we can consider your application: transcript and translations where required; weighted average verification where required; final-year module list if still studying; degree certificate if graduated; and a CV if you graduated more than three years ago.\nReferences and personal statements are not required for your application for this programme.\nIf you graduated more than three years ago, we will also consider the information contained on your CV and any relevant work experience to assess if you are still able to fulfil the entry criteria.\nApplications for deferred entry are not accepted for this course.",
+            "source_version": "2027 entry page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T14:15:00Z",
+            "review_due_at": "2026-10-03T14:15:00Z",
+            "expires_at": "2026-12-02T14:15:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      }
+    ]
+  }
+}

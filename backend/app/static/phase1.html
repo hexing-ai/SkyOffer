@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>SkyOffer｜第一阶段验收</title>
+  <style>
+    :root {
+      --ink: #17211b;
+      --muted: #657068;
+      --line: #d8dfda;
+      --paper: #fbfcf9;
+      --panel: #ffffff;
+      --green: #246b48;
+      --green-soft: #e9f4ee;
+      --amber: #8b5d13;
+      --amber-soft: #fff5df;
+      --red: #a73d37;
+      --shadow: 0 20px 60px rgba(26, 49, 35, .09);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 0%, #e5f2ea 0, transparent 30rem),
+        linear-gradient(180deg, #f7faf7, var(--paper));
+      font: 15px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+    }
+    main { width: min(1180px, calc(100% - 32px)); margin: 44px auto 80px; }
+    header { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; margin-bottom: 24px; }
+    .eyebrow { color: var(--green); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { margin: 4px 0 4px; font: 700 clamp(30px, 5vw, 56px)/1.08 Georgia, "Songti SC", serif; }
+    header p { margin: 0; color: var(--muted); max-width: 720px; }
+    .status { display: flex; align-items: center; gap: 8px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 999px; background: #fff; }
+    .dot { width: 9px; height: 9px; border-radius: 50%; background: #9ca39f; }
+    .dot.ready { background: #2e9962; box-shadow: 0 0 0 4px #e2f3e9; }
+    .notice { margin: 0 0 24px; padding: 14px 18px; border-left: 4px solid #d39b36; background: var(--amber-soft); color: #68450d; }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, .9fr); gap: 20px; align-items: start; }
+    .card { background: rgba(255,255,255,.94); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); overflow: hidden; }
+    .card-head { padding: 20px 22px 14px; border-bottom: 1px solid var(--line); }
+    .card-head h2 { margin: 0; font-size: 19px; }
+    .card-head p { margin: 3px 0 0; color: var(--muted); }
+    .card-body { padding: 22px; }
+    .samples { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+    button { font: inherit; }
+    .sample, .secondary { border: 1px solid var(--line); background: #fff; color: var(--ink); border-radius: 9px; padding: 8px 11px; cursor: pointer; }
+    .sample:hover, .secondary:hover { border-color: var(--green); color: var(--green); }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .field { display: flex; flex-direction: column; gap: 5px; }
+    .field.full { grid-column: 1 / -1; }
+    label, legend { font-weight: 650; font-size: 13px; }
+    input, select, textarea {
+      width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 10px 11px; background: #fff; color: var(--ink); font: inherit;
+    }
+    textarea { min-height: 88px; resize: vertical; }
+    input:focus, select:focus, textarea:focus { outline: 3px solid #dff1e6; border-color: var(--green); }
+    fieldset { border: 0; padding: 0; margin: 0; }
+    .checks { display: flex; flex-wrap: wrap; gap: 8px 14px; }
+    .check { display: inline-flex; align-items: center; gap: 6px; font-weight: 500; }
+    .check input { width: auto; }
+    details { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 14px; }
+    summary { cursor: pointer; color: var(--muted); }
+    #raw-json { margin-top: 10px; min-height: 220px; font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .actions { display: flex; gap: 10px; align-items: center; margin-top: 18px; }
+    .primary { border: 0; border-radius: 10px; background: var(--green); color: #fff; padding: 11px 18px; font-weight: 700; cursor: pointer; }
+    .primary:disabled { opacity: .55; cursor: wait; }
+    .hint { color: var(--muted); font-size: 12px; }
+    .empty { color: var(--muted); padding: 38px 18px; text-align: center; border: 1px dashed var(--line); border-radius: 12px; }
+    .result-section { padding: 16px 0; border-bottom: 1px solid var(--line); }
+    .result-section:first-child { padding-top: 0; }
+    .result-section:last-child { border: 0; padding-bottom: 0; }
+    .result-section h3 { margin: 0 0 8px; font-size: 15px; color: var(--green); }
+    .result-section p, .result-section ul { margin: 6px 0; }
+    .direction { margin: 10px 0; padding: 12px; border-radius: 10px; background: var(--green-soft); }
+    .direction strong { display: block; margin-bottom: 5px; }
+    .tag { display: inline-block; margin: 3px 4px 0 0; padding: 2px 7px; border-radius: 999px; background: #fff; color: var(--muted); font: 11px ui-monospace, monospace; }
+    .meta { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 14px; font-size: 12px; color: var(--muted); word-break: break-all; }
+    .error { padding: 14px; border-radius: 10px; background: #fff0ef; color: var(--red); }
+    .spinner { width: 16px; height: 16px; border: 2px solid rgba(255,255,255,.35); border-top-color: #fff; border-radius: 50%; animation: spin .8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (max-width: 880px) { .layout { grid-template-columns: 1fr; } header { grid-template-columns: 1fr; } }
+    @media (max-width: 560px) { main { width: min(100% - 20px, 1180px); margin-top: 24px; } .grid { grid-template-columns: 1fr; } .field.full { grid-column: auto; } .meta { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <div class="eyebrow">SkyOffer · Phase 01</div>
+      <h1>第一阶段验收</h1>
+      <p>只验证合成申请档案能否经过 DeepSeek，稳定返回受约束的结构化资料分析。</p>
+    </div>
+    <div class="status"><span id="health-dot" class="dot"></span><span id="health-text">检查模型配置…</span></div>
+  </header>
+
+  <p class="notice"><strong>边界：</strong>本阶段不提供学校或项目推荐，不判断门槛，不输出冲刺/主申/相对稳妥、录取概率或保底结论。</p>
+
+  <div class="layout">
+    <section class="card">
+      <div class="card-head"><h2>Input · 合成申请档案</h2><p>请选择样例或修改字段；不要输入真实个人信息。</p></div>
+      <div class="card-body">
+        <div class="samples">
+          <button type="button" class="sample" data-sample="cross">跨专业 + 信息缺失</button>
+          <button type="button" class="sample" data-sample="cs">计算机背景</button>
+          <button type="button" class="sample" data-sample="aero">航空工程背景</button>
+        </div>
+        <form id="profile-form">
+          <div class="grid">
+            <div class="field"><label for="institution">本科院校（合成）</label><input id="institution" required maxlength="120"></div>
+            <div class="field"><label for="major">本科专业</label><input id="major" required maxlength="120"></div>
+            <div class="field"><label for="education-status">学历状态</label><select id="education-status"><option value="undergraduate">在读</option><option value="graduated">已毕业</option></select></div>
+            <div class="field"><label for="graduation-year">毕业年份</label><input id="graduation-year" type="number" min="2000" max="2035" required></div>
+            <div class="field"><label for="degree-type">学位类型</label><input id="degree-type" required maxlength="120"></div>
+            <div class="field"><label>原始成绩</label><div style="display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center"><input id="grade-value" type="number" min="0" step="0.01" required><span>/</span><input id="grading-scale" type="number" min="1" step="0.01" required></div></div>
+            <div class="field full"><label for="courses">核心课程（每行一门）</label><textarea id="courses" maxlength="3600"></textarea></div>
+            <div class="field full"><label for="experience">代表经历（合成，格式：标题｜描述）</label><textarea id="experience" maxlength="1000"></textarea></div>
+            <fieldset class="field full"><legend>目标地区</legend><div class="checks"><label class="check"><input type="checkbox" name="region" value="hong_kong">香港</label><label class="check"><input type="checkbox" name="region" value="united_kingdom">英国</label></div></fieldset>
+            <fieldset class="field full"><legend>目标方向</legend><div class="checks"><label class="check"><input type="checkbox" name="direction" value="computer_science">计算机科学</label><label class="check"><input type="checkbox" name="direction" value="artificial_intelligence">人工智能</label><label class="check"><input type="checkbox" name="direction" value="aerospace_engineering">航空工程</label><label class="check"><input type="checkbox" name="direction" value="low_altitude_economy">低空经济</label></div></fieldset>
+            <div class="field full"><label for="career-goal">职业目标</label><textarea id="career-goal" maxlength="500"></textarea></div>
+          </div>
+          <details>
+            <summary>高级：查看/编辑实际 Input JSON</summary>
+            <textarea id="raw-json" spellcheck="false"></textarea>
+            <button type="button" id="apply-json" class="secondary">从 JSON 更新表单</button>
+          </details>
+          <div class="actions"><button id="submit" class="primary" type="submit">开始分析</button><span class="hint">真实请求最多调用模型两次</span></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head"><h2>Output · 结构化分析</h2><p>结果不会保存，刷新页面后消失。</p></div>
+      <div id="result" class="card-body"><div class="empty">载入一组合成档案并开始分析。</div></div>
+    </section>
+  </div>
+</main>
+
+<script>
+const samples = {
+  cross: {
+    schema_version: "applicant_analysis_input.v1", request_language: "zh-CN", education_status: "undergraduate", graduation_year: 2027,
+    undergraduate_institution: "华东示例理工大学", undergraduate_major: "自动化", degree_type: "工学学士",
+    grading_scale: 100, grade_value: 82.4,
+    core_courses: ["高等数学", "线性代数", "Python 程序设计", "自动控制原理", "机器学习导论"],
+    language_scores: [],
+    experiences: [{type: "project", title: "合成无人机视觉项目", description: "使用 Python 完成目标检测实验，并参与飞行控制数据分析。"}],
+    target_regions: ["hong_kong", "united_kingdom"], target_directions: ["artificial_intelligence", "low_altitude_economy"],
+    career_goal: "希望从事自主飞行系统或智能感知相关工作。", budget_note: null
+  },
+  cs: {
+    schema_version: "applicant_analysis_input.v1", request_language: "zh-CN", education_status: "graduated", graduation_year: 2025,
+    undergraduate_institution: "南方示例科技大学", undergraduate_major: "计算机科学与技术", degree_type: "工学学士",
+    grading_scale: 4, grade_value: 3.45,
+    core_courses: ["数据结构", "算法设计", "数据库系统", "操作系统", "人工智能"],
+    language_scores: [{test_type: "IELTS", total_score: 7, component_scores: {listening: 7, reading: 7.5, writing: 6.5, speaking: 6.5}, test_date: "2026-07-10"}],
+    experiences: [{type: "internship", title: "合成软件工程实习", description: "参与后端接口和数据处理模块开发。"}],
+    target_regions: ["hong_kong"], target_directions: ["computer_science", "artificial_intelligence"],
+    career_goal: "希望从事机器学习工程或软件研发。", budget_note: "预算尚未最终确定"
+  },
+  aero: {
+    schema_version: "applicant_analysis_input.v1", request_language: "zh-CN", education_status: "undergraduate", graduation_year: 2027,
+    undergraduate_institution: "北方示例航空大学", undergraduate_major: "飞行器设计与工程", degree_type: "工学学士",
+    grading_scale: 5, grade_value: 4.1,
+    core_courses: ["空气动力学", "飞行器结构力学", "飞行控制系统", "航空电子系统", "工程数学"],
+    language_scores: [],
+    experiences: [{type: "research", title: "合成飞行控制研究", description: "参与小型飞行器姿态控制仿真与实验记录整理。"}],
+    target_regions: ["united_kingdom"], target_directions: ["aerospace_engineering", "low_altitude_economy"],
+    career_goal: "希望进入飞行器设计、航空电子或城市空中交通相关方向。", budget_note: null
+  }
+};
+
+const $ = (id) => document.getElementById(id);
+let currentRaw = samples.cross;
+
+function setChecks(name, values) {
+  document.querySelectorAll(`input[name="${name}"]`).forEach(el => el.checked = values.includes(el.value));
+}
+function fillForm(data) {
+  currentRaw = structuredClone(data);
+  $("institution").value = data.undergraduate_institution;
+  $("major").value = data.undergraduate_major;
+  $("education-status").value = data.education_status;
+  $("graduation-year").value = data.graduation_year;
+  $("degree-type").value = data.degree_type;
+  $("grade-value").value = data.grade_value;
+  $("grading-scale").value = data.grading_scale;
+  $("courses").value = (data.core_courses || []).join("\n");
+  const exp = data.experiences?.[0];
+  $("experience").value = exp ? `${exp.title}｜${exp.description}` : "";
+  setChecks("region", data.target_regions || []);
+  setChecks("direction", data.target_directions || []);
+  $("career-goal").value = data.career_goal || "";
+  $("raw-json").value = JSON.stringify(data, null, 2);
+}
+function collectForm() {
+  const expText = $("experience").value.trim();
+  const [title, ...description] = expText.split("｜");
+  return {
+    ...currentRaw,
+    schema_version: "applicant_analysis_input.v1", request_language: "zh-CN",
+    undergraduate_institution: $("institution").value.trim(), undergraduate_major: $("major").value.trim(),
+    education_status: $("education-status").value, graduation_year: Number($("graduation-year").value), degree_type: $("degree-type").value.trim(),
+    grade_value: Number($("grade-value").value), grading_scale: Number($("grading-scale").value),
+    core_courses: $("courses").value.split("\n").map(v => v.trim()).filter(Boolean),
+    experiences: expText ? [{type: currentRaw.experiences?.[0]?.type || "project", title: title.trim(), description: description.join("｜").trim() || "请补充经历描述"}] : [],
+    target_regions: [...document.querySelectorAll('input[name="region"]:checked')].map(el => el.value),
+    target_directions: [...document.querySelectorAll('input[name="direction"]:checked')].map(el => el.value),
+    career_goal: $("career-goal").value.trim() || null
+  };
+}
+function syncRaw() { currentRaw = collectForm(); $("raw-json").value = JSON.stringify(currentRaw, null, 2); }
+document.querySelectorAll("input,select,textarea").forEach(el => { if (el.id !== "raw-json") el.addEventListener("change", syncRaw); });
+document.querySelectorAll(".sample").forEach(btn => btn.addEventListener("click", () => fillForm(samples[btn.dataset.sample])));
+$("apply-json").addEventListener("click", () => {
+  try { fillForm(JSON.parse($("raw-json").value)); }
+  catch { showError({message: "JSON 格式不正确，请检查。", request_id: "未发送请求"}); }
+});
+
+const directionLabels = {computer_science:"计算机科学", artificial_intelligence:"人工智能", aerospace_engineering:"航空工程", low_altitude_economy:"低空经济"};
+function node(tag, text, cls) { const el = document.createElement(tag); if (cls) el.className = cls; if (text !== undefined) el.textContent = text; return el; }
+function addList(parent, items) { const ul = node("ul"); (items || []).forEach(item => ul.append(node("li", item))); parent.append(ul); }
+function section(title) { const el = node("div", undefined, "result-section"); el.append(node("h3", title)); return el; }
+function renderResult(data) {
+  const root = $("result"); root.replaceChildren();
+  const summary = section("资料摘要");
+  summary.append(node("p", data.profile_summary.education)); summary.append(node("p", `原始成绩：${data.profile_summary.academic_metrics_raw}`)); summary.append(node("p", data.profile_summary.target_summary)); root.append(summary);
+  const dirs = section("方向证据");
+  data.direction_evidence.forEach(item => {
+    const box = node("div", undefined, "direction"); box.append(node("strong", directionLabels[item.direction] || item.direction));
+    box.append(node("div", "已有信号")); addList(box, item.signals);
+    box.append(node("div", "信息缺口")); addList(box, item.gaps);
+    item.input_evidence_refs.forEach(ref => box.append(node("span", ref, "tag"))); dirs.append(box);
+  }); root.append(dirs);
+  const missing = section("缺失信息");
+  if (!data.missing_information.length) missing.append(node("p", "当前未识别到明显缺失项。"));
+  data.missing_information.forEach(item => { missing.append(node("strong", item.field)); missing.append(node("p", item.why_it_matters)); missing.append(node("p", `请补充：${item.requested_input}`)); }); root.append(missing);
+  const questions = section("下一步问题"); addList(questions, data.next_questions); root.append(questions);
+  const limits = section("边界说明"); addList(limits, data.limitations); limits.append(node("p", data.disclaimer)); root.append(limits);
+  const meta = section("本次调用"); const metaGrid = node("div", undefined, "meta");
+  [["范围",data.analysis_scope],["模型",data.meta.model_name],["Prompt",data.meta.prompt_version],["耗时",`${data.meta.duration_ms} ms`],["Request ID",data.meta.request_id],["生成时间",data.meta.generated_at]].forEach(([k,v]) => metaGrid.append(node("div", `${k}：${v}`))); meta.append(metaGrid); root.append(meta);
+}
+function showError(error) { const root = $("result"); root.replaceChildren(); const box = node("div", undefined, "error"); box.append(node("strong", error.code ? `错误：${error.code}` : "无法提交")); box.append(node("p", error.message || "请求失败，请稍后重试。")); box.append(node("small", `Request ID：${error.request_id || "未知"}`)); root.append(box); }
+
+$("profile-form").addEventListener("submit", async (event) => {
+  event.preventDefault(); syncRaw();
+  const button = $("submit"); button.disabled = true; button.replaceChildren(node("span", undefined, "spinner"), document.createTextNode(" 分析中…"));
+  try {
+    const response = await fetch("/api/v1/profile-analysis", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(currentRaw)});
+    const data = await response.json();
+    if (!response.ok) throw data.error || {message:"请求失败", request_id:response.headers.get("X-Request-ID")};
+    renderResult(data);
+  } catch (error) { showError(error); }
+  finally { button.disabled = false; button.textContent = "开始分析"; }
+});
+
+async function checkHealth() {
+  try {
+    const response = await fetch("/api/v1/health"); const data = await response.json();
+    const ready = data.model_configuration === "ready"; $("health-dot").classList.toggle("ready", ready); $("health-text").textContent = ready ? "DeepSeek 已配置" : "等待配置 DeepSeek Key";
+  } catch { $("health-text").textContent = "后端未启动"; }
+}
+fillForm(samples.cross); checkHealth();
+</script>
+</body>
+</html>

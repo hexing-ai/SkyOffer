@@ -1,0 +1,475 @@
+{
+  "schema_version": "program_catalog_detail.v1",
+  "dataset": {
+    "dataset_id": "dataset.internal_alpha.2027.v3",
+    "target_academic_year": "2027-28",
+    "program_count": 20,
+    "data_boundary": "internal_candidate_only",
+    "public_publishable": false,
+    "manifest_sha256": "4d82113ae34e0971e0810420d76665289390c6e2e6f71f7a47f8a67e47ef2dae"
+  },
+  "program": {
+    "program_ref": "program.hk.hkust.msc_artificial_intelligence",
+    "official_name": "MSc in Artificial Intelligence",
+    "institution_name": "The Hong Kong University of Science and Technology",
+    "region": "hong_kong",
+    "official_program_url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+    "target_academic_year": "2027-28",
+    "degree_type": "taught_masters",
+    "primary_direction": "artificial_intelligence",
+    "secondary_directions": [],
+    "review_status": "domain_reviewed",
+    "has_unresolved_fields": true,
+    "reviewed_at": "2026-09-03T08:18:00Z",
+    "candidate_version_id": "version.phase4.batch8.2.2",
+    "pack_ref": "pack.hk.hkust.msc_artificial_intelligence.2027.v1",
+    "pack_schema_version": "alpha_program_pack.v1",
+    "pack_canonical_sha256": "14ac0eb791b6c85b8b541133f73bcf10715d2f0178d8426b3c383322e0c85dec",
+    "evidence_count": 3,
+    "coverage": {
+      "confirmed": 12,
+      "unresolved": 3,
+      "total": 15
+    },
+    "fields": [
+      {
+        "field_key": "catalog.academic_year",
+        "label": "入学年份",
+        "group": "项目概况",
+        "display_text": "Postgraduate Programs 2027/28",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.degree_type",
+        "label": "学位类型",
+        "group": "项目概况",
+        "display_text": "Master of Science in Artificial Intelligence",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.department",
+        "label": "院系",
+        "group": "项目概况",
+        "display_text": "Department of Computer Science and Engineering",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.duration",
+        "label": "学制",
+        "group": "项目概况",
+        "display_text": "Full-time : 1 year",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.intake",
+        "label": "入学时间",
+        "group": "项目概况",
+        "display_text": "September 2027",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+            "page_title": "MSc in Artificial Intelligence | HKUST School of Engineering",
+            "excerpt": "MSc in Artificial Intelligence\nIt is tailored to both recent graduates and working professionals seeking to enhance their expertise in this exciting and rapidly evolving field.\nStudents are required to complete a total of 30 credits of coursework, including 12 credits of core courses and 18 credits of elective courses.\nApplicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.\nApplicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.\nThe nominal program fee for 2027/28 Fall intake is HK$400,000 (full-time study to be paid in 2 installments and part-time study to be paid in 4 installments).\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "catalog.application_status",
+        "label": "申请状态",
+        "group": "项目概况",
+        "display_text": "All applications are considered on a competitive and rolling basis.",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_catalog_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+            "page_title": "MSc in Artificial Intelligence | HKUST School of Engineering",
+            "excerpt": "MSc in Artificial Intelligence\nIt is tailored to both recent graduates and working professionals seeking to enhance their expertise in this exciting and rapidly evolving field.\nStudents are required to complete a total of 30 credits of coursework, including 12 credits of core courses and 18 credits of elective courses.\nApplicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.\nApplicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.\nThe nominal program fee for 2027/28 Fall intake is HK$400,000 (full-time study to be paid in 2 installments and part-time study to be paid in 4 installments).\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.primary_direction",
+        "label": "主方向",
+        "group": "专业方向",
+        "display_text": "Artificial Intelligence",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "taxonomy.secondary_directions",
+        "label": "相关方向",
+        "group": "专业方向",
+        "display_text": "Master of Science in Artificial Intelligence",
+        "coverage_status": "confirmed",
+        "is_critical": false,
+        "value_schema_version": "program_taxonomy_field.v1",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.degree",
+        "label": "学历要求",
+        "group": "申请门槛",
+        "display_text": "Obtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+            "page_title": "Admissions Requirements | HKUST Fok Ying Tung Graduate School",
+            "excerpt": "Applicants seeking admissions to a master's degree or postgraduate diploma program should have:\nObtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.\nApplicants have to fulfill English Language requirements with one of the following proficiency attainments:\nTOEFL Internet-based Test (iBT): 80 (for tests taken prior to 21 January 2026) *\n4.5 (for tests taken from 21 January 2026 onwards) *\nIELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *\n* Refers to scores in one single attempt only. Test at home option is not accepted.\nApplicants are not required to present TOEFL or IELTS score if\nTheir first language is English, or\nTheir bachelor's degree (or equivalent qualification) was awarded by an institution where the medium of instruction was English.",
+            "source_version": "Continuous HKUST admissions policy approved for 2027/28 on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.academic",
+        "label": "成绩要求",
+        "group": "申请门槛",
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+            "page_title": "Admissions Requirements | HKUST Fok Ying Tung Graduate School",
+            "excerpt": "Applicants seeking admissions to a master's degree or postgraduate diploma program should have:\nObtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.\nApplicants have to fulfill English Language requirements with one of the following proficiency attainments:\nTOEFL Internet-based Test (iBT): 80 (for tests taken prior to 21 January 2026) *\n4.5 (for tests taken from 21 January 2026 onwards) *\nIELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *\n* Refers to scores in one single attempt only. Test at home option is not accepted.\nApplicants are not required to present TOEFL or IELTS score if\nTheir first language is English, or\nTheir bachelor's degree (or equivalent qualification) was awarded by an institution where the medium of instruction was English.",
+            "source_version": "Continuous HKUST admissions policy approved for 2027/28 on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+            "page_title": "MSc in Artificial Intelligence | HKUST School of Engineering",
+            "excerpt": "MSc in Artificial Intelligence\nIt is tailored to both recent graduates and working professionals seeking to enhance their expertise in this exciting and rapidly evolving field.\nStudents are required to complete a total of 30 credits of coursework, including 12 credits of core courses and 18 credits of elective courses.\nApplicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.\nApplicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.\nThe nominal program fee for 2027/28 Fall intake is HK$400,000 (full-time study to be paid in 2 installments and part-time study to be paid in 4 installments).\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.subject",
+        "label": "本科专业要求",
+        "group": "申请门槛",
+        "display_text": "Applicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+            "page_title": "MSc in Artificial Intelligence | HKUST School of Engineering",
+            "excerpt": "MSc in Artificial Intelligence\nIt is tailored to both recent graduates and working professionals seeking to enhance their expertise in this exciting and rapidly evolving field.\nStudents are required to complete a total of 30 credits of coursework, including 12 credits of core courses and 18 credits of elective courses.\nApplicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.\nApplicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.\nThe nominal program fee for 2027/28 Fall intake is HK$400,000 (full-time study to be paid in 2 installments and part-time study to be paid in 4 installments).\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.prerequisite_courses",
+        "label": "先修课程",
+        "group": "申请门槛",
+        "display_text": "本次已核验的完整官网来源未找到该项 2027/28 明确要求；这不代表学校没有要求。",
+        "coverage_status": "not_found_in_reviewed_sources",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+            "page_title": "Admissions Requirements | HKUST Fok Ying Tung Graduate School",
+            "excerpt": "Applicants seeking admissions to a master's degree or postgraduate diploma program should have:\nObtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.\nApplicants have to fulfill English Language requirements with one of the following proficiency attainments:\nTOEFL Internet-based Test (iBT): 80 (for tests taken prior to 21 January 2026) *\n4.5 (for tests taken from 21 January 2026 onwards) *\nIELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *\n* Refers to scores in one single attempt only. Test at home option is not accepted.\nApplicants are not required to present TOEFL or IELTS score if\nTheir first language is English, or\nTheir bachelor's degree (or equivalent qualification) was awarded by an institution where the medium of instruction was English.",
+            "source_version": "Continuous HKUST admissions policy approved for 2027/28 on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+            "page_title": "MSc in Artificial Intelligence | HKUST School of Engineering",
+            "excerpt": "MSc in Artificial Intelligence\nIt is tailored to both recent graduates and working professionals seeking to enhance their expertise in this exciting and rapidly evolving field.\nStudents are required to complete a total of 30 credits of coursework, including 12 credits of core courses and 18 credits of elective courses.\nApplicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.\nApplicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.\nThe nominal program fee for 2027/28 Fall intake is HK$400,000 (full-time study to be paid in 2 installments and part-time study to be paid in 4 installments).\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.language",
+        "label": "语言要求",
+        "group": "申请门槛",
+        "display_text": "IELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+            "page_title": "Admissions Requirements | HKUST Fok Ying Tung Graduate School",
+            "excerpt": "Applicants seeking admissions to a master's degree or postgraduate diploma program should have:\nObtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.\nApplicants have to fulfill English Language requirements with one of the following proficiency attainments:\nTOEFL Internet-based Test (iBT): 80 (for tests taken prior to 21 January 2026) *\n4.5 (for tests taken from 21 January 2026 onwards) *\nIELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *\n* Refers to scores in one single attempt only. Test at home option is not accepted.\nApplicants are not required to present TOEFL or IELTS score if\nTheir first language is English, or\nTheir bachelor's degree (or equivalent qualification) was awarded by an institution where the medium of instruction was English.",
+            "source_version": "Continuous HKUST admissions policy approved for 2027/28 on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.work_experience",
+        "label": "工作经验",
+        "group": "申请门槛",
+        "display_text": "Applicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.",
+        "coverage_status": "confirmed",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "direct",
+            "citation_order": 1,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+            "page_title": "MSc in Artificial Intelligence | HKUST School of Engineering",
+            "excerpt": "MSc in Artificial Intelligence\nIt is tailored to both recent graduates and working professionals seeking to enhance their expertise in this exciting and rapidly evolving field.\nStudents are required to complete a total of 30 credits of coursework, including 12 credits of core courses and 18 credits of elective courses.\nApplicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.\nApplicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.\nThe nominal program fee for 2027/28 Fall intake is HK$400,000 (full-time study to be paid in 2 installments and part-time study to be paid in 4 installments).\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      },
+      {
+        "field_key": "requirements.materials",
+        "label": "申请材料",
+        "group": "申请门槛",
+        "display_text": "材料要求未在本次已核验的完整官网来源正文中确认，保留人工核验。",
+        "coverage_status": "manual_review",
+        "is_critical": true,
+        "value_schema_version": "program_requirement_field.v2",
+        "citations": [
+          {
+            "evidence_id": "evidence.hkust.mscai.admissions_policy.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 1,
+            "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+            "page_title": "Admissions Requirements | HKUST Fok Ying Tung Graduate School",
+            "excerpt": "Applicants seeking admissions to a master's degree or postgraduate diploma program should have:\nObtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.\nApplicants have to fulfill English Language requirements with one of the following proficiency attainments:\nTOEFL Internet-based Test (iBT): 80 (for tests taken prior to 21 January 2026) *\n4.5 (for tests taken from 21 January 2026 onwards) *\nIELTS (Academic Module): Overall score: 6.5 and all sub-score: 5.5 *\n* Refers to scores in one single attempt only. Test at home option is not accepted.\nApplicants are not required to present TOEFL or IELTS score if\nTheir first language is English, or\nTheir bachelor's degree (or equivalent qualification) was awarded by an institution where the medium of instruction was English.",
+            "source_version": "Continuous HKUST admissions policy approved for 2027/28 on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscai.catalog.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 2,
+            "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "page_title": "Program & Course Catalog",
+            "excerpt": "Postgraduate Programs 2027/28\nMaster of Science Program in Artificial Intelligence\nMaster of Science in Artificial Intelligence\nBoth full- and part-time\nFull-time : 1 year\nPart-time : 2 years\nDepartment of Computer Science and Engineering",
+            "source_version": "Postgraduate Programs 2027/28 manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          },
+          {
+            "evidence_id": "evidence.hkust.mscai.program.2027.v1",
+            "support_scope": "coverage",
+            "citation_order": 3,
+            "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+            "page_title": "MSc in Artificial Intelligence | HKUST School of Engineering",
+            "excerpt": "MSc in Artificial Intelligence\nIt is tailored to both recent graduates and working professionals seeking to enhance their expertise in this exciting and rapidly evolving field.\nStudents are required to complete a total of 30 credits of coursework, including 12 credits of core courses and 18 credits of elective courses.\nApplicants must possess a bachelor’s degree in Computer Engineering, Computer Science or a related discipline.\nApplicants with a bachelor’s degree in other disciplines must have at least two years of post-qualification work experience relevant to the program.\nThe nominal program fee for 2027/28 Fall intake is HK$400,000 (full-time study to be paid in 2 installments and part-time study to be paid in 4 installments).\nAll applications are considered on a competitive and rolling basis.\nFor 2027/28 Fall intake (September 2027)",
+            "source_version": "2027/28 Fall intake page manually verified on 2026-09-03",
+            "verified_at": "2026-09-03T08:18:00Z",
+            "review_due_at": "2026-10-03T08:18:00Z",
+            "expires_at": "2026-12-02T08:18:00Z",
+            "freshness": "fresh"
+          }
+        ]
+      }
+    ]
+  }
+}

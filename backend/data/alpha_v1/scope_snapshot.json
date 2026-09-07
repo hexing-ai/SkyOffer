@@ -1,0 +1,118 @@
+{
+  "schema_version": "alpha_scope_snapshot.v1",
+  "template_state": "frozen_reviewed",
+  "publishable": true,
+  "snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28",
+  "captured_at": "2026-09-03",
+  "reviewed_by": "actor.domain_reviewer.product_owner",
+  "reviewed_at": "2026-09-03T15:00:13+08:00",
+  "hong_kong_eight": {
+    "scope_name": "hong_kong_eight",
+    "institutions": [
+      {
+        "institution_ref": "institution.hk.cityu",
+        "official_name": "City University of Hong Kong",
+        "region": "hong_kong",
+        "registered_official_domain": "cityu.edu.hk"
+      },
+      {
+        "institution_ref": "institution.hk.cuhk",
+        "official_name": "The Chinese University of Hong Kong",
+        "region": "hong_kong",
+        "registered_official_domain": "cuhk.edu.hk"
+      },
+      {
+        "institution_ref": "institution.hk.eduhk",
+        "official_name": "The Education University of Hong Kong",
+        "region": "hong_kong",
+        "registered_official_domain": "eduhk.hk"
+      },
+      {
+        "institution_ref": "institution.hk.hkbu",
+        "official_name": "Hong Kong Baptist University",
+        "region": "hong_kong",
+        "registered_official_domain": "hkbu.edu.hk"
+      },
+      {
+        "institution_ref": "institution.hk.hku",
+        "official_name": "The University of Hong Kong",
+        "region": "hong_kong",
+        "registered_official_domain": "hku.hk"
+      },
+      {
+        "institution_ref": "institution.hk.hkust",
+        "official_name": "The Hong Kong University of Science and Technology",
+        "region": "hong_kong",
+        "registered_official_domain": "hkust.edu.hk"
+      },
+      {
+        "institution_ref": "institution.hk.ln",
+        "official_name": "Lingnan University",
+        "region": "hong_kong",
+        "registered_official_domain": "ln.edu.hk"
+      },
+      {
+        "institution_ref": "institution.hk.polyu",
+        "official_name": "The Hong Kong Polytechnic University",
+        "region": "hong_kong",
+        "registered_official_domain": "polyu.edu.hk"
+      }
+    ]
+  },
+  "united_kingdom_qs_top_100": {
+    "ranking_provider": "QS",
+    "ranking_edition": "2027",
+    "source_url": "https://www.topuniversities.com/world-university-rankings?countries=gb",
+    "source_file_sha256": "135a0ff0b97ffee11d9eca5f8c0724dc25f57af91d9fa46e997835ca72bbfb08",
+    "institutions": [
+      {
+        "institution_ref": "institution.uk.bristol",
+        "official_name": "University of Bristol",
+        "region": "united_kingdom",
+        "registered_official_domain": "bristol.ac.uk",
+        "official_domain_aliases": [
+          "bris.ac.uk"
+        ],
+        "qs_rank": 57
+      },
+      {
+        "institution_ref": "institution.uk.edinburgh",
+        "official_name": "The University of Edinburgh",
+        "region": "united_kingdom",
+        "registered_official_domain": "ed.ac.uk",
+        "qs_rank": 35
+      },
+      {
+        "institution_ref": "institution.uk.imperial",
+        "official_name": "Imperial College London",
+        "region": "united_kingdom",
+        "registered_official_domain": "imperial.ac.uk",
+        "qs_rank": 2
+      },
+      {
+        "institution_ref": "institution.uk.manchester",
+        "official_name": "The University of Manchester",
+        "region": "united_kingdom",
+        "registered_official_domain": "manchester.ac.uk",
+        "qs_rank": 40
+      },
+      {
+        "institution_ref": "institution.uk.sheffield",
+        "official_name": "The University of Sheffield",
+        "region": "united_kingdom",
+        "registered_official_domain": "sheffield.ac.uk",
+        "qs_rank": 82
+      },
+      {
+        "institution_ref": "institution.uk.ucl",
+        "official_name": "UCL",
+        "region": "united_kingdom",
+        "registered_official_domain": "ucl.ac.uk",
+        "qs_rank": 8
+      }
+    ]
+  },
+  "canonical_sha256": "7efa7626d429a987c2c6d06ca3fe21e923c6232189d4c08df3d7c976a64e2427",
+  "blocking_reasons": []
+}

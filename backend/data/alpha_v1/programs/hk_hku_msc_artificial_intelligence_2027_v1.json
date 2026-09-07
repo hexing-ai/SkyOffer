@@ -1,0 +1,647 @@
+{
+  "candidate": {
+    "base_version_id": null,
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "HKU MSc Artificial Intelligence 2027/28 官网更新批次；固化学位、先修知识、语言及申请时间，未见明确门槛继续保留待核验。",
+    "fields": [
+      {
+        "display_text": "Application for 2027-28 intake opens on September 21, 2026.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.academic_year",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.academic_year",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "academic_year": "2027-28"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Application for 2027-28 intake opens on September 21, 2026.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.application_status",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.application_status",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "closes_on": "2027-02-01",
+            "opens_on": "2026-09-21",
+            "status": "not_yet_open"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "Master of Science in Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "catalog.degree_type",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "catalog.degree_type",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": {
+            "degree_type": "taught_masters"
+          }
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.department",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "catalog.department",
+          "reason": {
+            "detail": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "review_note": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1",
+            "evidence.hku.tpg.requirements.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.duration",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "catalog.duration",
+          "reason": {
+            "detail": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "review_note": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1",
+            "evidence.hku.tpg.requirements.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "catalog.intake",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "catalog.intake",
+          "reason": {
+            "detail": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "review_note": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1",
+            "evidence.hku.tpg.requirements.2027.v1"
+          ],
+          "schema_version": "program_catalog_field.v1",
+          "value": null
+        },
+        "value_schema_version": "program_catalog_field.v1"
+      },
+      {
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.academic",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.academic",
+          "reason": {
+            "detail": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1",
+            "evidence.hku.tpg.requirements.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Applicants shall hold a Bachelor’s degree or an equivalent qualification.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.degree",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.degree",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "Applicants shall hold a Bachelor’s degree or an equivalent qualification.",
+              "evidence_fixture_ids": [
+                "evidence.hku.mscai.admissions.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hku.mscai.2027.74b47ea711",
+              "requirement_type": "degree",
+              "rule": {
+                "children": [
+                  {
+                    "allowed_values": [
+                      "bachelor"
+                    ],
+                    "fact_path": "degree_level",
+                    "node_id": "node.hku.mscai.degree.bachelor",
+                    "operator": "enum_in"
+                  },
+                  {
+                    "node_id": "node.hku.mscai.degree.equivalent",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hku.mscai.degree.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": "等同学历是否符合要求仍须由学校个案判断。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "IELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.language",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.language",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "IELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.",
+              "evidence_fixture_ids": [
+                "evidence.hku.tpg.requirements.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hku.mscai.2027.90b0eabda7",
+              "requirement_type": "language",
+              "rule": {
+                "children": [
+                  {
+                    "component_mins": {
+                      "listening": "5.5",
+                      "reading": "5.5",
+                      "speaking": "5.5",
+                      "writing": "5.5"
+                    },
+                    "node_id": "node.hku.mscai.language.ielts",
+                    "operator": "language_minimum",
+                    "test_type": "ielts",
+                    "total_min": "6.0"
+                  },
+                  {
+                    "node_id": "node.hku.mscai.language.other_routes",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hku.mscai.language.any",
+                "operator": "any"
+              }
+            }
+          ],
+          "review_note": "英文授课资格、其他考试路径和豁免条件需个案核验。",
+          "reviewed_source_ids": [
+            "evidence.hku.tpg.requirements.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.materials",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.materials",
+          "reason": {
+            "detail": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1",
+            "evidence.hku.tpg.requirements.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Applicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "requirements.prerequisite_courses",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "requirements.prerequisite_courses",
+          "reason": null,
+          "requirements": [
+            {
+              "applicability": null,
+              "display_text": "Applicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.",
+              "evidence_fixture_ids": [
+                "evidence.hku.mscai.admissions.2027.v1"
+              ],
+              "is_hard": true,
+              "requirement_id": "requirement.hku.mscai.2027.fd692ad541",
+              "requirement_type": "course",
+              "rule": {
+                "children": [
+                  {
+                    "accepted_tags": [
+                      "mathematics"
+                    ],
+                    "minimum_courses": 1,
+                    "node_id": "node.hku.mscai.courses.mathematics",
+                    "operator": "course_group"
+                  },
+                  {
+                    "accepted_tags": [
+                      "statistics"
+                    ],
+                    "minimum_courses": 1,
+                    "node_id": "node.hku.mscai.courses.statistics",
+                    "operator": "course_group"
+                  },
+                  {
+                    "accepted_tags": [
+                      "programming"
+                    ],
+                    "minimum_courses": 1,
+                    "node_id": "node.hku.mscai.courses.programming",
+                    "operator": "course_group"
+                  },
+                  {
+                    "node_id": "node.hku.mscai.courses.exact_coverage",
+                    "operator": "manual_review",
+                    "reason_code": "OFFICIAL_RULE_REQUIRES_CASE_REVIEW"
+                  }
+                ],
+                "node_id": "node.hku.mscai.courses.all",
+                "operator": "all"
+              }
+            }
+          ],
+          "review_note": "受控课程标签只能初筛数学、统计与编程；线性代数、微积分、概率论和初级统计的精确覆盖仍须核对成绩单。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.subject",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.subject",
+          "reason": {
+            "detail": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1",
+            "evidence.hku.tpg.requirements.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "coverage"
+          },
+          {
+            "citation_order": 2,
+            "evidence_id": "evidence.hku.tpg.requirements.2027.v1",
+            "support_scope": "coverage"
+          }
+        ],
+        "field_key": "requirements.work_experience",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "not_found_in_reviewed_sources",
+          "field_key": "requirements.work_experience",
+          "reason": {
+            "detail": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+            "reason_code": "OFFICIAL_RULE_NOT_FOUND"
+          },
+          "requirements": [],
+          "review_note": "本次已核验的 2027/28 项目招生页与 HKU 通用入学要求页未找到该项明确门槛；这不代表学校没有要求。",
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1",
+            "evidence.hku.tpg.requirements.2027.v1"
+          ],
+          "schema_version": "program_requirement_field.v2"
+        },
+        "value_schema_version": "program_requirement_field.v2"
+      },
+      {
+        "display_text": "Master of Science in Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.primary_direction",
+        "is_critical": true,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.primary_direction",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "direction": "artificial_intelligence"
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      },
+      {
+        "display_text": "Master of Science in Artificial Intelligence",
+        "evidence_links": [
+          {
+            "citation_order": 1,
+            "evidence_id": "evidence.hku.mscai.admissions.2027.v1",
+            "support_scope": "direct"
+          }
+        ],
+        "field_key": "taxonomy.secondary_directions",
+        "is_critical": false,
+        "value_payload": {
+          "applicable_academic_year": "2027-28",
+          "coverage_status": "confirmed",
+          "field_key": "taxonomy.secondary_directions",
+          "reason": null,
+          "review_note": null,
+          "reviewed_source_ids": [
+            "evidence.hku.mscai.admissions.2027.v1"
+          ],
+          "schema_version": "program_taxonomy_field.v1",
+          "value": {
+            "directions": []
+          }
+        },
+        "value_schema_version": "program_taxonomy_field.v1"
+      }
+    ],
+    "request_id": "request.hku.mscai.2027.refresh.v1"
+  },
+  "evidence": [
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "automated_web_candidate",
+      "captured_at": "2026-09-04T07:50:00Z",
+      "excerpt": "Master of Science in Artificial Intelligence\nApplication for 2027-28 intake opens on September 21, 2026.\nApplicants shall hold a Bachelor’s degree or an equivalent qualification.\nApplicants should possess knowledge of linear algebra, calculus, probability theory, introductory statistics, and computer programming.\nApplicants shall fulfil the University Entrance Requirements.\nRound 1 (Main): 12:00 noon (GMT +8), November 16, 2026\nCandidates who apply within this period will have priority for admission.\nRound 2 (Clearing): 12:00 noon (GMT +8), February 1, 2027",
+      "expires_at": "2026-12-20T00:00:00Z",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hku.mscai.admissions.2027.v1",
+      "official_domain": "www.mscai.hku.hk",
+      "page_title": "Admissions - Master of Science in Artificial Intelligence - HKU",
+      "program_id": "program.hk.hku.msc_artificial_intelligence",
+      "review_due_at": "2026-09-21T00:00:00Z",
+      "reviewed_source_role": "program",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "d113158d56610c1f5ecd54105e2fb18901dc0c6414d13f8b95a667709b7ea171",
+      "source_type": "official_program_page",
+      "source_version": "2027/28 admissions page verified 2026-09-04",
+      "url": "https://www.mscai.hku.hk/admissions/",
+      "verified_at": "2026-09-04T07:55:00Z",
+      "verified_by": "actor.data_preparer.codex"
+    },
+    {
+      "applicable_academic_year": "2027-28",
+      "availability_at_verification": "available",
+      "capture_method": "automated_web_candidate",
+      "captured_at": "2026-09-04T07:50:00Z",
+      "excerpt": "University Entrance Requirements\nTo be eligible for admission to the courses leading to a taught postgraduate qualification, a candidate shall hold a Bachelor's degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose.\nEnglish Language Requirements\nAn applicant whose qualification is from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English is required to obtain one of the listed examination results.\nIELTS (International English Language Testing System): A minimum overall band of 6 with no subtest lower than 5.5.\nStarting from the 2026 intake, IELTS and TOEFL tests must be taken within two years prior to September 1 of each admissions year.",
+      "expires_at": "2026-12-20T00:00:00Z",
+      "hash_scope": "normalized_excerpt",
+      "id": "evidence.hku.tpg.requirements.2027.v1",
+      "official_domain": "portal.hku.hk",
+      "page_title": "Admission Requirements | HKU Taught Postgraduate Admissions",
+      "program_id": "program.hk.hku.msc_artificial_intelligence",
+      "review_due_at": "2026-09-21T00:00:00Z",
+      "reviewed_source_role": "language_policy",
+      "schema_version": "source_evidence.v2",
+      "snapshot_sha256": "608e711ba67a573cd512818363eaa72ed88c7400586876b2ab3acec2b3f7b5b4",
+      "source_type": "official_policy_page",
+      "source_version": "Continuous HKU TPG policy linked by 2027/28 programme page; verified 2026-09-04",
+      "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+      "verified_at": "2026-09-04T07:55:00Z",
+      "verified_by": "actor.data_preparer.codex"
+    }
+  ],
+  "expected_semantic_content_sha256": "aa0fe3931fcd0fa3a38380973cdafd036eb5a1481b764bc148bf1417df578e6b",
+  "pack_canonical_sha256": "b1f648e6b2a733d2b34316abe8583c4cb10028181505598154fa4e65116af623",
+  "pack_ref": "pack.hk.hku.msc_artificial_intelligence.2027.v1",
+  "program": {
+    "created_by": "actor.data_preparer.codex",
+    "creation_note": "20 项内部 Alpha 扩容批次中的 Candidate-only 项目。",
+    "degree_type": "taught_masters",
+    "institution_name": "The University of Hong Kong",
+    "official_domain_aliases": [],
+    "official_name": "Master of Science in Artificial Intelligence",
+    "official_program_url": "https://www.mscai.hku.hk/",
+    "program_ref": "program.hk.hku.msc_artificial_intelligence",
+    "region": "hong_kong",
+    "registered_official_domain": "hku.hk"
+  },
+  "review": {
+    "prepared_at": "2026-09-04T07:55:00Z",
+    "prepared_by": "actor.data_preparer.codex",
+    "review_note": "产品负责人已批准整批审核并接入 HKU AI 2027/28 门槛；官网明确字段进入Candidate-only，未明确字段继续待核验。",
+    "review_status": "approved",
+    "reviewed_at": "2026-09-04T08:00:00Z",
+    "reviewed_by": "actor.domain_reviewer.product_owner"
+  },
+  "reviewed_source_ids": [
+    "evidence.hku.mscai.admissions.2027.v1",
+    "evidence.hku.tpg.requirements.2027.v1"
+  ],
+  "schema_version": "alpha_program_pack.v1",
+  "scope_institution_ref": "institution.hk.hku",
+  "scope_snapshot_id": "scope.alpha.2027.v2",
+  "target_academic_year": "2027-28"
+}
